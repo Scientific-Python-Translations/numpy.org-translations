@@ -1,0 +1,23 @@
+name: Sync Content
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Daily at 5 am
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync Numpy Content
+        uses: Scientific-Python-Translations/content-sync@main
+        with:
+          source-repo: "numpy/numpy.org"
+          source-folder: "numpy.org/content/en/"
+          source-ref: "main"
+          translations-repo: "Scientific-Python-Translations/numpy.org-translations"
+          translations-folder: "numpy.org-translations/content/en/"
+          translations-ref: "main"
+          # These are provided by the Scientific Python Project and allow
+          # automation with bots
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          token: ${{ secrets.TOKEN }}
