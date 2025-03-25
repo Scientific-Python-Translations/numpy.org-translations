@@ -36,8 +36,8 @@ Para entrar em contato com o conselho diretor do NumPy, por favor envie um email
 
 ## Times
 
-The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br>
-NumPy currently has the following teams:
+A liderança do projeto NumPy trabalha ativamente na diversificação dos caminhos possíveis para contribuições.<br>
+Atualmente, o NumPy conta com os seguintes times:
 
 - desenvolvimento
 - documentação
@@ -49,7 +49,7 @@ NumPy currently has the following teams:
 - otimização
 - financiamento e bolsas
 
-See the [Team](/teams) page for more info.
+Veja a página sobre os [Times](/teams) para mais informações.
 
 ## Subcomitê NumFOCUS
 
@@ -77,11 +77,11 @@ Os Parceiros Institucionais são organizações que apoiam o projeto, empregando
 
 Se você achou o NumPy útil no seu trabalho, pesquisa ou empresa, por favor considere fazer uma doação para o projeto que seja compatível com seus recursos. Qualquer quantidade ajuda! Todas as doações serão utilizadas estritamente para financiar o desenvolvimento do software de código aberto, documentação e comunidade da NumPy.
 
-NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem fins lucrativos 501(c)(3) nos Estados Unidos. A NumFOCUS fornece ao NumPy apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visit [numfocus.org](https://numfocus.org) for more information.
+NumPy é um Projeto Patrocinado da NumFOCUS, uma instituição de caridade sem fins lucrativos 501(c)(3) nos Estados Unidos. A NumFOCUS fornece ao NumPy apoio fiscal, legal e administrativo para ajudar a garantir a saúde e a sustentabilidade do projeto. Visite [numfocus.org](https://numfocus.org) para obter mais informações.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
+Doações para o NumPy são gerenciadas pela [NumFOCUS](https://numfocus.org). Para doadores nos Estados Unidos, sua doação é dedutível para fins fiscais na medida oferecida pela lei. Como em qualquer doação, você deve consultar seu conselheiro fiscal sobre sua situação fiscal em particular.
 
-O Conselho Diretor da NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+O Conselho Diretor da NumPy tomará as decisões sobre a melhor forma de utilizar os fundos recebidos. Prioridades técnicas e de infraestrutura estão documentadas no [roadmap do NumPy](https://www.numpy.org/neps/index.html#roadmap).
 
 {{< opencollective >}}
 
