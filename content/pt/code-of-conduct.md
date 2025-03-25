@@ -57,11 +57,11 @@ Atualmente, o comitê é formato por:
 - Melissa Weber Mendonça
 - Rohit Goswami
 
-Se o seu relatório envolve algum membro da comissão, ou se você sentir que existe um conflito de interesses em tratá-lo, então os membros abster-se-ão de considerar o seu relatório. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+Se o seu relatório envolve algum membro da comissão, ou se você sentir que existe um conflito de interesses em tratá-lo, então os membros abster-se-ão de considerar o seu relatório. Como alternativa, se por qualquer razão você se sentir desconfortável em fazer um relatório à comissão, então você também pode entrar em contato com a equipe sênior da NumFOCUS em [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### Resolução de Incidentes & Aplicação do Código de Conduta
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
+_Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do NumPy - Como dar seguimento a um relatório](report-handling-manual).
 
 Vamos investigar e responder a todas as queixas. O Comitê do Código de Conduta do NumPy e o Comitê Diretor do NumPy (se envolvido) protegerão a identidade do relatante, e tratarão o conteúdo das reclamações como confidencial (a menos que o relatante aceite o contrário).
 
@@ -72,7 +72,7 @@ Em casos que não envolvam claras violações graves e óbvias deste Código de 
 1. acusar o recebimento do relato,
 2. discussão/feedback razoável,
 3. mediação (se o feedback não ajudar e somente se ambos o relatante e relatado concordarem com isso),
-4. enforcement via transparent decision (see [Resolutions](report-handling-manual/#resolutions)) by the Code of Conduct Committee.
+4. aplicação de solução via decisão transparente (veja as [Resoluções](report-handling-manual/#resolutions)) do Comitê do Código de Conduta.
 
 O comitê responderá a qualquer relatório o mais rapidamente possível e, no máximo, no prazo de 72 horas.
 
@@ -80,4 +80,4 @@ O comitê responderá a qualquer relatório o mais rapidamente possível e, no m
 
 Somos gratos aos grupos responsáveis pelos documentos abaixo, dos quais retiramos conteúdo e inspiração:
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [O C´ SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
