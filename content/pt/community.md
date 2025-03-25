@@ -3,15 +3,14 @@ title: Comunidade
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a diverse group of [contributors](/teams/). A liderança do NumPy assumiu um forte compromisso de criar uma comunidade aberta, inclusiva e positiva. Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy é um projeto de código aberto impulsionado pela comunidade desenvolvido por um grupo diversificado de [contribuidores](/teams/). A liderança do NumPy assumiu um forte compromisso de criar uma comunidade aberta, inclusiva e positiva. Por favor, leia o [Código de Conduta do NumPy](/code-of-conduct) para orientações sobre como interagir com os outros de uma forma que faça a comunidade prosperar.
 
 Oferecemos vários canais de comunicação para aprender, compartilhar seu conhecimento e se conectar com outros na comunidade NumPy.
 
 ## Participar online
 
 Abaixo, listamos algumas formas de se envolver diretamente com o projeto e a comunidade NumPy.
-_Please note that we encourage users and community members to support each other
-for usage questions - see [Get Help](/gethelp)._
+_Por favor, note que encorajamos os usuários e membros da comunidade a apoiarem-se uns aos outros para perguntas sobre utilização - veja [Obter Ajuda](/gethelp)._
 
 ### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
