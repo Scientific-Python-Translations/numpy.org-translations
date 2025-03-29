@@ -6,12 +6,8 @@ sidebar: false
 NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。
 あなたの貢献の方法の選択肢はプログラミングに限ったものではありません。
 
-If you're unsure where to start or how your skills fit in, _reach out!_ You
-can ask on the mailing
-list or
-[GitHub](http://github.com/numpy/numpy) (open an
-[issue](https://github.com/numpy/numpy/issues) or comment on a relevant
-issue).
+どこから始めればよいか、または自分のスキルがどのように役立つかわからない場合は、ぜひ声をかけてください！
+[mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) や[GitHub](http://github.com/numpy/numpy) で質問できます（[issue](https://github.com/numpy/numpy/issues)を作成したり、関連する issue にコメントしたりしてください）。
 
 Those are our preferred channels (open source is open by nature), but
 if you prefer to talk privately, contact our community coordinators at
