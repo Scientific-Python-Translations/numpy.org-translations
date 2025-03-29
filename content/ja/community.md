@@ -3,33 +3,31 @@ title: コミュニティ
 sidebar: false
 ---
 
-NumPy is a community-driven open source project developed by a diverse group of [contributors](/teams/). NumPy を主導するグループは、オープンで協力的でポジティブなコミュニティを作ることを、約束しました。 Please read the [NumPy Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+NumPy は 常に多様な[コントリビュータ](/ja/teams/) のグループによって開発されている、コミュニティ主導のオープンソースプロジェクトです。 NumPy を主導するグループは、オープンで協力的でポジティブなコミュニティを作ることを、約束しました。 NumPy 行動規範 をぜひ参照してください。コミュニティの繁栄につながるようなかたちで、人々と交流する方法について書いてあります。
 
 私たちは、NumPyコミュニティ内で学んだり、知識を共有したり、他の人と交流するためのいくつかのコミュニケーション方法を提供しています。
 
 ## オンラインで参加する方法
 
 NumPy プロジェクトやコミュニティと直接交流する方法は次の通りです。
-_Please note that we encourage users and community members to support each other
-for usage questions - see [Get Help](/gethelp)._
+_ 一点重要な点として、私たちはユーザとコミュニティメンバーに互いにNumPyの使い方の質問に関して助言し合って欲しいと思っています。 詳細は[サポートをある方法](/gethelp)を参照して下さい。_
 
-### [NumPy mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion)
+### [NumPyメーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion)
 
 このメーリングリストは、NumPy に新しい機能を追加するなど、より長い期間の議論のための主なコミュニケーションの場です。 NumPyのRoadmapに変更を加えたり、プロジェクト全体での意思決定を行います。
 このメーリングリストでは、リリース、開発者会議、スプリント、カンファレンストークなど、NumPy についてのアナウンスなどにも利用されます。
 
-このメーリングリストでは、一番下のメールを使用し、メーリングリストに返信して下さい( 他の送信者ではなく)。 A searchable archive of this list
-is available [here](https://mail.python.org/archives/list/numpy-discussion@python.org/).
+このメーリングリストでは、一番下のメールを使用し、メーリングリストに返信して下さい( 他の送信者ではなく)。 このメーリングリストの検索可能なアーカイブは [こちら](https://mail.python.org/archives/list/numpy-discussion@python.org/) にあります。
 
 ***
 
-### [GitHub issue tracker](https://github.com/numpy/numpy/issues)
+### [GitHub イシュートラッカー](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
+- バグレポート（例：”`np.arange(3).shape` が`(5,)`を返しています。ここでは`(3,)`が返るべきです。");
 - ドキュメントの問題 (例: "I find this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `np.percentile`").
+- 機能追加リクエスト (例: "np.percentile に新しい補間方法を追加したいと考えています。").
 
-_Please note that GitHub is not the right place to report a security vulnerability. If you think you have found a security vulnerability in NumPy, please report it [here](https://tidelift.com/docs/security)._
+ちなみに、セキュリティの脆弱性を報告するには、GitHubのイシュートラッカーは適切な場所ではないことに注意してください。 NumPyのセキュリティ上の脆弱性を発見したと思われる場合は、 [ここ](https://tidelift.com/docs/security)に報告してください。
 
 ***
 
