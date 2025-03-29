@@ -33,17 +33,16 @@ _ 一点重要な点として、私たちはユーザとコミュニティメン
 
 ### [Slack](https://numpy-team.slack.com)
 
-A real-time chat room to ask questions about _contributing_ to NumPy.
+NumPyへの_貢献_ について質問するリアルタイムのチャットルーム。
 具体的には、 公開のメーリングリストやGitHubで質問やアイデアを持ち出すことを躊躇している人々のためのものです。
-Please see
-[here](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) for more
-details and how to get an invite.
+詳細と招待の取得方法については、
+[こちら](https://numpy.org/devdocs/dev/index.html#contributing-to-numpy) を参照してください。
 
 ## 勉強会とミートアップ
 
-If you would like to find a local meetup or study group to learn more about NumPy and the wider ecosystem of Python packages for data science and scientific computing, we recommend exploring the [PyData meetups](https://www.meetup.com/pro/pydata/) (150+ meetups, 100,000+ members).
+NumPyや、データサイエンス、科学技術計算などのより広いエコシステムのためのPythonパッケージついて、もっと学ぶためのローカルミートアップや勉強会を見つけたい場合、 [PyData ミートアップ](https://www.meetup.com/pro/pydata/) (150人以上のミートアップ、10万人以上のメンバーをまとめたもの) を調べてみることをお勧めします。
 
-加えて、NumPy では開発チームと参加に興味があるコントリビュータのために、対面でのスプリントを時折開催しています。 These are typically planned several months in advance and will be announced on the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
+加えて、NumPy では開発チームと参加に興味があるコントリビュータのために、対面でのスプリントを時折開催しています。 加えて、NumPy では開発チームと参加に興味があるコントリビュータのために、対面でのスプリントを時折開催しています。 この開発スプリントは通常数ヶ月に一度に開催されており、 [メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) で開催連絡されます。
 
 ## カンファレンス
 
@@ -62,6 +61,6 @@ NumPy プロジェクトは独自のカンファレンスは開催していま�
 
 NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 プログラマーじゃないから参加できない？ そんなことはありません！ NumPy に貢献する様々な方法があります。
 
-If you are interested in becoming a NumPy contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
+Numpy コントリビューターになることに興味があるなら(やった!) we recommend checking out our [Contribute](/contribute) page.
 
 また、私たちのコミュニティミーティングにもぜひ参加してみてください。 To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
