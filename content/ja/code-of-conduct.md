@@ -57,11 +57,11 @@ NumPy行動規範委員会に問題を報告する場合は、こちらにご連
 - Melissa Weber Mendonça
 - Rohit Goswami
 
-もしあなたの違反報告に委員会のメンバーが含まれている場合, または彼らがそれを処理する上で利益相反をしていると感じる場合、そのメンバーはあなたの報告を評価する立場からは辞退してもらいます。 Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+もしあなたの違反報告に委員会のメンバーが含まれている場合, または彼らがそれを処理する上で利益相反をしていると感じる場合、そのメンバーはあなたの報告を評価する立場からは辞退してもらいます。 もしくは、行動規範委員会に報告するのが躊躇われる場合は、こちらからNumFOCUSのシニアスタッフに連絡することも可能です : [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible)
 
-### Incident reporting resolution & Code of Conduct enforcement
+### インシデント報告の解決と行動規範の実行
 
-_This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
+_本章では、最も重要な点のみをまとめています。 詳細については、[NumPy行動規範 - レポートの対応方法](report-handling-manual) をご覧ください。
 
 私たちはすべての訴えを調査し、対応するようにします。 NumPy行動規範委員会およびNumPy運営委員会(もし関係する場合) は、報告者の身元を保護します。 また(報告者が同意しない限り) 苦情の内容を機密として扱うこととします。
 
@@ -72,7 +72,7 @@ _This section summarizes the most important points, more details can be found in
 1. 報告書の受領を確認
 2. 建設的な議論/フィードバック
 3. 調停（報告者と報告を受けたものの両方がフィードバックが役に立たなかったと同意した場合に限る）
-4. enforcement via transparent decision (see [Resolutions](report-handling-manual/#resolutions)) by the Code of Conduct Committee.
+4. 行動規範委員会による透明性のある方針決定と執行( [決議](report-handling-manual/#解決方法)を参照)
 
 行動規範委員会は、可能な限り速やかに対応し、最大で72時間以内に対応する様にします。
 
@@ -80,4 +80,4 @@ _This section summarizes the most important points, more details can be found in
 
 私たちは下記のドキュメントを作成したグループに感謝します。 内容・発想ともに大いに影響されています。
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [SciPy行動規範](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
