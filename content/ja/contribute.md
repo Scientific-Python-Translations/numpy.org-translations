@@ -4,8 +4,7 @@ sidebar: false
 ---
 
 NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。
-Your choices aren't limited to programming, as you can
-see below there are many areas where we need **your** help.
+あなたの貢献の方法の選択肢はプログラミングに限ったものではありません。
 
 If you're unsure where to start or how your skills fit in, _reach out!_ You
 can ask on the mailing
