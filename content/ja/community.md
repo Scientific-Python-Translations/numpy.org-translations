@@ -61,6 +61,6 @@ NumPy プロジェクトは独自のカンファレンスは開催していま�
 
 NumPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。 プログラマーじゃないから参加できない？ そんなことはありません！ NumPy に貢献する様々な方法があります。
 
-Numpy コントリビューターになることに興味があるなら(やった!) we recommend checking out our [Contribute](/contribute) page.
+Numpy コントリビューターになることに興味があるなら(やった!) [貢献する方法](/contribute) のページを確認することをお勧めします。
 
-また、私たちのコミュニティミーティングにもぜひ参加してみてください。 To keep track of them, check out our events calendar [here](https://scientific-python.org/calendars/).
+また、私たちのコミュニティミーティングにもぜひ参加してみてください。 コミュニティミーティングの活動を確認するには、[こちら](https://scientific-python.org/calendars/)のイベントカレンダーを確認ください。
