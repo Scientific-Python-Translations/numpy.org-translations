@@ -1,0 +1,29 @@
+name: Sync Translations
+on:
+  # schedule:
+  #   - cron: '0 12 * * MON'  # Every Monday at noon
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync NumPy translations
+        uses: Scientific-Python-Translations/translations-sync@main
+        with:
+          # Provided by user
+          crowdin-project: "NumPy.Org"
+          source-repo: "numpy/numpy.org"
+          source-folder: "numpy.org/content/en/"
+          source-ref: "main"
+          translations-repo: "Scientific-Python-Translations/numpy.org-translations"
+          translations-folder: "numpy.org-translations/content/en/"
+          translations-ref: "main"
+          translation-percentage: "90"
+          approval-percentage: "0"
+          use-precommit: "true"
+          create-toml-file: "true"
+          # Provided by organization secrets
+          gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          token: ${{ secrets.TOKEN }}
+          crowdin-token: ${{ secrets.CROWDIN_TOKEN }}
