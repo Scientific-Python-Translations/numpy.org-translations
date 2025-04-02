@@ -3,9 +3,9 @@ title: About Us
 sidebar: false
 ---
 
-NumPy என்பது பைத்தானுடன் எண் கணிதத்தை செயல்படுத்தும் ஒரு திறந்த மூல திட்டமாகும். இது 2005 ஆம் ஆண்டு நியூமெரிக் மற்றும் நாமரே நூலகங்களின் ஆரம்பகாலப் பணிகளை அடிப்படையாகக் கொண்டு உருவாக்கப்பட்டது. NumPy எப்போதும் 100% திறந்த மூல மென்பொருளாகவும் அனைவரும் பயன்படுத்த இலவசமாகவும் இருக்கும். It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy என்பது பைத்தானுடன் எண் கணிதத்தை செயல்படுத்தும் ஒரு திறந்த மூல திட்டமாகும். இது 2005 ஆம் ஆண்டு நியூமெரிக் மற்றும் நாமரே நூலகங்களின் ஆரம்பகாலப் பணிகளை அடிப்படையாகக் கொண்டு உருவாக்கப்பட்டது. NumPy எப்போதும் 100% திறந்த மூல மென்பொருளாகவும் அனைவரும் பயன்படுத்த இலவசமாகவும் இருக்கும். இது [மாற்றியமைக்கப்பட்ட BSD உரிமத்தின்] (https://github.com/numpy/numpy/blob/main/LICENSE.txt) தாராளவாத விதிமுறைகளின் கீழ் வெளியிடப்படுகிறது.
 
-NumPy மற்றும் பரந்த அறிவியல் பைதான் சமூகத்தின் ஒருமித்த கருத்துமூலம், GitHub இல் திறந்தவெளியில் NumPy உருவாக்கப்பட்டது. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy மற்றும் பரந்த அறிவியல் பைதான் சமூகத்தின் ஒருமித்த கருத்துமூலம், GitHub இல் திறந்தவெளியில் NumPy உருவாக்கப்பட்டது. எங்கள் நிர்வாக அணுகுமுறைபற்றிய கூடுதல் தகவலுக்கு, எங்கள் [ஆளுமை ஆவணத்தைப்] (https://www.numpy.org/devdocs/dev/governance/index.html) பார்க்கவும்.
 
 ## வழிகாட்டுதல் குழு
 
@@ -36,8 +36,8 @@ NumPy வழிகாட்டுதல் கவுன்சிலைத் த
 
 ## அணிகள்
 
-The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br>
-NumPy currently has the following teams:
+NumPy திட்டத் தலைமை, திட்டத்திற்கான பங்களிப்பு பாதைகளைப் பல்வகைப்படுத்துவதில் தீவிரமாகச் செயல்பட்டு வருகிறது.<br>
+NumPy தற்போது பின்வரும் அணிகளைக் கொண்டுள்ளது:
 
 - வளர்ச்சி
 - ஆவணமாக்கம்
@@ -49,7 +49,7 @@ NumPy currently has the following teams:
 - மேம்படுத்தல்
 - நிதி மற்றும் மானியங்கள்
 
-See the [Team](/teams) page for more info.
+மேலும் தகவலுக்கு [Team](/teams) பக்கத்தைப் பார்க்கவும்.
 
 ## NumFOCUS துணைக்குழு
 
@@ -77,11 +77,11 @@ See the [Team](/teams) page for more info.
 
 If you have found NumPy useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of NumPy’s open source software, documentation, and community.
 
-NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
+NumPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides NumPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. மேலும் தகவலுக்கு [numfocus.org](https://numfocus.org) ஐப் பார்வையிடவும்.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
+NumPy-க்கான நன்கொடைகள் [NumFOCUS](https://numfocus.org) ஆல் நிர்வகிக்கப்படுகின்றன. For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
 
-NumPy's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+NumPy's Steering Council will make the decisions on how to best use any funds received. தொழில்நுட்ப மற்றும் உள்கட்டமைப்பு முன்னுரிமைகள் [NumPy சாலை வரைபடத்தில்](https://www.numpy.org/neps/index.html#roadmap) ஆவணப்படுத்தப்பட்டுள்ளன.
 
 {{< opencollective >}}
 
