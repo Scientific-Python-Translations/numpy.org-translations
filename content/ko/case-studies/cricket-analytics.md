@@ -111,7 +111,7 @@ besides using the latest machine learning and AI techniques.  NumPy는 크리켓
   and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
   are used for tactical analysis.
 
-- **Data Visualization:** Data graphing and [visualization](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) provide useful insights into relationship between various datasets.
+- **Data Visualization:** Data graphing and visualization provide useful insights into relationship between various datasets.
 
 ## 요약
 
