@@ -17,18 +17,15 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 オープンソースへの貢献が初めての場合は、
 [このガイド](https://opensource.guide/how-to-contribute/)を読むことを強くお勧めします。
 
-私たちのコミュニティは、誰もが平等に扱われ、すべての貢献を平等に評価することを目指しています。 We have a [Code of Conduct](/code-of-conduct) to foster an open
-and welcoming environment.
+私たちのコミュニティは、誰もが平等に扱われ、すべての貢献を平等に評価することを目指しています。 私達はオープンで居心地の良いコミュニティを作るために[行動規範](/code-of-conduct) を制定しています。
 
-For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+Numpy への貢献方法の絵でわかるガイドについては、こちらの [漫画](https://heyzine.com/flip-book/3e66a13901.html) を参照してください。
 
 {{< comic >}}
 
 ### コードを書く
 
-Programmers, this
-[guide](https://numpy.org/devdocs/dev/index.html#development-process-summary)
-explains how to contribute to the NumPy codebase. <br>Check out also our [YouTube channel](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS) for additional advice.
+プログラマーの方には、こちらの [ガイド](https://numpy.org/devdocs/dev/index.html#development-process-summary)でNumPyのコードに貢献する方法が説明されています。 <br>追加の説明に関しては、私たちの[Youtube チャンネル](https://www.youtube.com/playlist?list=PLCK6zCrcN3GXBUUzDr9L4__LnXZVtaIzS)もご覧ください。
 
 ### プルリクエストのレビュー
 
