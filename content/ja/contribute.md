@@ -9,10 +9,7 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 どこから始めればよいか、または自分のスキルがどのように役立つかわからない場合は、ぜひ声をかけてください！
 [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion) や[GitHub](http://github.com/numpy/numpy) で質問できます（[issue](https://github.com/numpy/numpy/issues)を作成したり、関連する issue にコメントしたりしてください）。
 
-Those are our preferred channels (open source is open by nature), but
-if you prefer to talk privately, contact our community coordinators at
-<numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com)
-(write  <numpy-team@googlegroups.com> for an invite).
+これらが私たちにとって好ましい連絡手段ですが(元来、オープンソースプロジェクトはオープンなコミュニケーション方法を好みます)、もしどうしても非公開の方法で連絡を取りたい場合は、コミュニティコーディネーターに連絡して下さい。連絡先としては、 <numpy-team@googlegroups.com> または、[Slack](https://numpy-team.slack.com) (グループに招待するためにこちらに連絡お願いします: <numpy-team@googlegroups.com>)があります。
 
 We also have a biweekly _community call_, details of which are announced on
 the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
