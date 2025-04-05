@@ -11,11 +11,11 @@ NumPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 これらが私たちにとって好ましい連絡手段ですが(元来、オープンソースプロジェクトはオープンなコミュニケーション方法を好みます)、もしどうしても非公開の方法で連絡を取りたい場合は、コミュニティコーディネーターに連絡して下さい。連絡先としては、 <numpy-team@googlegroups.com> または、[Slack](https://numpy-team.slack.com) (グループに招待するためにこちらに連絡お願いします: <numpy-team@googlegroups.com>)があります。
 
-We also have a biweekly _community call_, details of which are announced on
-the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
+また、隔週の_コミュニティミーティング_もあり、詳細は
+[メーリングリスト](https://mail.python.org/mailman/listinfo/numpy-discussion) にて発表されます。
 あなたの参加を大いに歓迎します。
-If you are new to contributing to open source, we also highly recommend reading
-[this guide](https://opensource.guide/how-to-contribute/).
+オープンソースへの貢献が初めての場合は、
+[このガイド](https://opensource.guide/how-to-contribute/)を読むことを強くお勧めします。
 
 私たちのコミュニティは、誰もが平等に扱われ、すべての貢献を平等に評価することを目指しています。 We have a [Code of Conduct](/code-of-conduct) to foster an open
 and welcoming environment.
