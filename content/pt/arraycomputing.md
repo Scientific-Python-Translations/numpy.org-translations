@@ -5,7 +5,7 @@ sidebar: false
 
 _A computação com matrizes é a base para estatística e matemática computacionais, computação científica e suas várias aplicações em ciência e análise de dados, tais como visualização de dados, processamento de sinais digitais, processamento de imagens, bioinformática, aprendizagem de máquina, IA e muitas outras._
 
-A manipulação e a transformação de dados de grande escala dependem de computação eficiente de alta performance com arrays. A linguagem mais escolhida para análise de dados, aprendizagem de máquina e computação numérica produtiva é **Python.**
+A manipulação e a transformação de dados de grande escala dependem de computação eficiente de alto desempenho com arrays. A linguagem mais escolhida para análise de dados, aprendizagem de máquina e computação numérica produtiva é **Python.**
 
 **Num**erical **Py**thon (Python Numérico) ou NumPy é a biblioteca em Python padrão para o suporte à utilização de matrizes e arrays multidimensionais de grande porte, e vem com uma vasta coleção de funções matemáticas de alto nível para operar nestas arrays.
 
