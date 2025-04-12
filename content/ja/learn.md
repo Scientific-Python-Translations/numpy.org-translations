@@ -3,7 +3,7 @@ title: NumPyの学び方
 sidebar: false
 ---
 
-For the **official NumPy documentation** visit [numpy.org/doc/stable](https://numpy.org/doc/stable).
+**公式の NumPy ドキュメント** については [numpy.org/doc/stable](https://numpy.org/doc/stable)を参照してください。
 
 ***
 
@@ -13,20 +13,20 @@ For the **official NumPy documentation** visit [numpy.org/doc/stable](https://nu
 
 NumPyについての資料は多数存在しています。 初心者の方にはこちらの資料を強くお勧めします：
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **チュートリアル**
 
-- [NumPy Quickstart Tutorial](https://numpy.org/devdocs/user/quickstart.html)
-- [NumPy Tutorials](https://numpy.org/numpy-tutorials) A collection of tutorials and educational materials in the format of Jupyter Notebooks developed and maintained by the NumPy Documentation team. To submit your own content, visit the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
-- [NumPy Illustrated: The Visual Guide to NumPy _by Lev Maximov_](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
-- [Scientific Python Lectures](https://lectures.scientific-python.org/) Besides covering NumPy, these lectures offer a broader introduction to the scientific Python ecosystem.
-- [NumPy: the absolute basics for beginners](https://numpy.org/devdocs/user/absolute_beginners.html)
-- [NumPy tutorial _by Nicolas Rougier_](https://github.com/rougier/numpy-tutorial)
-- [Stanford CS231 _by Justin Johnson_](http://cs231n.github.io/python-numpy-tutorial/)
-- [NumPy User Guide](https://numpy.org/devdocs)
+- [NumPy Quickstart チュートリアル](https://numpy.org/devdocs/user/quickstart.html)
+- [NumPyチュートリアル](https://numpy.org/numpy-tutorials) Jupyter Notebook 形式で作成され、NumPy ドキュメントチームによって開発・管理されているチュートリアルおよび教育用資料のコレクションです。 もし独自のコンテンツを追加したい場合は、[GitHubのnumpy-tutorialリポジトリ](https://github.com/numpy/numpy-tutorials)を参照してください。
+- [NumPy Illustrated: イラストで学ぶNumPy _by Lev Maximov_](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
+- [科学技術向けPythonレクチャー](https://lectures.scientific-python.org/) NumPyだけでなく、科学技術用のPythonソフトウェアエコシステムを広く紹介しています。
+- [NumPy: 初心者のための基礎](https://numpy.org/devdocs/user/absolute_beginners.html)
+- [NumPy チュートリアル _by Nicolas Rougier_](https://github.com/rougier/numpy-tutorial)
+- [スタンフォード大学 CS231 _by Justin Johnson_](http://cs231n.github.io/python-numpy-tutorial/)
+- [NumPyユーザーガイド](https://numpy.org/devdocs)
 
-<i class="fas fa-book"></i> **Books**
+<i class="fas fa-book"></i> **書籍**
 
-- [Guide to NumPy _by Travis E. Oliphant_](https://web.mit.edu/dvp/Public/numpybook.pdf) This is a free version 1 from 2006. For the latest copy (2015) see [here](https://dl.acm.org/doi/10.5555/2886196).
+- [NumPガイド _Travelis E. Oliphant著_](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です。 For the latest copy (2015) see [here](https://dl.acm.org/doi/10.5555/2886196).
 - [From Python to NumPy _by Nicolas P. Rougier_](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) _by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow_
 
@@ -42,14 +42,14 @@ You may also want to check out the [Goodreads list](https://www.goodreads.com/sh
 
 高度なインデックス指定、分割、スタッキング、線形代数など、NumPyの概念をより深く理解するためには、これらの上級者向け資料を試してみてください。
 
-<i class="fas fa-chalkboard"></i> **Tutorials**
+<i class="fas fa-chalkboard"></i> **チュートリアル**
 
 - [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) _by Nicolas P. Rougier_
 - [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) _by M. Scott Shell_
 - [Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/) _by Stéfan van der Walt_
-- [NumPy Tutorials](https://numpy.org/numpy-tutorials) A collection of tutorials and educational materials in the format of Jupyter Notebooks developed and maintained by the NumPy Documentation team. To submit your own content, visit the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
+- [NumPyチュートリアル](https://numpy.org/numpy-tutorials) Jupyter Notebook 形式で作成され、NumPy ドキュメントチームによって開発・管理されているチュートリアルおよび教育用資料のコレクションです。 もし独自のコンテンツを追加したい場合は、[GitHubのnumpy-tutorialリポジトリ](https://github.com/numpy/numpy-tutorials)を参照してください。
 
-<i class="fas fa-book"></i> **Books**
+<i class="fas fa-book"></i> **書籍**
 
 - [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1098121228) _by Jake Vanderplas_
 - [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-Jupyter/dp/109810403X) _by Wes McKinney_
