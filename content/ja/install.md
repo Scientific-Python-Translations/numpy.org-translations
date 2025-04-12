@@ -117,13 +117,12 @@ print(np.__version__)
 
 ## トラブルシューティング
 
-If your installation fails with the message below, see Troubleshooting
-ImportError.
+以下のメッセージが表示されてインストールに失敗した場合は、トラブルシューティング
+ImportErrorを参照してください。
 
 ```
-IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
+重要：この問題を解決する方法についてのアドバイスを読む前に、こちらを必ずお読みください！
 
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
+NumPy の C 拡張モジュールのインポートに失敗しました。このエラーは、さまざまな理由で発生する可能性があり、多くの場合は環境セットアップの問題が原因です。
 ```
 
