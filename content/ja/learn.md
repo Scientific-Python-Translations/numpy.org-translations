@@ -63,14 +63,14 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 ## NumPyに関する講演
 
-- [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) _by Jaime Fernández_ (2016)
-- Evolution of Array Computing in Python _by Ralf Gommers_ (2019)
-- [NumPy: what has changed and what is going to change?](https://www.youtube.com/watch?v=YFLVQFjRmPY) _by Matti Picus_ (2019)
-- [Inside NumPy](https://www.youtube.com/watch?v=dBTJD_FDVjU) _by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris_ (2019)
-- [Brief Review of Array Computing in Python](https://www.youtube.com/watch?v=f176j2g2eNc) _by Travis Oliphant_ (2019)
+- [NumPyにおけるインデクシングの未来](https://www.youtube.com/watch?v=o0EacbIbf58) _Jaime Fernadez_ (2016)
+- Pythonにおける配列計算の進化 _Ralf Gommers_ (2019)
+- [NumPy: 今までどう変わってきて、今後どう変わっていくのか？ ](https://www.youtube.com/watch?v=YFLVQFjRmPY) _Matti Picus_ (2019)
+- [NumPyの内部](https://www.youtube.com/watch?v=dBTJD_FDVjU) _Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris_ (2019)
+- [Pythonにおける配列計算の概要](https://www.youtube.com/watch?v=f176j2g2eNc) _Travis Oliphant_ (2019)
 
 ***
 
 ## NumPyを引用する
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, please see [this citation information](/citing-numpy).
+もし、あなたの研究においてNumPyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの[ページ](/ja/citing-numpy)を参照して下さい。
