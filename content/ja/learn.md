@@ -26,13 +26,13 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 <i class="fas fa-book"></i> **書籍**
 
-- [NumPガイド _Travelis E. Oliphant著_](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です。 For the latest copy (2015) see [here](https://dl.acm.org/doi/10.5555/2886196).
-- [From Python to NumPy _by Nicolas P. Rougier_](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
-- [Elegant SciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) _by Juan Nunez-Iglesias, Stefan van der Walt, and Harriet Dashnow_
+- [NumPガイド _Travelis E. Oliphant著_](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です。 最新のバージョンについては、 [こちら](https://dl.acm.org/doi/10.5555/2886196) を参照してください。
+- [Python から NumPy へ _Nicolas P. Rougier_] (https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+- [エレガントなSciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) _Juan Nunez-Iglesias・Stefan van der Walt・Harriet Dashnow 著_
 
-You may also want to check out the [Goodreads list](https://www.goodreads.com/shelf/show/python-scipy) on the subject of "Python+SciPy." ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。
+また、「Python+SciPy」を題材にした[推薦本リスト](https://www.goodreads.com/shelf/show/python-scipy) もチェックしてみてください。 ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **動画**
 
 - [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) _by Alex Chabot-Leclerc_
 
@@ -55,7 +55,7 @@ You may also want to check out the [Goodreads list](https://www.goodreads.com/sh
 - [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-Jupyter/dp/109810403X) _by Wes McKinney_
 - [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) _by Robert Johansson_
 
-<i class="far fa-file-video"></i> **Videos**
+<i class="far fa-file-video"></i> **動画**
 
 - [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) _by Juan Nunez-Iglesias_
 
