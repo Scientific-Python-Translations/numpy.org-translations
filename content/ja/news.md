@@ -7,10 +7,9 @@ date: 2023-09-16
 
 ### NumPy 2.2.0 がリリースされました。
 
-_8 Dec, 2024_ -- The NumPy 2.2.0 release is a quick release that brings us back
-into sync with the usual twice yearly release cycle. 今回のリリースでは、いくつかの小さなコードクリーンアップや、StringDTypeの改善、そしてPythonのフリースレッドに対するサポートの向上を実施しています。 このリリースの目玉機能は下記の通りです。
+_2024年12月8日_ -- NumPy 2.2.0のリリースは通常の一年に二回のサイクルのリリースです。 今回のリリースでは、いくつかの小さなコードクリーンアップや、StringDTypeの改善、そしてPythonのフリースレッドに対するサポートの向上を実施しています。 このリリースの目玉機能は下記の通りです。
 
-- New functions `matvec` and `vecmat`,
+- 新しい関数である`matvec`と\`\`vecmat\`の追加
 - 多数のアノテーションの改善
 - 新しいStringDTypeのサポートの改善
 - Pythonのフリースレッドサポートの改善
@@ -20,8 +19,7 @@ into sync with the usual twice yearly release cycle. 今回のリリースでは
 
 ### NumPy 1.26.0 がリリースされました。
 
-_18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and
-drops support for Python 3.9. 今回のリリースは通常のバグ修正やPythonサポートの更新に加えて、NumPyが2.0の長期開発を経て、通常のリリースサイクルに戻るためのリリースでもあります。 今回のリリースのハイライトは下記の通りです。
+_2024年8月18日_ -- Numpy 2.1.0 は Python 3.13 をサポートし、Python 3.9をサポート外としました。 今回のリリースは通常のバグ修正やPythonサポートの更新に加えて、NumPyが2.0の長期開発を経て、通常のリリースサイクルに戻るためのリリースでもあります。 今回のリリースのハイライトは下記の通りです。
 
 - Python 3.12.0 のサポート
 - 多くの期限切れの非推奨(Deprecation)の削除
@@ -31,11 +29,11 @@ Python バージョン 3.10-3.13 か、このリリースでサポートされ�
 
 ### 多くの新しい非推奨(Deprecation)の追加
 
-_16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. これは、前回の機能リリースから11か月間の開発の成果であり、1078件のプルリクエストにわたる212人の貢献者の成果となります。 このリリースには、大きく、エキサイティングな新機能と、PythonとCの両方のAPIへの変更が含まれています。  今回のリリースが、通常のマイナーリリースでは実施できなかった互換性を破壊する変更を含んでいます。これには、ABIの破壊、型昇格ルールの変更、および1.26.xでは非推奨警告が出されていなかった可能性のあるAPIの変更が含まれています。 NumPy 2.0の変更に対応する方法に関する主要なドキュメントは次のとおりです。
+_2024年6月16日_ -- Numpy 2.0.0 は2006年以来のメジャーリリースです。 これは、前回の機能リリースから11か月間の開発の成果であり、1078件のプルリクエストにわたる212人の貢献者の成果となります。 このリリースには、大きく、エキサイティングな新機能と、PythonとCの両方のAPIへの変更が含まれています。  今回のリリースが、通常のマイナーリリースでは実施できなかった互換性を破壊する変更を含んでいます。これには、ABIの破壊、型昇格ルールの変更、および1.26.xでは非推奨警告が出されていなかった可能性のあるAPIの変更が含まれています。 NumPy 2.0の変更に対応する方法に関する主要なドキュメントは次のとおりです。
 
-- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- [NumPy 2.0移行ガイド](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- [2.0.0リリースノート](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- ステータス更新のお知らせの課題: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/)
 tells a bit of the story about how this release came together.
@@ -49,9 +47,9 @@ ABI as well as the Python and C APIs. It is likely that downstream packages and
 end user code needs to be adapted - if you can, please verify whether your code
 works with NumPy `2.0.0rc2`. **Please see the following for more details:**
 
-- The [NumPy 2.0 migration guide](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- The [2.0.0 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html)
-- Announcement issue for status updates: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+- [NumPy 2.0移行ガイド](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- [2.0.0リリースノート](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- ステータス更新のお知らせの課題: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 ### NumFOCUSの年末の資金調達
 
