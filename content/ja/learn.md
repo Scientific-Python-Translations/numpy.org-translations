@@ -34,7 +34,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 <i class="far fa-file-video"></i> **動画**
 
-- [Introduction to Numerical Computing with NumPy](http://youtu.be/ZB7BZMhfPgk) _by Alex Chabot-Leclerc_
+- [NumPy を使った数値計算入門](http://youtu.be/ZB7BZMhfPgk) _by Alex Chabot-Leclerc_
 
 ***
 
@@ -44,20 +44,20 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 <i class="fas fa-chalkboard"></i> **チュートリアル**
 
-- [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) _by Nicolas P. Rougier_
-- [An Introduction to NumPy and Scipy](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) _by M. Scott Shell_
-- [Numpy Medkits](http://mentat.za.net/numpy/numpy_advanced_slides/) _by Stéfan van der Walt_
+- [NumPy 演習100本ノック](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) _Nicolas P. Rougier_
+- [NumPyとSciPy入門](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) _M. Scott Shell_
+- [NumPy救急キット](http://mentat.za.net/numpy/numpy_advanced_slides/) _Stéfan van der Walt_
 - [NumPyチュートリアル](https://numpy.org/numpy-tutorials) Jupyter Notebook 形式で作成され、NumPy ドキュメントチームによって開発・管理されているチュートリアルおよび教育用資料のコレクションです。 もし独自のコンテンツを追加したい場合は、[GitHubのnumpy-tutorialリポジトリ](https://github.com/numpy/numpy-tutorials)を参照してください。
 
 <i class="fas fa-book"></i> **書籍**
 
-- [Python Data Science Handbook](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1098121228) _by Jake Vanderplas_
-- [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-Jupyter/dp/109810403X) _by Wes McKinney_
-- [Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy, and Matplotlib](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) _by Robert Johansson_
+- [Pythonデータサイエンスハンドブック](https://www.amazon.com/Python-Data-Science-Handbook-Essential/dp/1491912057) _Jake Vanderplas著_
+- [Pythonによるデータ解析](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662) _Wes McKinney著_
+- [Pythonによる数値解析: NumPy, SciPy, Matplotlibによる数値計算とデータサイエンスアプリケーション](https://www.amazon.com/Numerical-Python-Scientific-Applications-Matplotlib/dp/1484242459) _Robert Johansson著_
 
 <i class="far fa-file-video"></i> **動画**
 
-- [Advanced NumPy - broadcasting rules, strides, and advanced indexing](https://www.youtube.com/watch?v=cYugp9IN1-Q) _by Juan Nunez-Iglesias_
+- [アドバンスドNumPy - ブロードキャストルール・ストライド・高度なインデックス指定](https://www.youtube.com/watch?v=cYugp9IN1-Q) _Fan Nunuz-Iglesias著_
 
 ***
 
