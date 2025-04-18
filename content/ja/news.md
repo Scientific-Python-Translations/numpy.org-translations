@@ -35,8 +35,8 @@ _2024年6月16日_ -- Numpy 2.0.0 は2006年以来のメジャーリリースで
 - [2.0.0リリースノート](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - ステータス更新のお知らせの課題: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
-The blog post ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/)
-tells a bit of the story about how this release came together.
+ブログ記事 ["NumPy 2.0: 進化のマイルストーン"](https://blog.scientific-python.org/numpy/numpy2/)
+は、このリリースがどのように進められたのかについてのストーリーを少し紹介しています。
 
 ### NumPy 1.25.0 リリース
 
@@ -57,7 +57,7 @@ _Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign 
 on first-time PyCharm licenses. 2023年12月23日までのPyCharm購入による1年目の収益は全てNumFOCUSのプログラムに直接寄付されます。
 
 Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/
-or a coupon code ISUPPORTDATASCIENCE 
+or a coupon code ISUPPORTDATASCIENCE
 
 ### NumPy 1.20.0 リリース
 
