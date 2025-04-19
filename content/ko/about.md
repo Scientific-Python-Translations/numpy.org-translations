@@ -83,5 +83,5 @@ Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). 미국에 �
 
 NumPy 운영 위원회는 후원받은 후원금을 가장 잘 활용하는 방안을 결정합니다. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
-{{< opencollective >}}
+{{<opencollective>}}
 
