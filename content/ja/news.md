@@ -118,18 +118,15 @@ Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモ
 _2023年5月10日_ -- インクルーシブ・カルチャーの育成: 参加募集
 
 NumPyプロジェクトの多様性とインクルージョンに関して、我々はどのようなことを実施すればいいでしょうか？
-Read the report and find out how to get involved
-[here](https://contributor-experience.org/docs/posts/dei-report/).
+[こちら](https://contributor-experience.org/docs/posts/dei-report/) のレポートを読んで、参加する方法を確認してください。
 
 ### NumPy ドキュメンテーションチームのリーダーの変更
 
-_Jan 6, 2023_ –- Mukulika Pahari and Ross Barnowski are appointed as the new NumPy
-documentation team leads replacing Melissa Mendonça. 私たちは、MelissaにNumPyの公式ドキュメントと教育資料に対するすべての貢献に感謝し、MukulikaとRossに新しい役割にステップアップしてもらったことに感謝します。
+_2023年1月6日_ –- Mukulika PahariとRoss Barnowskiは、Melissa MendoncAudioに代わるNumPyドキュメンテーションチームの新しいリーダーとして任命されました。 私たちは、MelissaにNumPyの公式ドキュメントと教育資料に対するすべての貢献に感謝し、MukulikaとRossに新しい役割にステップアップしてもらったことに感謝します。
 
 ### NumPy 1.24.0 リリース
 
-_Dec 18, 2022_ -- [NumPy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html)
-is now available. 今回のリリースのハイライトは次のとおりです。
+_2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
 - スタッキング関数のための新しい"dtype"と"casting"キーワードの追加
 - F2PYの新機能追加とバグ修正
@@ -141,10 +138,9 @@ dtype のプロモーションとクリーンアップの変更により、多�
 
 ### Numpy 1.26.0 は 1.25 からの互換性を保持しています。
 
-_Jun 22, 2022_ -- [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html)
-is now available. 今回のリリースのハイライトは次のとおりです。
+_2022年6月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
-- Implementation of `loadtxt` in C, greatly improving its performance.
+- `loadtxt` がCで実装されたことによる、大幅なパフォーマンス向上
 - より簡単なデータ交換のためのPythonレベルでのDLPackの公開
 - 構造化されたdtypesのプロモーションと比較方法の変更
 - f2pyの改善
@@ -156,14 +152,9 @@ Python 3.11がrc ステージに到達すると Python 3.11 もサポートさ�
 
 ### NumFOCUS DEI研究への参加募集
 
-_Apr 13, 2022_ -- NumPy is working with [NumFOCUS](http://numfocus.org/) on a
-research project
-funded by the Gordon & Betty Moore Foundation to
-understand the barriers to participation that contributors, particularly those
-from historically underrepresented groups, face in the open-source software
-community. この研究チームは、新しい貢献者、プロジェクトの開発者およびメンテナー、そして過去に貢献した方々に、NumPyに参加し貢献した経験について話を聞きたいと考えています。
+_2022年4月13日_ -- NumPyは、[NumFOCUS](http://numfocus.org/)と協力して、ある研究プロジェクトを進めており、これはGordon & Betty Moore Foundationによって資金提供されています。このプロジェクトでは、オープンソースソフトウェアコミュニティにおいて、特に歴史的に代表されてこなかったグループからの貢献者が参加する際の障壁を理解することを目的としています。 この研究チームは、新しい貢献者、プロジェクトの開発者およびメンテナー、そして過去に貢献した方々に、NumPyに参加し貢献した経験について話を聞きたいと考えています。
 
-**Interested in sharing your experiences?**
+**あなたの経験を共有することに興味がありますか?**
 
 Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe)
 which contains additional information on the research goals, privacy, and
