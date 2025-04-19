@@ -83,5 +83,5 @@ NumPyへの寄付は [NumFOCUS](https://numfocus.org) によって管理され�
 
 NumPyの運営委員会は、受け取った資金をどのように使えば良いかを検討し、使用する方法について決定します. NumPyの技術とインフラへの投資の優先順位に関しては、[NumPyロードマップ](https://www.numpy.org/neps/index.html#roadmap) に記載されています。
 
-{{< opencollective >}}
+{{<opencollective>}}
 
