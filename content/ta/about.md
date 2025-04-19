@@ -83,5 +83,5 @@ NumPy-க்கான நன்கொடைகள் [NumFOCUS](https://numfocus
 
 NumPy's Steering Council will make the decisions on how to best use any funds received. தொழில்நுட்ப மற்றும் உள்கட்டமைப்பு முன்னுரிமைகள் [NumPy சாலை வரைபடத்தில்](https://www.numpy.org/neps/index.html#roadmap) ஆவணப்படுத்தப்பட்டுள்ளன.
 
-{{< opencollective >}}
+{{<opencollective>}}
 
