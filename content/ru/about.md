@@ -83,5 +83,5 @@ Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). Для до�
 
 Руководящий Совет NumPy примет решения о том, как наилучшим образом использовать полученные средства. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
 
-{{< opencollective >}}
+{{<opencollective>}}
 
