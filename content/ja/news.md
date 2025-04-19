@@ -40,12 +40,8 @@ _2024年6月16日_ -- Numpy 2.0.0 は2006年以来のメジャーリリースで
 
 ### NumPy 1.25.0 リリース
 
-_23 May, 2024_ -- We are excited to announce that NumPy 2.0 is planned to be
-released on June 16, 2024. このリリースは1年以上かけて我々が準備してきたもので、2006年以来のメジャーリリースとなります。 Importantly, in addition to many new
-features and performance improvement, it contains **breaking changes** to the
-ABI as well as the Python and C APIs. It is likely that downstream packages and
-end user code needs to be adapted - if you can, please verify whether your code
-works with NumPy `2.0.0rc2`. **Please see the following for more details:**
+_2024年5月23日_ -- NumPy 2.0が2024年6月16日にリリースされる予定になりました！ このリリースは1年以上かけて我々が準備してきたもので、2006年以来のメジャーリリースとなります。 このリリースで重要なことは、多くの新機能とパフォーマンスの向上に加えて、 このリリースは、
+**破壊的な変更** である Python と C API を含む、ABI への変更 が含まれています。 NumPyに依存しているパッケージやエンドユーザーのコードがこのは破壊的変更に適応する必要がある可能性があります。可能であれば、あなたのコードがNumPy '2.0.0rc2'で動作するかどうか確認をお願いします。 **詳細は下記をご覧ください:**
 
 - [NumPy 2.0移行ガイド](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - [2.0.0リリースノート](https://numpy.org/devdocs/release/2.0.0-notes.html)
@@ -53,16 +49,14 @@ works with NumPy `2.0.0rc2`. **Please see the following for more details:**
 
 ### NumFOCUSの年末の資金調達
 
-_Dec 19, 2023_ -- NumFOCUS has teamed up with PyCharm during their EOY campaign to offer a 30% discount
-on first-time PyCharm licenses. 2023年12月23日までのPyCharm購入による1年目の収益は全てNumFOCUSのプログラムに直接寄付されます。
+_2023年12月19日_ -- NumFOCUSは、年末キャンペーンでPyCharmチームと協力し、PyCharmライセンスの初回購入に30%の割引を提供しています。 2023年12月23日までのPyCharm購入による1年目の収益は全てNumFOCUSのプログラムに直接寄付されます。
 
-Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/
-or a coupon code ISUPPORTDATASCIENCE
+購入される方はこちらのURLか:  https://lp.jetbrains.com/support-data-science/
+こちらのクーポンコードを利用してください: ISUPPORTDATASCIENCE
 
 ### NumPy 1.20.0 リリース
 
-_Sep 16, 2023_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html)
-is now available. 今回のリリースのハイライトは次のとおりです。
+_2023年9月16日_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html)がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
 - Python 3.12.0 のサポート
 - Cython 3.0.0 との互換性
@@ -78,10 +72,9 @@ Numpy 1.26.0 は 1.25 からの互換性を保持しています。Mesonビル�
 
 ### numpy.orgが日本語とポルトガル語で利用可能になりました
 
-_Aug 2, 2023_ -- numpy.org is now available in 2 additional languages:
-Japanese and Portuguese. 熱心なボランティアがいなければ、このプロジェクトは不可能でした：
+_2023年4月2日_ -- numpy.org が日本語とポルトガル語の2つの言語で利用可能になりました。 熱心なボランティアがいなければ、このプロジェクトは不可能でした：
 
-_Portuguese:_
+_ポルトガル語_
 
 - Melissa Weber Mendonça (melissawm)
 - Ricardo Prins (ricardoprins)
@@ -91,7 +84,7 @@ _Portuguese:_
 - Alexandre B A Villares (villares)
 - Vini Salazar (vinisalazar)
 
-_Japanese:_
+_日本語_
 
 - Atsushi Sakai (AtsushiSakai)
 - KKunai
@@ -107,13 +100,12 @@ _Japanese:_
 
 ### Numpy 1.23.0 リリース
 
-_Jun 17, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html)
-is now available. 今回のリリースのハイライトは次のとおりです。
+_2023年6月17日_ -- [Numpy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。 今回のリリースのハイライトは次のとおりです。
 
 - MUSLのサポート。 MUSLのWheelが準備されました。
 - 富士通のC/C++コンパイラサポート
 - einsum でオブジェクト配列がサポートされるようになりました.
-- Support for the inplace matrix multiplication (`@=`).
+- 行列の置き換え(inplace)掛け算のサポート (`@=`).
 
 Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 将来の NumPy 2.0.0 に向けた準備作業も行われており、 多数の新規および期限切れの機能廃止が可能となってきています。
 
@@ -123,7 +115,7 @@ Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモ
 
 ### インクルーシブな文化の育成: 参加の募集
 
-_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+_2023年5月10日_ -- インクルーシブ・カルチャーの育成: 参加募集
 
 NumPyプロジェクトの多様性とインクルージョンに関して、我々はどのようなことを実施すればいいでしょうか？
 Read the report and find out how to get involved
