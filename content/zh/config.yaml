@@ -81,7 +81,7 @@ params:
             link: https://numpy.org/doc/stable
           - text: 学习指南
             link: /learn
-          - text: Citing Numpy
+          - text: 引用 NumPy
             link: /citing-numpy
           - text: Roadmap
             link: https://numpy.org/neps/roadmap.html
