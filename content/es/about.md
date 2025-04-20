@@ -14,23 +14,24 @@ El Consejo de Dirección de NumPy es el órgano de gobernanza del proyecto. Su p
 - Sebastian Berg
 - Ralf Gommers
 - Charles Harris
-- Stephan Hoyer
 - Inessa Pawson
 - Matti Picus
 - Stéfan van der Walt
 - Melissa Weber Mendonça
+- Marten van Kerkwijk
 - Eric Wieser
 
 Eméritos:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
-- Marten van Kerkwijk (2017-2019)
 - Travis Oliphant (project founder, 2005-2012)
 - Nathaniel Smith (2012-2021)
 - Julian Taylor (2013-2021)
 - Jaime Fernández del Río (2014-2021)
 - Pauli Virtanen (2008-2021)
+- Eric Wieser (2017-2025)
+- Stephan Hoyer (2017-2025)
 
 Para contactar con el Consejo Directivo de NumPy, por favor envía un correo electrónico a numpy-team@googlegroups.com.
 
