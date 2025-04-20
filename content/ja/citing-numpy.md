@@ -9,6 +9,7 @@ sidebar: false
 
 _BibTeX形式:_
 
+ ```
  @Article{ harris2020array,
   title = {Array programming with {NumPy}},
   author = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J. van der Walt and Ralf Gommers and Pauli Virtanen and David
@@ -30,3 +31,4 @@ _BibTeX形式:_
   publisher     = {Springer Science and Business Media {LLC}},
   url           = {https://doi.org/10.1038/s41586-020-2649-2}
  }
+ ```
