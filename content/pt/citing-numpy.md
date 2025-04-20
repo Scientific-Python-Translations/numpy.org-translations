@@ -9,6 +9,7 @@ Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento
 
 _Em formato BibTeX:_
 
+ ```
  @Article{         harris2020array,
   title         = {Array programming with {NumPy}},
   author        = {Charles R. Harris and K. Jarrod Millman and St{\'{e}}fan J.
@@ -31,3 +32,4 @@ _Em formato BibTeX:_
   publisher     = {Springer Science and Business Media {LLC}},
   url           = {https://doi.org/10.1038/s41586-020-2649-2}
  }
+ ```
