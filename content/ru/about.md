@@ -14,23 +14,24 @@ The NumPy Steering Council is the project's governing body. Its role is to ensur
 - Себастьян Берг
 - Ральф Гоммерс
 - Чарльз Харрис
-- Стефан Хойер
 - Инесса Поусон
 - Матти Пикус
 - Стефан ван дер Волт
 - Melissa Weber Mendonça
+- Marten van Kerkwijk
 - Эрик Визер
 
 Почётные члены:
 
 - Алекс Гриффинг (2015-2017)
 - Аллан Халдейн (2015-2021)
-- Мартен ван Керквик (2017-2019)
 - Трэвис Олифант (основатель проекта, 2005-2012)
 - Натаниэль Смит (2012-2021)
 - Джулиан Тейлор (2013-2021)
 - Джейми Фернандез дель Рио (2014-2021)
 - Паули Виртанен (2008-2021)
+- Eric Wieser (2017-2025)
+- Stephan Hoyer (2017-2025)
 
 To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
 
@@ -68,7 +69,7 @@ See the [Team](/teams) page for more info.
 Институциональные партнеры – это организации, оказывающие поддержку проекту, нанимая на работу людей, которые вносят свой вклад в развитие NumPy в рамках своей работы. На данный момент институциональными партнёрами являются:
 
 - UC Berkeley (Stéfan van der Walt)
-- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça, Mateusz Sokol, Rohit Goswami)
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
