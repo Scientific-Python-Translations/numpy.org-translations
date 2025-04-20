@@ -14,23 +14,24 @@ The NumPy Steering Council is the project's governing body. Its role is to ensur
 - سيباستيان بيرج
 - رالف غومرس
 - تشارلز هاريس
-- ستيفان هوير
 - إينيسا باوسون
 - ماتى بيكاس
 - ستيفان فان دير والت(Stefan van der Walt)
 - ميليسا فيبر ميندونسا (Melissa Weber Mendonça)
+- Marten van Kerkwijk
 - إريك وايزر
 
 الأعضاء الفخريون:
 
 - ألكس غريفينغ (2015-2017)
 - آلان هالدين (2015-2021)
-- مارتن فان كيركويك (2017-2019)
 - ترافيس أوليفانت (مؤسس المشروع، 2005-2012)
 - ناثانييل سميث (2012-2021)
 - جوليان تايلور (2013-2021)
 - جايمي فرنانديز ديل ريو(2014-2021)
 - باولي فيرتانين (2008-2021)
+- Eric Wieser (2017-2025)
+- Stephan Hoyer (2017-2025)
 
 To contact the NumPy Steering Council, please email numpy-team@googlegroups.com.
 
@@ -68,7 +69,7 @@ See the [Team](/teams) page for more info.
 الشركاء المؤسسيون هم المنظمات التي تدعم المشروع وذلك بتوظيف الأشخاص الذين يساهمون في "نمباي" كجزء من عملهم. ويشمل الشركاء المؤسسيون الحاليون ما يلي:
 
 - UC Berkeley (Stéfan van der Walt)
-- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça, Mateusz Sokol, Rohit Goswami)
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
