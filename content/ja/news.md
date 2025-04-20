@@ -156,19 +156,13 @@ _2022年4月13日_ -- NumPyは、[NumFOCUS](http://numfocus.org/)と協力して
 
 **あなたの経験を共有することに興味がありますか?**
 
-Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe)
-which contains additional information on the research goals, privacy, and
-confidentiality considerations. 多様で包括的なオープンソースソフトウェアコミュニティの 成長と持続可能性のために、このプロジェクトへのあなたの参加は非常に大きな価値があります。 参加を受け入れられた人は、研究チームメンバーと30分間のインタビューに参加することになります。
+もし興味がある場合は、研究目標、プライバシー、および 守秘義務に関する追加情報が記載されている、この簡単な[参加者の興味分野のアンケート](https://numfocus.typeform.com/to/WBWVJSqe)に記入をお願いします。 多様で包括的なオープンソースソフトウェアコミュニティの 成長と持続可能性のために、このプロジェクトへのあなたの参加は非常に大きな価値があります。 参加を受け入れられた人は、研究チームメンバーと30分間のインタビューに参加することになります。
 
 ### NumPy 1.19.2 リリース
 
-_Dec 31, 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html)
-is now available. 今回のリリースのハイライトは次のとおりです。
+_2021年12月31日_ -- [Numpy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
-- メインの名前空間の型アノテーションは基本的に完了しました。 Upstream is
-  a moving target, so there will likely be further improvements, but the major
-  work is done. This is probably the most user visible enhancement in this
-  release.
+- メインの名前空間の型アノテーションは基本的に完了しました。 上流のコードは常に変化するものなので、さらなる改良が必要でしょうが、大きな作業は終わったと考えています。 これはおそらく、今回のリリースで最も目に見える改良でしょう。
 - A preliminary version of the proposed
   [array API Standard](https://data-apis.org/array-api/latest/) is provided
   (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)).
@@ -334,7 +328,7 @@ More details on our proposed initiatives and deliverables can be found in the [f
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
-- NumPy 2.2.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.5)) -- _19 Apr 2025_.
+- NumPy 2.2.5 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.2.5)) -- _2025年4月19日_.
 - NumPy 2.2.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.4)) -- _16 Mar 2025_.
 - NumPy 2.2.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.3)) -- _13 Feb 2025_.
 - NumPy 2.2.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 Jan 2025_.
