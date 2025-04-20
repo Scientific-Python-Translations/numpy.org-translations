@@ -63,7 +63,7 @@ on first-time PyCharm licenses. Todas as receitas do primeiro ano das compras do
 até 23 de dezembro de 2023 irão diretamente para os programas NumFOCUS.
 
 Use unique URL that will allow to track purchases https://lp.jetbrains.com/support-data-science/
-or a coupon code ISUPPORTDATASCIENCE 
+or a coupon code ISUPPORTDATASCIENCE
 
 ### Lançada versão 1.26.0 do NumPy
 
@@ -356,6 +356,7 @@ Aqui está uma lista de versões do NumPy, com links para notas de lançamento. 
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
+- NumPy 2.2.5 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.5)) -- _19 Apr 2025_.
 - NumPy 2.2.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.4)) -- _16 Mar 2025_.
 - NumPy 2.2.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.3)) -- _13 Feb 2025_.
 - NumPy 2.2.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.2.2)) -- _18 Jan 2025_.
