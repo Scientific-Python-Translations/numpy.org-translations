@@ -1,5 +1,5 @@
 ---
-title: NumPy 설치
+title: NumPy 설치하기
 sidebar: false
 ---
 
@@ -38,11 +38,11 @@ Recommended for new users who want a streamlined workflow.
 
 개인적인 선호나 아래의 conda 와 pip의 차이점을 설명하는 글을 읽은 유저나 또는 pip/PyPI기반의 설치 방법을 선호하는 경우 참고하십시오.
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. 고성능 컴퓨터 (HPC) 를 사용하는 경우 <a href="https://github.com/spack/spack">Spack</a>를 사용하는 것을 추천합니다.
+The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. 주요한 pip와 conda 사이의 차이점에 대해 여기서 이야기 할 것입니다. 이것은 효과적으로 패키지를 관리하려면 중요합니다.
 
-The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. 그 도구들의 기능은 부분적으로 겹칩지만 (e.g. both can install <code>numpy</code>), 같이 쓰일 수도 있습니다.
+The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. 이것이 또한 뜻하는 바는 conda 는 파이썬이 아닌 다른 언어 라이브러리와 소프트웨어 도구도 여러분이 필요하다면 설치할 수 있지만 (예를 들어 컴파일러, CUDA, HDF5), pip 는 할 수 없다는 것입니다.
 
-첫번째 차이점은, conda는 cross-language 를 지원하고, Python을 설치할 수 도 있지만, pip는 특정 Python에만 패키지를 설치하고 관리할 수 있다는 것 입니다. 또한 conda는 non-Python 라이브러리나 도구들을 설치할 수 있지만 (e.g. compilers, CUDA, HDF5), pip는 Python이 필요하기 때문에 설치할 수 없습니다.
+첫번째 차이점은, conda는 cross-language 를 지원하고, Python을 설치할 수 도 있지만, pip는 특정 Python에만 패키지를 설치하고 관리할 수 있다는 것 입니다. PyPI 에 가장 많이 모여 있으며, 2등과는 상당한 차이가 있는 정도지만, 가장 인기 있는 패키지들은 conda 에도 있습니다.
 
 The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
 
@@ -108,7 +108,7 @@ content = '''
 For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise.
-We recommend using binaries instead if those are available for your platform via one of the above methods.
+추천하는 방식은 대신 이진 코드를 사용하는 것입니다. 여러분의 플랫폼을 위한 이진 코드가 위 방법들 중 하나로 제공된다면.
 For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
 
 {{< /tabs >}}
