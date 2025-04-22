@@ -14,26 +14,17 @@ sidebar: false
 
 ## 지구 크기의 망원경
 
-The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an
-array of eight ground-based radio telescopes forming a computational telescope
-the size of the earth, studing the universe with unprecedented
-sensitivity and resolution.  The huge virtual telescope,  which uses a technique
-called very-long-baseline interferometry (VLBI), has an angular resolution of
-[20 micro-arcseconds][resolution] — enough to read a newspaper in New York
-from a sidewalk café in Paris!
+[사건의 지평선 전파 망원경 (EHT)](https://eventhorizontelescope.org) 은 8개의 지상 전파 망원경을 연결하여 지구 크기의 가상의 전파 망원경을 만들어서 우주를 전례 없는 감도와 해상도로 연구하고자 하는 것입니다.  해당 거대 가상 전파 망원경이 사용하는 기술은 매우 긴 기준선을 가지는 간섭계라고 (VLBI) 하며, 각 해상도는 \[20 micro-arcseconds]에 달하는데, [resolution] — 뉴욕의 신문을 파리의 길가의 카페에서 읽을 수 있는 수준입니다!
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
 ### 주요 목표 및 결과
 
-- **A New View of the Universe:**
-  The groundwork for the EHT's groundbreaking image had been laid 100 years
-  earlier when [Sir Arthur Eddington][eddington] yielded the first
-  observational support of Einstein's theory of general relativity.
+- **새로운 우주를 바라보는 시각**
+  EHT의 획기적인 이미지를 위한 초석은 100 년 전
+  [아서 에딩턴][eddington]경이 아인시타인의 일반 상대성 이론을 뒷받침하는 첫번째 관측 증거를 얻었을 때 놓여졌습니다.
 
-- **The Black Hole:** EHT was trained on a supermassive black hole
-  approximately 55 million light-years from Earth, lying at the center
-  of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is
+- **블랙홀** EHT 는 지구로부터 대략 5천5백만광년 떨어진, 처녀자리 은하단에 속한 메시에 87 은하 (M87) 중심에 놓여 있는 초거대블랙홀에 최적화 되었습니다. Its mass is
   6.5 billion times the Sun's. It had been studied for
   [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before
   had a black hole been visually observed.
