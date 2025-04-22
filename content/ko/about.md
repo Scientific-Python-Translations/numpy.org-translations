@@ -5,7 +5,7 @@ sidebar: false
 
 NumPy는 Python을 통해 수치적 컴퓨팅을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy는 항상 100% 오픈 소스 소프트웨어이며 누구나 무료로 사용할 수 있습니다 It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-NumPy는 NumPy와 더 넓은 과학 Python 커뮤니티의 합의를 통해 GitHub의 공개적으로 개발되었습니다. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+NumPy는 NumPy와 더 넓은 과학 Python 커뮤니티의 합의를 통해 GitHub의 공개적으로 개발되었습니다. 의사 결정 구조 에 대한 더 자세한 정보는 [의사결정구조 문서](https://www.numpy.org/devdocs/dev/governance/index.html)를 참고 바랍니다.
 
 ## 운영 위원회
 
@@ -37,8 +37,8 @@ NumPy 운영 위원회에 문의하려면, numpy-team@googlegroups.com 주소로
 
 ## 팀
 
-The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br>
-NumPy currently has the following teams:
+NumPy 프로젝트 지도부는 프로젝트에 기여하는 방식을 보다 더 다양화 하고자 노력하고 있습니다.
+:
 
 - 개발
 - 문서
@@ -82,7 +82,7 @@ NumPy는 미국의 501(c)(3) 비영리 단체인 NumFOCUS의 후원 프로젝트
 
 Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). 미국에 거주하는 후원자의 경우에는, 당신의 후원은 법이 제공하는 한도 내에서 세금 공제를 받을 수 있습니다. 기부와 마찬가지로 특정 세금 상황에 대해서는 세금 전문가와 상담해야합니다.
 
-NumPy 운영 위원회는 후원받은 후원금을 가장 잘 활용하는 방안을 결정합니다. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+NumPy 운영 위원회는 후원받은 후원금을 가장 잘 활용하는 방안을 결정합니다. 기술적, 기반적 우선순위는 [NumPy 로드맵](https://www.numpy.org/neps/index.html#roadmap)에 나와 있습니다.
 
 {{<opencollective>}}
 
