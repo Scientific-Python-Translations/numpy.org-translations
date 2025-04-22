@@ -8,7 +8,7 @@ sidebar: false
 
 {{< blockquote
   cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
-  by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_"
+  by="M S Dhoni, _국제 크리켓 선수, 인도 대표팀 전임 주장, IPL 첸나이 수퍼 킹스 소속_"
 >}}
 {{< /blockquote >}}
 
@@ -27,10 +27,7 @@ in 2019.
 크리켓 팀이 이긴 경기, 타자가 이긴 횟수
 일종의 볼링 공격 등에 특정한 방식으로 반응합니다. NumPy와 같은 수치 컴퓨팅 소프트웨어로 구동되는 강력한 분석 도구를 통해 크리켓의 성능 향상과 사업 기회, 전반적인 시장, 경제학을 연구하기 위한 크리켓 숫자를 파헤칠 수 있는 능력은 큰 일이다. 크리켓 분석은 게임에 대한 흥미로운 통찰력과 게임 결과에 대한 예측 지능을 제공한다.
 
-Today, there are rich and almost infinite troves of cricket game records and
-statistics available, e.g., ESPN
-cricinfo and
-[cricsheet](https://cricsheet.org). These and several such cricket databases
+오늘날, 녹화된 크리켓 경기와 통계는 예를 들어 [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html)와 [cricsheet](https://cricsheet.org) 등 거의 무한정 있습니다. These and several such cricket databases
 have been used for cricket
 analysis
 using the latest machine learning and predictive modelling algorithms.
