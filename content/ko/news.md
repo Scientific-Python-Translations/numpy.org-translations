@@ -23,9 +23,7 @@ This release supports Python versions 3.10-3.13.
 ### NumPy 2.1.0 released
 
 _18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and
-drops support for Python 3.9. In addition to the usual bug fixes and
-updated Python support, it helps get NumPy back to its usual release
-cycle after the extended development of 2.0. The highlights for this
+drops support for Python 3.9. 일반적인 버그 수정과 파이썬 지원 개정에 덧붙여 2.0 확장 개발 이후 NumPy를 평상적인 배포 싸이클로 복귀하도록 돕고자 하는 것입니다. The highlights for this
 release are:
 
 - Support for Python 3.13.
