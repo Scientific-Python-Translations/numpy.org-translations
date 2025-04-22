@@ -6,7 +6,7 @@ sidebar: false
 {{< admonition >}}
 {{< /admonition >}}
 
-The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
+The recommended method of installing NumPy depends on your preferred workflow. 아래에 설치 방법을 다음과 같이 분류하였습니다:
 
 - **Project-based** (e.g., uv, pixi) _(recommended for new users)_
 - **Environment-based** (e.g., pip, conda) _(the traditional workflow)_
@@ -24,12 +24,14 @@ content = '''
 Recommended for new users who want a streamlined workflow.
 
 - **uv:** A modern Python package manager designed for speed and simplicity.
-
-    uv pip install numpy
+  ```bash
+  uv pip install numpy
+  ```
 
 - **pixi:** A cross-platform package manager for Python and other languages.
-
-    pixi add numpy
+  ```bash
+  pixi add numpy
+  ```
 
 '''
 {{< /card >}}
@@ -45,21 +47,25 @@ The first difference is that conda is cross-language and it can install Python, 
 The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
 
 - **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
-
-    conda create -n my-env
-    conda activate my-env
-    conda install numpy
+  ```bash
+  conda create -n my-env
+  conda activate my-env
+  conda install numpy
+  ```
 - **Pip:**
-
-    pip install numpy
+  ```bash
+  pip install numpy
+  ```
 
 {{< admonition >}}
 {{< /admonition >}}
 
+  ```bash
   python -m venv my-env
   source my-env/bin/activate  # macOS/Linux
   my-env\Scripts\activate     # Windows
   pip install numpy
+  ```
 
 '''
 {{< /card >}}
