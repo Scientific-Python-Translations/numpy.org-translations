@@ -11,10 +11,7 @@ machine learning, AI, and several others._
 대규모 데이터의 조작과 연산은 고효율, 고성능의 배열 연산에 달려있습니다. The language of choice for data analytics,
 machine learning, and productive numerical computing is **Python.**
 
-**Num**erical **Py**thon or NumPy is its de-facto standard Python programming
-language library that supports large, multi-dimensional arrays and matrices,
-and comes with a vast collection of high-level mathematical functions to
-operate on these arrays.
+NumPy 는 **Num**erical **Py**thon 의 줄인말로 사실상 표준 파이썬 언어 라이브러리로 대규모 다차원 배열과 행렬을 지원하며 이러한 배열을 연산하기 위한 방대한 고수준 수학 함수도 함께 따라옵니다.
 
 2006년에 NumPy가 출시된 이후로, 2008년에 이를 기반으로 Pandas가 나타났습니다. 그리고 몇년전까지도, 다양한 배열 연산 라이브러리가 잇따라 나오며 배열 연산 분야가 더욱 활발해 졌습니다.
 최신의 라이브러리들중 대부분은 NumPy 같은 특징과 성능을 모방하고, 새로운 알고리즘이나 머신러닝이나 인공지능 어플리케이션을 위한 특화된 기능을 포함하고 있습니다.
