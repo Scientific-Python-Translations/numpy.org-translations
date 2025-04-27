@@ -163,18 +163,11 @@ _2022年4月13日_ -- NumPyは、[NumFOCUS](http://numfocus.org/)と協力して
 _2021年12月31日_ -- [Numpy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
 - メインの名前空間の型アノテーションは基本的に完了しました。 上流のコードは常に変化するものなので、さらなる改良が必要でしょうが、大きな作業は終わったと考えています。 これはおそらく、今回のリリースで最も目に見える改良でしょう。
-- A preliminary version of the proposed
-  [array API Standard](https://data-apis.org/array-api/latest/) is provided
-  (see [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)).
-  This is a step in creating a standard collection of functions that can be
-  used across libraries such as CuPy and JAX.
-- NumPy に DLPack バックエンドが追加されました。 DLPack provides a common interchange format
-  for array (tensor) data.
-- New methods for `quantile`, `percentile`, and related functions. The new
-  methods provide a complete set of the methods commonly found in the
-  literature.
-- The universal functions have been refactored to implement most of
-  [NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html).
+- 提案中の [array API 標準](https://data-apis.org/array-api/latest/)のベータバージョンが提供されています（詳細は[NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)を参照してください）。
+  これは、CuPy や JAX などのライブラリ間で使用できる標準的な関数コレクションを作成するための第一歩です。
+- NumPy に DLPack バックエンドが追加されました。 DLPack は、配列（テンソル）データの共通な交換フォーマットを提供します。
+- `quantile`、`percentile`、および関連する関数の新しい関数 新しい関数では、文献で一般的に見られる方法と同様の関数群を提供します。
+- ユニバーサル関数は、[NEP 43](https://numpy.org/neps/nep-0043-extensible-ufuncs.html)の大部分を実装するようにリファクタリングされています。
   これにより将来の DType API の処理も可能にします。
 - ダウンストリームのプロジェクトで使用するための新しい設定可能なメモリー・アロケーターが追加されました。
 
