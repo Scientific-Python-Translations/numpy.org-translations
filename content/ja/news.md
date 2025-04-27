@@ -175,11 +175,7 @@ NumPy 1.22.0は、153人の貢献者が609のプルリクエストを作成し�
 
 ### 科学的なPythonエコシステムにおける包括的な文化の前進
 
-_August 31, 2021_ -- We are happy to announce the Chan Zuckerberg Initiative has
-[awarded a grant](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/)
-to support the onboarding, inclusion, and retention of people from historically
-marginalized groups on scientific Python projects, and to structurally improve
-the community dynamics for NumPy, SciPy, Matplotlib, and Pandas.
+2021年8月31日 -- 私たちは、Chan Zuckerberg Initiativeが、科学的なPythonプロジェクトにおいて歴史的に疎外されてきたグループの人々へのオンボーディングや、コミュニティへの参加、定着を支援するために、NumPy、SciPy、Matplotlib、Pandasのコミュニティ活動を抜本的に改善するための[助成金を受賞](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/)したことを発表することができ、嬉しく思います
 
 As a part of [CZI's Essential Open Source Software for Science program](https://chanzuckerberg.com/eoss/),
 this [Diversity & Inclusion supplemental grant](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b)
