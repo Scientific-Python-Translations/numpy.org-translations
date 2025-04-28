@@ -8,12 +8,12 @@ sidebar: false
 
 O método recomendado de instalar o NumPy depende do seu fluxo de trabalho preferido. A seguir, dividimos os métodos de instalação entre as seguintes categorias:
 
-- **Project-based** (e.g., uv, pixi) _(recommended for new users)_
-- **Environment-based** (e.g., pip, conda) _(the traditional workflow)_
-- **System package managers** _(not recommended for most users)_
-- **Building from source** _(for advanced users and development purposes)_
+- **Baseados em projeto** (por exemplo, uv, pixi) _(recomendados para novos usuários)_
+- **Baseados em ambientes** (por exemplo, pip, conda) _(o fluxo de trabalho tradicional)_
+- **Gerenciadores de pacotes de sistema** _(não recomendados para a maioria dos usuários)_
+- **A partir do código-fonte** _(para usuários avançados e para fins de desenvolvimento)_
 
-Escolha o método mais adequado às suas necessidades. If you're unsure, start with the **Environment-based** method using `conda` or `pip`.
+Escolha o método mais adequado às suas necessidades. Se não tiver certeza, comece com um método **baseado em ambientes** usando `conda` ou `pip`.
 
 {{< tabs >}}
 
@@ -23,43 +23,49 @@ conteúdo = '''
 
 Recomendado para novos usuários que queiram um fluxo de trabalho simplificado.
 
-- **uv:** A modern Python package manager designed for speed and simplicity.
+- **uv:** Um gerenciador de pacotes Python moderno projetado para velocidade e simplicidade.
+  ```bash
+  uv pip install numpy
+  ```
 
-    uv pip install numpy
-
-- **pixi:** A cross-platform package manager for Python and other languages.
-
-    pixi add numpy
+- **pixi:** Um gerenciador de pacotes multiplataforma para Python e outras linguagens.
+  ```bash
+  pixi add numpy
+  ```
 
 '''
 {{< /card >}}
 
 Para usuários que preferem uma solução baseada em pip/PyPI, por preferência pessoal ou leitura sobre as principais diferenças entre o conda e o pip explicadas adiante, nós recomendamos:
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. Para computação de alto desempenho (HPC), vale a pena considerar o <a href="https://github.com/spack/spack">Spack</a>.
+As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares ao pip. Para computação de alto desempenho (HPC), vale a pena considerar o <a href="https://github.com/spack/spack">Spack</a>.
 
 A primeira diferença é que conda é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Elas têm algumas funcionalidades em comum (por exemplo, ambas podem instalar o <code>numpy</code>). No entanto, elas também podem trabalhar juntas.
 
 A primeira diferença é que "conda" é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Isto também significa que o conda pode instalar bibliotecas e ferramentas não-Python das quais você pode precisar (por exemplo, compiladores, CUDA, HDF5), enquanto pip não pode.
 
-The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
+A terceira diferença é que conda é uma solução integrada para gerenciar pacotes, dependências e ambientes, enquanto com pip você pode precisar de outra ferramenta (há muitas!) para lidar com ambientes ou dependências complexas.
 
-- **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
-
-    conda create -n my-env
-    conda activate my-env
-    conda install numpy
+- **Conda:** se você usar o conda, você pode instalar o NumPy do canal default ou do conda-forge:
+  ```bash
+  conda create -n my-env
+  conda activate my-env
+  conda install numpy
+  ```
 - **Pip:**
-
-    pip install numpy
+  ```bash
+  pip install numpy
+  ```
 
 {{< admonition >}}
 {{< /admonition >}}
 
+  ```bash
   python -m venv my-env
   source my-env/bin/activate  # macOS/Linux
   my-env\Scripts\activate     # Windows
   pip install numpy
+  ```
 
 '''
 {{< /card >}}
@@ -96,14 +102,11 @@ choco install numpy
 '''
 {{< /card >}}
 
-[[tab]]
-name = 'Building from Source'
-content = '''
-For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]] name = 'A partir do código-fonte' conteúdo = ''' Para usuários avançados e desenvolvedores que querem personalizar ou depurar o **NumPy**.
 
 Um pequeno aviso: construir o Numpy a partir do código-fonte pode ser um exercício não-trivial.
 Recomendamos o uso de binários se eles estiverem disponíveis para a sua plataforma através de um dos métodos anteriores.
-For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
+Para obter detalhes sobre como construir a partir do código-fonte, consulte [o guia de construção a partir do código-fonte na documentação do Numpy](https://numpy.org/devdocs/building/).
 
 {{< /tabs >}}
 
@@ -120,8 +123,7 @@ Isto deve imprimir a versão instalada do NumPy sem erros.
 
 ## Solução de problemas
 
-If your installation fails with the message below, see Troubleshooting
-ImportError.
+Se sua instalação falhar com a mensagem abaixo, consulte [Solucionando ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
