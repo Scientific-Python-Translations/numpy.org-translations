@@ -57,9 +57,9 @@ NumPy项目欢迎并鼓励每个人参与。 我们致力于成为一个人人�
 - Melissa Weber Mendonça
 - Rohit Goswami
 
-如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 或者，如果你出于任何原因感到不方便向委员会提交报告， 那么您也可以通过 [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible)联系NumFOCUS高级工作人员。
 
-### Incident reporting resolution & Code of Conduct enforcement
+### 事故报告决议 & 行为守则执行
 
 _This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
 
@@ -80,4 +80,4 @@ _This section summarizes the most important points, more details can be found in
 
 我们感谢以下文件背后的团体，我们从这些文件中吸取了内容和灵感：
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [《SciPy行为守则》](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
