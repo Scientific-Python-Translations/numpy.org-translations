@@ -7,8 +7,8 @@ sidebar: false
 {{< /figure >}}
 
 {{< blockquote
-  cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
-  by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_"
+  cite="印度人喜欢板球几乎人尽皆知。 这个游戏几乎在印度的任何角落都可以玩，无论是农村还是城市，与其它任何运动项目相比，只有板球可以轻松连接印度的数十亿年轻人和老年人。 板球受到了媒体的广泛关注。 无数 [金钱](https://www.statista.com/topics/4543/indian-premier-league-ipl/) 和 荣誉都压宝在这项运动上。 在过去的几年中，数据技术分析确实成为了运动场上的常胜将军。 流媒体、锦标赛、在移动设备上实时的观看板球等形式让不同观众的观看欲望得到最大满足。"
+  by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_""
 >}}
 {{< /blockquote >}}
 
@@ -25,10 +25,7 @@ in 2019.
 
 板球本质上是关于数字的游戏-击球方的跑动得分，投球手击中门柱的次数，板球队赢得回合的次数，击球手以特定方式还击的次数等等。 借助类似Numpy等功能强大的数值计算分析软件，可以充分挖掘板球得分背后的原理，并对板球的商业化、市场化和经济效益提供重要的参考价值。 板球数据分析为比赛提供了独特的视角，并提供了有关比赛结果的智能预测。
 
-Today, there are rich and almost infinite troves of cricket game records and
-statistics available, e.g., ESPN
-cricinfo and
-[cricsheet](https://cricsheet.org). These and several such cricket databases
+时至今日，板球比赛的记录和统计数据非常丰富，几乎无穷无尽。例如[ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html) 和 [cricsheet](https://cricsheet.org)。 这些板球数据库使用最新的机器学习和预测建模算法来进行 [板球分析](https://www.researchgate.net/publication/336886516_Data_visualization_and_toss_related_analysis_of_IPL_teams_and_batsmen_performances)。 媒体和娱乐平台以及与游戏相关联的专业体育机构使用技术分析来确定关键指标，以提高比赛获胜机率： These and several such cricket databases
 have been used for cricket
 analysis
 using the latest machine learning and predictive modelling algorithms.
@@ -44,23 +41,16 @@ using the latest machine learning and predictive modelling algorithms.
 
 ### 关键数据分析目标
 
-- Sports data analytics are used not only in cricket but many other
-  sports for
-  improving the overall team performance and maximizing winning chances.
-- Real-time data analytics can help in gaining insights even during the game
-  for changing tactics by the team and by associated businesses for economic
-  benefits and growth.
-- Besides historical analysis, predictive models are
-  harnessed to determine the possible match outcomes that require significant
-  number crunching and data science know-how, visualization tools and capability
-  to include newer observations in the analysis.
+- 运动数据分析不仅用于板球运动，还适用于 [其它运动](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) 中，以改善团队的整体表现并最大程度的提高获胜机会。
+- 实时数据分析甚至可以在比赛过程中帮助提高洞察力，从而使团队和相关投资方改变比赛策略以获取更高的经济效益。
+- 除了历史数据分析之外，预测模型也被使用来确定可能的比赛结果，这些结果需要大量的数值处理和数据科学专业知识， 可视化工具以及在分析中增加新观察项的能力。
 
 {{< figure >}}
 {{< /figure >}}
 
 ### 面临的挑战
 
-- **Data Cleaning and preprocessing**
+- **数据清理和预处理**
 
   IPL has expanded cricket beyond the classic test match format to a much
   larger scale. The number of matches played every season across various
@@ -71,7 +61,7 @@ using the latest machine learning and predictive modelling algorithms.
   velocity, and trajectory. All these factors together have increased the
   complexity of data cleaning and preprocessing.
 
-- **Dynamic Modeling**
+- **数据动态建模**
 
   In cricket, just like any other sport,
   there can be a large number of variables related to tracking various numbers
@@ -84,7 +74,7 @@ using the latest machine learning and predictive modelling algorithms.
   would have happened if the batsman had hit the ball at a different angle or
   velocity.
 
-- **Predictive Analytics Complexity**
+- **预测分析的复杂性**
 
   Much of the decision making in cricket is based on questions such as "how
   often does a batsman play a certain kind of shot if the ball delivery is of a
@@ -96,15 +86,9 @@ using the latest machine learning and predictive modelling algorithms.
 
 ## NumPy在板球数据分析中的角色
 
-体育分析是一个蓬勃发展的领域。 Many researchers and companies
-[use NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)
-and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter,
-besides using the latest machine learning and AI techniques.  Numpy已用于各种与板球相关的体育分析中，例如：
+体育分析是一个蓬勃发展的领域。 体育分析是一个蓬勃发展的领域。 除了使用最新的机器学习和AI技术之外，许多研究人员和公司[使用Numpy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)和其它Python数据处理包，例如Scikit-learn, SciPy, Matplotlib和Jupyter。  Numpy已用于各种与板球相关的体育分析中，例如：  Numpy已用于各种与板球相关的体育分析中，例如：
 
-- **Statistical Analysis:** NumPy's numerical capabilities help estimate the
-  statistical significance of observational data or match events in the context
-  of various player and game tactics, estimating the game outcome by comparison
-  with a generative or static model.
+- **统计分析:** NumPy的数值计算功能有助于在各种球员和比赛策略下估算观察数据或比赛事件的统计意义，并通过与生成模型或静态模型进行比较来预测比赛结果。 [因果分析](https://amplitude.com/blog/2017/01/19/causation-correlation) 和 [大数据分析](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) 就常用于战术分析。
   [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation)
   and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
   are used for tactical analysis.
