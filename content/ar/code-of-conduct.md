@@ -57,9 +57,9 @@ We know that it is painfully common for internet communication to start at or de
 - ميليسا فيبر ميندونسا (Melissa Weber Mendonça)
 - Rohit Goswami
 
-لو كان بلاغك متورط به أحد أعضاء اللجنة أو إذا كانوا يشعرون بأن لديهم تضارب في المصالح يحدهم عن التعامل معه. Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
+لو كان بلاغك متورط به أحد أعضاء اللجنة أو إذا كانوا يشعرون بأن لديهم تضارب في المصالح يحدهم عن التعامل معه. أو إذا شعرت بعدم الارتياح لأي سبب من الأسباب لإبلاغ اللجنة ، فبمكانك الاتصال عوضا عن ذلك بفريق NumFOCUS الأعلى على [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### Incident reporting resolution & Code of Conduct enforcement
+### تسوية بلاغات الحوادث & نفاذ القواعد السلوكية
 
 _This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
 
@@ -80,4 +80,4 @@ _This section summarizes the most important points, more details can be found in
 
 نحن ممتنون للمجموعات التي تقف وراء الوثائق التالية التي استخلصنا منها المضمون والإلهام:
 
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [القواعد السلوكية لسكابي](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
