@@ -52,4 +52,4 @@ A sintaxe de alto nível do NumPy torna-o acessível e produtivo para programado
 '''
 {{< /card >}}
 
-{{< /grid >}}
+{{< /grid>}}
