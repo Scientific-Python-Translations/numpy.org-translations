@@ -3,8 +3,13 @@ title: "Case Study: First Image of a Black Hole"
 sidebar: false
 ---
 
-{{< figure >}}
-{{< /figure >}}
+{{< figure
+  src='/images/content_images/cs/blackhole.jpg'
+  title='Black Hole M87'
+  alt='black hole image'
+  attribution='(Image Credits: Event Horizon Telescope Collaboration)'
+  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"
+>}}
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
