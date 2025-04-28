@@ -24,12 +24,14 @@ content = '''
 合理的なワークフローを求める、新規ユーザーにお勧めです。
 
 - **uv**スピードとシンプルさを兼ね備えたモダンなPythonパッケージマネージャ。
-
-    uv pip install numpy
+  ```bash
+  uv pip install numpy
+  ```
 
 - **pixi:** Pythonやその他の言語のためのクロスプラットフォームパッケージマネージャ
-
-    pixi add numpy
+  ```bash
+  pixi add numpy
+  ```
 
 
 
@@ -44,21 +46,25 @@ pipとcondaの最初の違いは、Conda は複数の言語に対応しており
 3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツールであることです。(他にもたくさん存在しています！) これらのツールは様々な環境や複雑な依存関係を取り扱うことができます
 
 - **Conda:** conda を使用している場合、デフォルトの設定先、または conda-forge チャンネルから NumPyをインストールできます。
-
-    conda create -n my-env
-    conda activate my-env
-    conda conda install numpy
+  ```bash
+  conda create -n my-env
+  conda activate my-env
+  conda conda install numpy
+  ```
 - **Pip:**
-
-    pip install numpy
+  ```bash
+  pip install numpy
+  ```
 
 {{< admonition >}}
 {{< /admonition >}}
 
+  ```bash
   python -m venv my-env
   source my-env/bin/activate # macOS/Linux
   my-env\Scripts\activate # Windows
   pip install numpy
+  ```
 
 
 
