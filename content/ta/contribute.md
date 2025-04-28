@@ -7,17 +7,9 @@ NumPy திட்டம் உங்கள் நிபுணத்துவத
 Your choices aren't limited to programming, as you can
 see below there are many areas where we need **your** help.
 
-If you're unsure where to start or how your skills fit in, _reach out!_ You
-can ask on the mailing
-list or
-[GitHub](http://github.com/numpy/numpy) (open an
-[issue](https://github.com/numpy/numpy/issues) or comment on a relevant
-issue).
+எங்கிருந்து தொடங்குவது அல்லது உங்கள் திறமைகள் எவ்வாறு பொருந்துகின்றன என்பது உங்களுக்குத் தெரியாவிட்டால், _தொடர்பு கொள்ளுங்கள்!_ நீங்கள் [அஞ்சல் பட்டியலில்](https://mail.python.org/mailman/listinfo/numpy-discussion) கேட்கலாம் அல்லது [GitHub](http://github.com/numpy/numpy) ( [Issue](https://github.com/numpy/numpy/issues) திறக்கவும் அல்லது தொடர்புடைய பிரச்சினை குறித்து கருத்து தெரிவிக்கவும்).
 
-Those are our preferred channels (open source is open by nature), but
-if you prefer to talk privately, contact our community coordinators at
-<numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com)
-(write  <numpy-team@googlegroups.com> for an invite).
+Those are our preferred channels (open source is open by nature), but if you prefer to talk privately, contact our community coordinators at <numpy-team@googlegroups.com> or on [Slack](https://numpy-team.slack.com) (write  <numpy-team@googlegroups.com> for an invite).
 
 We also have a biweekly _community call_, details of which are announced on
 the [mailing list](https://mail.python.org/mailman/listinfo/numpy-discussion).
@@ -28,7 +20,7 @@ If you are new to contributing to open source, we also highly recommend reading
 எங்கள் சமூகம் அனைவரையும் சமமாக நடத்தவும், அனைத்து பங்களிப்புகளையும் மதிக்கவும் விரும்புகிறது. We have a [Code of Conduct](/code-of-conduct) to foster an open
 and welcoming environment.
 
-For a visual guide on how to contribute to NumPy, check out this [comic](https://heyzine.com/flip-book/3e66a13901.html).
+NumPy-க்கு எவ்வாறு பங்களிப்பது என்பது குறித்த காட்சி வழிகாட்டிக்கு, இந்த [காமிக்](https://heyzine.com/flip-book/3e66a13901.html)-ஐப் பாருங்கள்.
 
 {{< comic >}}
 
