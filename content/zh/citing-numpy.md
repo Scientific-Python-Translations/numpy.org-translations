@@ -7,7 +7,7 @@ sidebar: false
 
 - Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [10.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
 
-_In BibTeX format:_
+_BibTeX 格式：_
 
  ```
  @Article{         harris2020array,
