@@ -8,11 +8,9 @@ sidebar: false
 {{< figure >}}
 {{< /figure >}}
 
-**[Download the report](/surveys/NumPy_usersurvey_2020_report.pdf)**
-to take a closer look at the survey findings.
+**[下载报告](/surveys/NumPy_usersurvey_2020_report.pdf)** 以更仔细地查看调查结果。
 
-For the highlights, check out
-**[this infographic](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
+重点部分，请参阅 **[信息图](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**。
 
-准备仔细研究？ Visit **https://numpy.org/user-survey-2020-details/**.
+准备仔细研究？ 准备仔细研究？ 访问 \*\*https://numpy.org/user-survey-2020-details/\*\*。
 
