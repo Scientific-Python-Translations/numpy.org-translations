@@ -8,35 +8,26 @@ sidebar: false
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-  by="David Shoemaker, _LIGO Scientific Collaboration_"
->}}
+  by="David Shoemaker, _LIGOサイエンティフィック・コラボレーション_" >}}
 {{< /blockquote >}}
 
-## About [Gravitational Waves](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) and [LIGO](https://www.ligo.caltech.edu)
+## [重力波](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) と [LIGO](https://www.ligo.caltech.edu) について
 
 重力波は、空間と時間の基本構造の波紋です。 2つのブラックホールの衝突や合体、2連星や超新星の合体など、大きな変動現象によって生成されます。 重力波の観測は、重力を研究する上で重要なだけでなく、遠い宇宙におけるいくつかの不明瞭な現象と、その影響を理解するためにも役立ちます。
 
-The [Laser Interferometer Gravitational-Wave Observatory (LIGO)](https://www.ligo.caltech.edu)
-was designed to open the field of gravitational-wave astrophysics through the
-direct detection of gravitational waves predicted by Einstein’s General Theory
-of Relativity. このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。  LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。 また、約250人の学生も参加しています。 今回のLIGOの発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れの測定により、重力波そのものを初めて観測しました。  これにより、新しい天体物理学のフロンティアが開かれました。 これは、宇宙の歪んだ側面、つまり歪んだ時空から作られた物体とそれに現象を切り拓くものです。
+\[レーザー干渉計重力波天文台(LIGO)\](https://www. ligo. caltech. edu)は、アインシュタインの一般相対性理論によって予測された重力波の直接検出を通して、重力波天体物理学の分野を切り開くために設計されました。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。  LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。 また、約250人の学生も参加しています。 今回のLIGOの発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れの測定により、重力波そのものを初めて観測しました。  これにより、新しい天体物理学のフロンティアが開かれました。 これは、宇宙の歪んだ側面、つまり歪んだ時空から作られた物体とそれに現象を切り拓くものです。 このシステムは、アメリカのワシントン州ハンフォードとルイジアナ州リビングストンにある2つの干渉計が一体となって構成され、重力波を検出します。 それぞれのシステムには、レーザー干渉法を用いた数キロ規模の重力波検出器が設置されています。  LIGO Scientific Collaboration（LSC）は、米国をはじめとする14カ国の大学から1000人以上の科学者が集まり、90以上の大学・研究機関によって支援されています。 また、約250人の学生も参加しています。 今回のLIGOの発見は、重力波が地球を通過する際に生じる空間と時間の微小な乱れの測定により、重力波そのものを初めて観測しました。  これにより、新しい天体物理学のフロンティアが開かれました。 これは、宇宙の歪んだ側面、つまり歪んだ時空から作られた物体とそれに現象を切り拓くものです。
 
 ### 主な目的
 
-- Though its [mission](https://www.ligo.caltech.edu/page/what-is-ligo) is to
-  detect gravitational waves from some of the most violent and energetic
-  processes in the Universe, the data LIGO collects may have far-reaching
-  effects on many areas of physics including gravitation, relativity,
-  astrophysics, cosmology, particle physics, and nuclear physics.
+- LIGOの[ミッション](https://www.ligo.caltech.edu/page/what-is-ligo)は、宇宙で最も激しくエネルギーに満ちたプロセスからの重力波を検出することですが、LIGOが収集するデータは、重力、相対性理論、天体物理学、宇宙論、素粒子物理学、原子核物理学など、物理学の多くの分野に広く影響を与える可能性があります。
 - Crunch observed data via numerical relativity computations that involves
   complex maths in order to discern signal from noise, filter out relevant
   signal and statistically estimate significance of observed data
-- Data visualization so that the binary / numerical results can be
-  comprehended.
+- バイナリや数値の結果を理解しやすいようにデータを可視化することも必要です。
 
 ### 課題
 
-- **Computation**
+- **計算**
 
   Gravitational Waves are hard to detect as they produce a very small effect
   and have tiny interaction with matter. Processing and analyzing all of
@@ -47,7 +38,7 @@ of Relativity. このシステムは、アメリカのワシントン州ハン�
   [O(10^7) CPU hrs needed for binary merger analyses](https://youtu.be/7mcHknWWzNI)
   spread on 6 dedicated LIGO clusters
 
-- **Data Deluge**
+- **データの氾濫**
 
   As observational devices become more sensitive and reliable, the challenges
   posed by data deluge and finding a needle in a haystack rise multi-fold.
@@ -56,7 +47,7 @@ of Relativity. このシステムは、アメリカのワシントン州ハン�
   signals being collected by LIGO must be matched by supercomputers against
   hundreds of thousands of templates of possible gravitational-wave signatures.
 
-- **Visualization**
+- **可視化**
 
   Once the obstacles related to understanding Einstein’s equations well
   enough to solve them using supercomputers are taken care of, the next big
@@ -80,23 +71,14 @@ of Relativity. このシステムは、アメリカのワシントン州ハン�
 
 Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波検出プロジェクトで実行される様々なタスクに使用されるソフトウェアで利用されています。 NumPyは、複雑な数学処理や高速なデータ操作に役立ちました。  次にいくつかの例を示します。
 
-- [Signal Processing](https://www.uv.es/virgogroup/Denoising_ROF.html): Glitch
-  detection,  [Noise identification and Data Characterization](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf)
-  (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)
-- Data retrieval: Deciding which data can be analyzed, figuring out whether it
-  contains a signal - needle in a haystack
-- Statistical analysis: estimate the statistical significance of observational
-  data, estimating the signal parameters (e.g. masses of stars, spin velocity,
-  and distance) by comparison with a model.
+- [信号処理](https://www.uv.es/virgogroup/Denoising_ROF.html): グリッジ検出、[ノイズ同定とデータ判定](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)。
+- データ取得: どのデータが解析できるかを決定し、干し草の中の針のような信号が入っているかどうかを突き止める。
+- 統計解析: 観測データの統計的有意性を推定し、モデルとの比較により信号パラメータ（星の質量、スピン速度、距離など）を推定する。
 - データ可視化
   - 時系列データ
   - スペクトログラム
 - 相関計算
-- Key [Software](https://github.com/lscsoft) developed in GW data analysis
-  such as [GwPy](https://gwpy.github.io/docs/stable/overview.html) and
-  [PyCBC](https://pycbc.org) uses NumPy and AstroPy under the hood for
-  providing object based interfaces to utilities, tools, and methods for
-  studying data from gravitational-wave detectors.
+- 重力波データ解析のために開発された[ソフトウェア群](https://github.com/lscsoft): [GwPy](https://gwpy.github.io/docs/stable/overview.html)や [PyCBC](https://pycbc.org)は、NumPyやAstroPyを用いて、重力波検出器データを研究するためのユーティリティー・ツール・関数へのオブジェクト指向インターフェースを提供しています。
 
 {{< figure >}}
 {{< /figure >}}
