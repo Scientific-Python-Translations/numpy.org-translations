@@ -46,4 +46,4 @@ body = '''
 NumPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
 '''
 
-{{< /grid >}}
+{{< /grid>}}
