@@ -5,7 +5,7 @@ sidebar: false
 
 Este é o manual seguido pelo Comitê do Código de Conduta do NumPy. É usado quando respondemos a um incidente para nos certificarmos de que somos pessoas consistentes e justas.
 
-Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. É uma ação que levamos muito a sério. Ao analisar medidas de aplicação do Código de Conduta, o Comitê terá em mente os seguintes valores e orientações:
+Garantir que o [Código de Conduta](/code-of-conduct) seja respeitado afeta nossa comunidade hoje e no futuro. É uma ação que levamos muito a sério. Ao analisar medidas de aplicação do Código de Conduta, o Comitê terá em mente os seguintes valores e orientações:
 
 - Agir de forma pessoal e não impessoal. O Comitê pode levar as partes a compreender a situação, respeitando simultaneamente a privacidade e a necessária confidencialidade das pessoas relatantes. No entanto, por vezes, é necessário comunicar diretamente com um ou mais indivíduos: o objetivo do Comitê é melhorar a saúde da nossa comunidade, em vez de produzir apenas uma decisão formal.
 - Enfatizar empatia pelos indivíduos ao invés de julgar o comportamento, evitando rótulos binários de "bom" e "mau". Existem atos de agressão e assédio claros e visíveis, e vamos abordá-los com firmeza. Mas muitos cenários que podem ser desafiadores são aqueles em que as discordâncias normais se transformam em comportamento desnecessário ou prejudicial de várias partes. Compreender o contexto completo e encontrar um caminho que traga um entendimento entre as partes é difícil, mas, em última análise, é o resultado mais produtivo para a nossa comunidade.
