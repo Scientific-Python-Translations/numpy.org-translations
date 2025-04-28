@@ -24,18 +24,20 @@ content = '''
 Recommended for new users who want a streamlined workflow.
 
 - **uv:** A modern Python package manager designed for speed and simplicity.
-
-    uv pip install numpy
+  ```bash
+  uv pip install numpy
+  ```
 
 - **pixi:** A cross-platform package manager for Python and other languages.
-
-    pixi add numpy
+  ```bash
+  pixi add numpy
+  ```
 
 '''
 
 对出于个人喜好或看完下面 conda 和 pip之间的主要差异后更喜欢基于 pip/PyPI 的解决方案的用户，我们建议：
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. 对于高性能计算 (HPC),<a href="https://github.com/spack/spack">Spack</a> 值得考虑。
+安装 Python 软件包的两个主要工具是 `pip` and `conda`。 对于Web和一般Python开发有一整套能与pip互补的[工具](https://packaging.python.org/guides/tool-recommendations/)。 对于高性能计算 (HPC),[Spack](https://github.com/spack/spack) 值得考虑。 Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. 对于高性能计算 (HPC),<a href="https://github.com/spack/spack">Spack</a> 值得考虑。
 
 The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. 他们的功能部分重叠(例如两者都可以安装 <code>numpy</code>)，但他们也可以一起工作。
 
@@ -44,21 +46,25 @@ The first difference is that conda is cross-language and it can install Python, 
 The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
 
 - **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
-
-    conda create -n my-env
-    conda activate my-env
-    conda install numpy
+  ```bash
+  conda create -n my-env
+  conda activate my-env
+  conda install numpy
+  ```
 - **Pip:**
-
-    pip install numpy
+  ```bash
+  pip install numpy
+  ```
 
 {{< admonition >}}
 {{< /admonition >}}
 
+  ```bash
   python -m venv my-env
   source my-env/bin/activate  # macOS/Linux
   my-env\Scripts\activate     # Windows
   pip install numpy
+  ```
 
 '''
 
@@ -95,10 +101,7 @@ choco install numpy
 
 '''
 
-[[tab]]
-name = 'Building from Source'
-content = '''
-For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise.
 We recommend using binaries instead if those are available for your platform via one of the above methods.
@@ -119,13 +122,11 @@ This should print the installed version of NumPy without errors.
 
 ## 故障排查
 
-If your installation fails with the message below, see Troubleshooting
-ImportError.
+如果您的安装失败并显示如下信息，请参阅 [故障排查 ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html)。
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
+Importing the numpy c-extensions failed. This error can happen for different reasons, often due to issues with your setup.
 ```
 
