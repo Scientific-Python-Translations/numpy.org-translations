@@ -13,7 +13,7 @@ For the in-depth account on milestones in the development of NumPy and related l
 
 [Download Page for _Numarray_](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)\*
 
-\*<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
+\*<sub>يرجى ملاحظة أن حزم المصفوفات القديمة هذه لم تعد محفوظة، وننصح المستخدمين بشدة باستخدام NumPy لأي أغراض متعلقة بالمصفوفات أو إعادة هيكلة أي كود موجود مسبقًا لاستخدام مكتبة NumPy. </sub>
 
 ### الوثائق التاريخية
 
