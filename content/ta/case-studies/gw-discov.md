@@ -8,8 +8,7 @@ sidebar: false
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-  by="David Shoemaker, _LIGO Scientific Collaboration_"
->}}
+  by="David Shoemaker, _LIGO Scientific Collaboration_" >}}
 {{< /blockquote >}}
 
 ## About [Gravitational Waves](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) and [LIGO](https://www.ligo.caltech.edu)
