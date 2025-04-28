@@ -3,12 +3,14 @@ title: 案例研究：通过数据分析玩转板球！
 sidebar: false
 ---
 
-{{< figure >}}
+{{< figure
+ src='/images/content_images/cs/ipl-stadium.png'
+ >}}
 {{< /figure >}}
 
 {{< blockquote
-  cite="印度人喜欢板球几乎人尽皆知。 这个游戏几乎在印度的任何角落都可以玩，无论是农村还是城市，与其它任何运动项目相比，只有板球可以轻松连接印度的数十亿年轻人和老年人。 板球受到了媒体的广泛关注。 无数 [金钱](https://www.statista.com/topics/4543/indian-premier-league-ipl/) 和 荣誉都压宝在这项运动上。 在过去的几年中，数据技术分析确实成为了运动场上的常胜将军。 流媒体、锦标赛、在移动设备上实时的观看板球等形式让不同观众的观看欲望得到最大满足。"
-  by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_""
+ cite="印度人喜欢板球几乎人尽皆知。 这个游戏几乎在印度的任何角落都可以玩，无论是农村还是城市，与其它任何运动项目相比，只有板球可以轻松连接印度的数十亿年轻人和老年人。 板球受到了媒体的广泛关注。 无数 [金钱](https://www.statista.com/topics/4543/indian-premier-league-ipl/) 和 荣誉都压宝在这项运动上。 在过去的几年中，数据技术分析确实成为了运动场上的常胜将军。 流媒体、锦标赛、在移动设备上实时的观看板球等形式让不同观众的观看欲望得到最大满足。"
+ by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_""
 >}}
 {{< /blockquote >}}
 
@@ -52,46 +54,46 @@ using the latest machine learning and predictive modelling algorithms.
 
 - **数据清理和预处理**
 
-  IPL has expanded cricket beyond the classic test match format to a much
-  larger scale. The number of matches played every season across various
-  formats has increased and so has the data, the algorithms, newer sports data
-  analysis technologies and simulation models. Cricket data analysis requires
-  field mapping, player tracking, ball tracking, player shot analysis, and
-  several other aspects involved in how the ball is delivered, its angle, spin,
-  velocity, and trajectory. All these factors together have increased the
-  complexity of data cleaning and preprocessing.
+ IPL has expanded cricket beyond the classic test match format to a much
+ larger scale. The number of matches played every season across various
+ formats has increased and so has the data, the algorithms, newer sports data
+ analysis technologies and simulation models. Cricket data analysis requires
+ field mapping, player tracking, ball tracking, player shot analysis, and
+ several other aspects involved in how the ball is delivered, its angle, spin,
+ velocity, and trajectory. All these factors together have increased the
+ complexity of data cleaning and preprocessing.
 
 - **数据动态建模**
 
-  In cricket, just like any other sport,
-  there can be a large number of variables related to tracking various numbers
-  of players on the field, their attributes, the ball, and several possibilities
-  of potential actions. The complexity of data analytics and modeling is
-  directly proportional to the kind of predictive questions that are put forth
-  during analysis and are highly dependent on data representation and the
-  model. Things get even more challenging in terms of computation, data
-  comparisons when dynamic cricket play predictions are sought such as what
-  would have happened if the batsman had hit the ball at a different angle or
-  velocity.
+ In cricket, just like any other sport,
+ there can be a large number of variables related to tracking various numbers
+ of players on the field, their attributes, the ball, and several possibilities
+ of potential actions. The complexity of data analytics and modeling is
+ directly proportional to the kind of predictive questions that are put forth
+ during analysis and are highly dependent on data representation and the
+ model. Things get even more challenging in terms of computation, data
+ comparisons when dynamic cricket play predictions are sought such as what
+ would have happened if the batsman had hit the ball at a different angle or
+ velocity.
 
 - **预测分析的复杂性**
 
-  Much of the decision making in cricket is based on questions such as "how
-  often does a batsman play a certain kind of shot if the ball delivery is of a
-  particular type", or "how does a bowler change his line and length if the
-  batsman responds to his delivery in a certain way".
-  This kind of predictive analytics query requires highly granular dataset
-  availability and the capability to synthesize data and create generative
-  models that are highly accurate.
+ Much of the decision making in cricket is based on questions such as "how
+ often does a batsman play a certain kind of shot if the ball delivery is of a
+ particular type", or "how does a bowler change his line and length if the
+ batsman responds to his delivery in a certain way".
+ This kind of predictive analytics query requires highly granular dataset
+ availability and the capability to synthesize data and create generative
+ models that are highly accurate.
 
 ## NumPy在板球数据分析中的角色
 
 体育分析是一个蓬勃发展的领域。 体育分析是一个蓬勃发展的领域。 除了使用最新的机器学习和AI技术之外，许多研究人员和公司[使用Numpy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)和其它Python数据处理包，例如Scikit-learn, SciPy, Matplotlib和Jupyter。  Numpy已用于各种与板球相关的体育分析中，例如：  Numpy已用于各种与板球相关的体育分析中，例如：
 
 - **统计分析:** NumPy的数值计算功能有助于在各种球员和比赛策略下估算观察数据或比赛事件的统计意义，并通过与生成模型或静态模型进行比较来预测比赛结果。 [因果分析](https://amplitude.com/blog/2017/01/19/causation-correlation) 和 [大数据分析](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) 就常用于战术分析。
-  [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation)
-  and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
-  are used for tactical analysis.
+ [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation)
+ and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
+ are used for tactical analysis.
 
 - **Data Visualization:** Data graphing and visualization provide useful insights into relationship between various datasets.
 
