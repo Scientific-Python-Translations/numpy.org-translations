@@ -10,11 +10,9 @@ sidebar: false
 {{< figure >}}
 {{< /figure >}}
 
-**[Download the report](/surveys/NumPy_usersurvey_2020_report.pdf)**
-to take a closer look at the survey findings.
+**[보고서를 내려받아서](/surveys/NumPy_usersurvey_2020_report.pdf)** 설문조사 결과를 자세히 들여다 보세요.
 
-For the highlights, check out
-**[this infographic](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
+요점만 보시려면, \*\*[이 인포그래픽](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)\*\*을 참고하시기 바랍니다.
 
-더욱 자세한 정보가 궁금하신가요? Visit **https://numpy.org/user-survey-2020-details/**.
+더욱 자세한 정보가 궁금하신가요? **https://numpy.org/user-survey-2020-details/** 페이지를 방문하세요.
 
