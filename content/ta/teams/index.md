@@ -8,31 +8,31 @@ sidebar: false
 
 ### பராமரிப்பாளர்கள்
 
-{{< grid file="maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
 ### ஆவணக் குழு
 
-{{< grid file="docs-team.toml" columns="2 3 4 5" >}}
+{{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
 ### வலை குழு
 
-{{< grid file="web-team.toml" columns="2 3 4 5" >}}
+{{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
 ### வரிசைப்படுத்தல் குழு
 
-{{< grid file="triage-team.toml" columns="2 3 4 5" >}}
+{{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
 ### கணக்கெடுப்பு குழு
 
-{{< grid file="survey-team.toml" columns="2 3 4 5" >}}
+{{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
 ### மொழிபெயர்ப்பு குழு
 
-{{< grid file="translations-team.toml" columns="2 3 4 5" >}}
+{{< grid file="translations-team.toml" columns="2 3 4 5" />}}
 
 ### ஓய்வு பெற்ற பராமரிப்பாளர்கள்
 
-{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
 # ஆட்சி
 
