@@ -5,7 +5,7 @@ sidebar: false
 
 NumPy is an open source project that enables numerical computing with Python. It was created in 2005 building on the early work of the Numeric and Numarray libraries. NumPy will always be 100% open source software and free for all to use. It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-وقد تم تطوير نمباي في العلن على GitHub ومن خلال توافق آراء مجتمع نمباي ونطاق أوسع لمجتمع بايثون العلمي. For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
+وقد تم تطوير نمباي في العلن على GitHub ومن خلال توافق آراء مجتمع نمباي ونطاق أوسع لمجتمع بايثون العلمي. لمزيد من المعلومات حول نهج الإدارة، يرجى الاطلاع على [الوثيقة الإدارية](https://www.numpy.org/devdocs/dev/governance/index.html) الخاصة بنا.
 
 ## المجلس التوجيهي
 
@@ -80,11 +80,11 @@ See the [Team](/teams) page for more info.
 وستستخدم جميع التبرعات بشكل صارم لتطوير برمجيات المشروع مفتوحة المصدر، ووثائقه، ومجتمعه.
 
 نمباي هو مشروع ممول برعاية شركةNumFOCUS, 501(c)(3) وهي مؤسسة خيرية غير ربحية في الولايات المتحدة. فهى تدعم مشروع نمباي ماليا وقانونيا وإداريا للمساعدة في ضمان
-ازدهاره واستدامته. Visit [numfocus.org](https://numfocus.org) for more information.
+ازدهاره واستدامته. قم بزيارة [numfocus.org](https://numfocus.org) لمزيد من المعلومات.
 
-Donations to NumPy are managed by [NumFOCUS](https://numfocus.org). وبخصوص المتبرعين في الولايات المتحدة، فإن هديتكم تخصم من الضرائب بالقدر الذي ينص عليه القانون. كما هو الحال في أي تبرع، وعلى هذا فيتوجب عليك التشاور مع مستشارك الضريبى.
+يمكنك التبرع من خلال: [](https://numfocus.org). وبخصوص المتبرعين في الولايات المتحدة، فإن هديتكم تخصم من الضرائب بالقدر الذي ينص عليه القانون. كما هو الحال في أي تبرع، وعلى هذا فيتوجب عليك التشاور مع مستشارك الضريبى.
 
-وسيتخذ المجلس التوجيهي لنمباى القرارات المتعلقة بكيفية استخدام أي أموال يتلقاها على أفضل وجه. Technical and infrastructure priorities are documented on the [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap).
+وسيتخذ المجلس التوجيهي لنمباى القرارات المتعلقة بكيفية استخدام أي أموال يتلقاها على أفضل وجه. وتوثق الأولويات التقنية وأولويات البنية التحتية على [](https://www.numpy.org/neps/index.html#roadmap).
 
 {{<opencollective>}}
 
