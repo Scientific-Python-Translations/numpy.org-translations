@@ -8,31 +8,31 @@ sidebar: false
 
 ### Maintainers
 
-{{< grid file="maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
 ### Docs team
 
-{{< grid file="docs-team.toml" columns="2 3 4 5" >}}
+{{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
 ### Web team
 
-{{< grid file="web-team.toml" columns="2 3 4 5" >}}
+{{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
 ### Triage team
 
-{{< grid file="triage-team.toml" columns="2 3 4 5" >}}
+{{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
 ### Survey team
 
-{{< grid file="survey-team.toml" columns="2 3 4 5" >}}
+{{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
 ### Translations team
 
-{{< grid file="translations-team.toml" columns="2 3 4 5" >}}
+{{< grid file="translations-team.toml" columns="2 3 4 5" />}}
 
 ### Emeritus maintainers
 
-{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" >}}
+{{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
 # 운영
 
