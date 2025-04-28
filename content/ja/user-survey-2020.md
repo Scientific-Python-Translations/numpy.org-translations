@@ -8,11 +8,9 @@ sidebar: false
 {{< figure >}}
 {{< /figure >}}
 
-**[Download the report](/surveys/NumPy_usersurvey_2020_report.pdf)**
-to take a closer look at the survey findings.
+調査結果を詳細を知りたい場合は、**[こちらのレポート](/surveys/NumPy_usersurvey_2020_report.pdf)** をダウンロードしてください。
 
-For the highlights, check out
-**[this infographic](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
+結果の概要については、 **[こちらの図](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)** をチェックしてください。
 
-より詳細が知りたくなりましたか？ Visit **https://numpy.org/user-survey-2020-details/**.
+より詳細が知りたくなりましたか？ より詳細が知りたくなりましたか？ **https://numpy.org/user-survey-2020-details/** をご覧ください。
 
