@@ -8,7 +8,7 @@ sidebar: false
 
 The recommended method of installing NumPy depends on your preferred workflow. 아래에 설치 방법을 다음과 같이 분류하였습니다:
 
-- **Project-based** (e.g., uv, pixi) _(recommended for new users)_
+- **프로젝트 기반** (예를 들어, uv, pixi) _(새로운 사용자에게 추천)_
 - **Environment-based** (e.g., pip, conda) _(the traditional workflow)_
 - **System package managers** _(not recommended for most users)_
 - **Building from source** _(for advanced users and development purposes)_
@@ -38,7 +38,7 @@ Recommended for new users who want a streamlined workflow.
 
 개인적인 선호나 아래의 conda 와 pip의 차이점을 설명하는 글을 읽은 유저나 또는 pip/PyPI기반의 설치 방법을 선호하는 경우 참고하십시오.
 
-The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. 주요한 pip와 conda 사이의 차이점에 대해 여기서 이야기 할 것입니다. 이것은 효과적으로 패키지를 관리하려면 중요합니다.
+Python 패키지를 설치하고 관리하는 주요 소프트웨어 도구는 `pip` 과 `conda` 입니다. 둘의 기능은 부분적으로 서로 겹치지만 (예를 들어 둘 다 `numpy` 설치할 수 있습니다.) 주요한 pip와 conda 사이의 차이점에 대해 여기서 이야기 할 것입니다. 이것은 효과적으로 패키지를 관리하려면 중요합니다.
 
 The first difference is that conda is cross-language and it can install Python, while pip is installed for a particular Python on your system and installs other packages to that same Python install only. 이것이 또한 뜻하는 바는 conda 는 파이썬이 아닌 다른 언어 라이브러리와 소프트웨어 도구도 여러분이 필요하다면 설치할 수 있지만 (예를 들어 컴파일러, CUDA, HDF5), pip 는 할 수 없다는 것입니다.
 
@@ -102,14 +102,11 @@ choco install numpy
 '''
 {{< /card >}}
 
-[[tab]]
-name = 'Building from Source'
-content = '''
-For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise.
 추천하는 방식은 대신 이진 코드를 사용하는 것입니다. 여러분의 플랫폼을 위한 이진 코드가 위 방법들 중 하나로 제공된다면.
-For details on how to build from source, see [the building from source guide in the Numpy docs](https://numpy.org/devdocs/building/).
+자세한 내용은 [ Numpy 문서의 소스 코드로 부터 빌드하는 법 안내](https://numpy.org/devdocs/building/)를 참고 바랍니다.
 
 {{< /tabs >}}
 
@@ -126,13 +123,11 @@ This should print the installed version of NumPy without errors.
 
 ## 트러블슈팅
 
-If your installation fails with the message below, see Troubleshooting
-ImportError.
+아래와 같은 응답과 함께 설치에 실패한다면, [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html)를 참고하시기 바랍니다.
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
+Importing the numpy c-extensions failed. 이 오류를 발생시킬 수 있는 원인은 여러가지 있을 수 있고, 때로는 여러분의 설정과 관련된 문제일 수 있습니다.
 ```
 
