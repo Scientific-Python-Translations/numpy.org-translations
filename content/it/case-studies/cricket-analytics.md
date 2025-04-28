@@ -3,12 +3,14 @@ title: "Caso di Studio: Analisi del Cricket, il punto di svolta!"
 sidebar: false
 ---
 
-{{< figure >}}
+{{< figure
+ src='/images/content_images/cs/ipl-stadium.png'
+ >}}
 {{< /figure >}}
 
 {{< blockquote
-  cite="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Giocatore Internazionale di Cricket, ex-capitano, Squadra Indiana, gioca per i Chennai Super Kings nel IPL_""
-  by="}} Non giochi per la folla, giochi per il paese."
+ cite="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Giocatore Internazionale di Cricket, ex-capitano, Squadra Indiana, gioca per i Chennai Super Kings nel IPL_""
+ by="}} Non giochi per la folla, giochi per il paese."
 >}}
 {{< /blockquote >}}
 
@@ -45,16 +47,16 @@ Le piattaforme di media e intrattenimento, insieme ad enti sportivi professional
 
 - **Pulizia e pretrattamento dei dati**
 
-  La IPL ha ampliato il cricket dal classico formato del match di prova ad una scala molto più ampia. Il numero di partite giocate ogni stagione in vari formati è aumentato e così hanno fatto i dati, gli algoritmi, le più recenti tecnologie di analisi di dati sportivi ed i modelli di simulazione. L'analisi dei dati di Cricket richiede la mappatura del campo, il tracciamento dei giocatori e delle palle, l'analisi delle battute del giocatore e diversi altri aspetti coinvolti nel modo in cui la palla viene lanciata: la sua angolazione, rotazione, velocità e traiettoria. L'insieme di tutti questi fattori ha aumentato la complessità della pulizia e del pretrattamento dei dati.
+ La IPL ha ampliato il cricket dal classico formato del match di prova ad una scala molto più ampia. Il numero di partite giocate ogni stagione in vari formati è aumentato e così hanno fatto i dati, gli algoritmi, le più recenti tecnologie di analisi di dati sportivi ed i modelli di simulazione. L'analisi dei dati di Cricket richiede la mappatura del campo, il tracciamento dei giocatori e delle palle, l'analisi delle battute del giocatore e diversi altri aspetti coinvolti nel modo in cui la palla viene lanciata: la sua angolazione, rotazione, velocità e traiettoria. L'insieme di tutti questi fattori ha aumentato la complessità della pulizia e del pretrattamento dei dati.
 
 - **Modellazione Dinamica**
 
-  Nel cricket, proprio come qualsiasi altro sport, ci può essere un gran numero di variabili relative al tracciamento di varie quantità di giocatori sul campo, i loro attributi, la palla e diverse possibilità di potenziali azioni. La complessità dell'analisi dei dati e della modellazione è direttamente proporzionale al tipo di domande predittive che vengono poste durante l'analisi e sono altamente dipendenti dalla rappresentazione dei dati e dal modello. Le cose diventano ancora più impegnative in termini di computazione e dati comparativi quando si cercano previsioni dinamiche sul gioco del cricket, come ad esempio ciò che sarebbe successo se il battitore avesse colpito la palla ad un angolo o velocità diverse.
+ Nel cricket, proprio come qualsiasi altro sport, ci può essere un gran numero di variabili relative al tracciamento di varie quantità di giocatori sul campo, i loro attributi, la palla e diverse possibilità di potenziali azioni. La complessità dell'analisi dei dati e della modellazione è direttamente proporzionale al tipo di domande predittive che vengono poste durante l'analisi e sono altamente dipendenti dalla rappresentazione dei dati e dal modello. Le cose diventano ancora più impegnative in termini di computazione e dati comparativi quando si cercano previsioni dinamiche sul gioco del cricket, come ad esempio ciò che sarebbe successo se il battitore avesse colpito la palla ad un angolo o velocità diverse.
 
 - **Complessità Dell'Analisi Predittiva**
 
-  Gran parte del processo decisionale nel cricket si basa su domande quali "quanto spesso un battitore colpisce la palla in un certo modo quando questa viene lanciata in una certa maniera", o "come cambia il lanciatore la sua linea e la sua lunghezza se il battitore risponde alla consegna in un certo modo".
-  Questo tipo di questioni di analisi predittiva richiede la disponibilità di set di dati altamente granulari e la capacità di sintetizzare i dati e creare modelli generativi altamente accurati.
+ Gran parte del processo decisionale nel cricket si basa su domande quali "quanto spesso un battitore colpisce la palla in un certo modo quando questa viene lanciata in una certa maniera", o "come cambia il lanciatore la sua linea e la sua lunghezza se il battitore risponde alla consegna in un certo modo".
+ Questo tipo di questioni di analisi predittiva richiede la disponibilità di set di dati altamente granulari e la capacità di sintetizzare i dati e creare modelli generativi altamente accurati.
 
 ## Il Ruolo di NumPy nell'Analisi del Cricket
 
@@ -62,7 +64,7 @@ Le analisi sportive sono un settore fiorente. Molti ricercatori ed aziende [util
 ed altri pacchetti di PyData come Scikit-learn, SciPy, Matplotlib e Jupyter, oltre ad utilizzare le più recenti tecniche di machine learning e di AI .
 
 - **Analisi Statistica:** Le capacità numeriche di NumPy aiutano a stimare la significatività statistica dei dati osservazionali o degli eventi di corrispondenza nel contesto di vari giocatori e tattiche di gioco, stimando il risultato di una partita a confronto con un modello generativo o statico.
-  [L'Analisi Causale](https://amplitude.com/blog/2017/01/19/causation-correlation) e [approcci per i big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) sono utilizzati per l'analisi strategica.
+ [L'Analisi Causale](https://amplitude.com/blog/2017/01/19/causation-correlation) e [approcci per i big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) sono utilizzati per l'analisi strategica.
 
 - **Visualizzazione dei Dati:** La grafica dei dati e [visualizzazione](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) forniscono utili indicazioni sulle relazioni tra i vari insiemi di dati.
 
