@@ -8,11 +8,9 @@ Em 2020, o time de pesquisas do NumPy realizou a primeira pesquisa oficial sobre
 {{< figure >}}
 {{< /figure >}}
 
-**[Download the report](/surveys/NumPy_usersurvey_2020_report.pdf)**
-to take a closer look at the survey findings.
+**[Faça o download do relatório](/surveys/NumPy_usersurvey_2020_report.pdf)** para ver os detalhes sobre os resultados encontrados.
 
-For the highlights, check out
-**[this infographic](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
+Para os destaques, confira **[este infográfico](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
 
-Quer saber mais? Visit **https://numpy.org/user-survey-2020-details/**.
+Quer saber mais? Visite **https://numpy.org/user-survey-2020-details/**.
 
