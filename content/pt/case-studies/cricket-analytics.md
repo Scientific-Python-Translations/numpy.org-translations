@@ -3,12 +3,14 @@ title: "Estudo de Caso: Análise de Críquete, a revolução!"
 sidebar: false
 ---
 
-{{< figure >}}
+{{< figure
+ src='/images/content_images/cs/ipl-stadium.png'
+ >}}
 {{< /figure >}}
 
 {{< blockquote
-  cite="Copa e estádio da Indian Premier League Cricket"
-  by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL_""
+ cite="Copa e estádio da Indian Premier League Cricket"
+ by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Jogador Internacional de Críquete, ex-capitão, Time Indiano, joga pelo Chennai Super Kings na IPL_""
 >}}
 {{< /blockquote >}}
 
@@ -45,23 +47,23 @@ Plataformas de mídia e entretenimento, juntamente com entidades de esporte prof
 
 - **Limpeza e pré-processamento de dados**
 
-  A IPL expandiu o formato de jogo clássico de cricket para uma escala muito maior. O número de partidas jogadas a cada temporada em vários formatos tem aumentado, assim como os dados, os algoritmos, as tecnologias de análise de dados mais recentes e modelos de simulação. A análise de dados de críquete requer mapeamento de campo, rastreamento do jogador, rastreamento de bola e análise de tiros do jogador, análise de lances do jogador e vários outros aspectos envolvidos em como a bola é lançada, seu ângulo, giro, velocidade e trajetória. Todos esses fatores em conjunto aumentaram a complexidade da limpeza e pré-processamento de dados.
+ A IPL expandiu o formato de jogo clássico de cricket para uma escala muito maior. O número de partidas jogadas a cada temporada em vários formatos tem aumentado, assim como os dados, os algoritmos, as tecnologias de análise de dados mais recentes e modelos de simulação. A análise de dados de críquete requer mapeamento de campo, rastreamento do jogador, rastreamento de bola e análise de tiros do jogador, análise de lances do jogador e vários outros aspectos envolvidos em como a bola é lançada, seu ângulo, giro, velocidade e trajetória. Todos esses fatores em conjunto aumentaram a complexidade da limpeza e pré-processamento de dados.
 
 - **Modelagem Dinâmica**
 
-  No críquete, como em qualquer outro esporte, pode haver um grande número de variáveis relacionadas ao rastreamento de vários jogadores no campo, seus atributos, a bola e várias possibilidades de ações em potencial. A complexidade da análise e modelagem de dados é diretamente proporcional ao tipo de questões preditivas que são consideradas durante a análise e são altamente dependentes da representação de dados e do modelo. As coisas são ainda mais desafiadoras em termos de computação e comparações de dados quando previsões dinâmicas de jogo de críquete são desejadas, como o que teria acontecido se o batsman tivesse atingido a bola com um ângulo ou velocidade diferentes.
+ No críquete, como em qualquer outro esporte, pode haver um grande número de variáveis relacionadas ao rastreamento de vários jogadores no campo, seus atributos, a bola e várias possibilidades de ações em potencial. A complexidade da análise e modelagem de dados é diretamente proporcional ao tipo de questões preditivas que são consideradas durante a análise e são altamente dependentes da representação de dados e do modelo. As coisas são ainda mais desafiadoras em termos de computação e comparações de dados quando previsões dinâmicas de jogo de críquete são desejadas, como o que teria acontecido se o batsman tivesse atingido a bola com um ângulo ou velocidade diferentes.
 
 - **Complexidade da análise preditiva**
 
-  Muito da tomada de decisões em críquete se baseia em questões como "com que frequência um batsman joga um certo tipo de lance se a recepção da bola for de um determinado tipo", ou "como um boleador muda a direção e alcance da sua jogada se o batsman responder de uma certa maneira".
-  Esse tipo de consulta de análise preditiva requer a disponibilidade de conjuntos de dados altamente granulares e a capacidade de sintetizar dados e criar modelos generativos que sejam altamente precisos.
+ Muito da tomada de decisões em críquete se baseia em questões como "com que frequência um batsman joga um certo tipo de lance se a recepção da bola for de um determinado tipo", ou "como um boleador muda a direção e alcance da sua jogada se o batsman responder de uma certa maneira".
+ Esse tipo de consulta de análise preditiva requer a disponibilidade de conjuntos de dados altamente granulares e a capacidade de sintetizar dados e criar modelos generativos que sejam altamente precisos.
 
 ## O papel do NumPy na análise de críquete
 
 A análise de dados esportivos é um campo próspero. Muitos pesquisadores e empresas [usam NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) e outros pacotes PyData como Scikit-learn, SciPy, Matplotlib, e Jupyter, além de usar as últimas técnicas de aprendizagem de máquina e IA.  O NumPy foi usado para vários tipos de análise esportiva relacionada a críquete, como:
 
 - **Análise Estatística:** Os recursos numéricos do NumPy ajudam a estimar o significado estatístico de dados observados ou de eventos ocorridos em partidas no contexto de vários jogadores e táticas de jogo, bem como estimar o resultado do jogo em comparação com um modelo generativo ou estático.
-  [Análise Causal](https://amplitude.com/blog/2017/01/19/causation-correlation) e [abordagens em _big data_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) são usados para análise tática.
+ [Análise Causal](https://amplitude.com/blog/2017/01/19/causation-correlation) e [abordagens em _big data_](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) são usados para análise tática.
 
 - **Visualização de dados:** Gráficos e [visualizações](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) fornecem informações úteis sobre as relações entre vários conjuntos de dados.
 
