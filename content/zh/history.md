@@ -9,13 +9,13 @@ For the in-depth account on milestones in the development of NumPy and related l
 
 如果您想要获得数字和数组库的原始副本，请点击下面的链接：
 
-[Download Page for _Numeric_](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)\*
+[_Numeric_ 下载页](https://sourceforge.net/projects/numpy/files/Old%20Numeric/)\*
 
-[Download Page for _Numarray_](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)\*
+[ _Numarray_ 下载页 ](https://sourceforge.net/projects/numpy/files/Old%20Numarray/)\*
 
-\*<sub>Please note that these older array packages are no longer maintained, and users are strongly advised to use NumPy for any array-related purposes or refactor any pre-existing code to utilize the NumPy library.</sub>
+\*<sub>请注意，这些旧的数组包不再维护，强烈建议用户将NumPy用于任何与数组相关的目的，或重构早期代码以利用NumPy库。</sub>
 
 ### 历史文档
 
-[Download _\`Numeric'_ Manual](static/numeric-manual.pdf)
+[下载 _"Numeric"_ 手册](static/numeric-manual.pdf)
 
