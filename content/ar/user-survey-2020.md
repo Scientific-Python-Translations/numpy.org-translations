@@ -8,11 +8,9 @@ sidebar: false
 {{< figure >}}
 {{< /figure >}}
 
-**[Download the report](/surveys/NumPy_usersurvey_2020_report.pdf)**
-to take a closer look at the survey findings.
+**[قم بتحميل هذا التقرير ](/surveys/NumPy_usersurvey_2020_report.pdf)** لإلقاء نظرة أدق على نتائج الاستطلاع.
 
-For the highlights, check out
-**[this infographic](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
+للنقاط الأكثر أهمية، تحقق من **[هذة التصاميم التي تتضمن معلومات](https://github.com/numpy/numpy-surveys/blob/master/images/2020NumPysurveyresults_community_infographic.pdf)**.
 
-أمستعد لأكثر من ذلك؟ Visit **https://numpy.org/user-survey-2020-details/**.
+أمستعد لأكثر من ذلك؟ أمستعد لأكثر من ذلك؟ قم بزيارة **https://numpy.org/user-survey-2020-details/**.
 
