@@ -3,12 +3,14 @@ title: "Estudio de caso: Análisis de críquet, ¡el cambio radical!"
 sidebar: false
 ---
 
-{{< figure >}}
+{{< figure
+ src='/images/content_images/cs/ipl-stadium.png'
+ >}}
 {{< /figure >}}
 
 {{< blockquote
-  cite="}} No juegas para el público, juegas para el país."
-  by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL_""
+ cite="}} No juegas para el público, juegas para el país."
+ by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL_""
 >}}
 {{< /blockquote >}}
 
@@ -46,23 +48,23 @@ Las plataformas de medios y entretenimiento, junto con los organismos deportivos
 
 - **Limpieza de datos y preprocesamiento**
 
-  La IPL ha expandido el críquet más allá del clásico formato de partido de prueba a una escala mucho más grande. El número de partidos jugados cada temporada a través de varios formatos ha incrementado y así también los datos, los algoritmos, las nuevas tecnologías de análisis de datos deportivos y modelos de simulación. El análisis de datos de críquet requiere mapeo del campo, seguimiento de jugadores, seguimiento de la pelota, análisis de tiros de los jugadores y varios otros aspectos relacionados con cómo se lanza la pelota, su ángulo, giro, velocidad y trayectoria. Todos estos factores juntos han incrementado la complejidad de la limpieza de datos y el preprocesamiento.
+ La IPL ha expandido el críquet más allá del clásico formato de partido de prueba a una escala mucho más grande. El número de partidos jugados cada temporada a través de varios formatos ha incrementado y así también los datos, los algoritmos, las nuevas tecnologías de análisis de datos deportivos y modelos de simulación. El análisis de datos de críquet requiere mapeo del campo, seguimiento de jugadores, seguimiento de la pelota, análisis de tiros de los jugadores y varios otros aspectos relacionados con cómo se lanza la pelota, su ángulo, giro, velocidad y trayectoria. Todos estos factores juntos han incrementado la complejidad de la limpieza de datos y el preprocesamiento.
 
 - **Modelación Dinámica**
 
-  En el cricket, al igual que en cualquier otro deporte, puede haber una gran cantidad de variables relacionadas con el seguimiento de varios jugadores en el campo, sus atributos, la pelota y varias posibilidades de acciones potenciales. La complejidad del análisis de datos y la modelación es directamente proporcional al tipo de preguntas predictivas que se plantean durante el análisis y depende en gran medida de la representación de los datos y del modelo. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
+ En el cricket, al igual que en cualquier otro deporte, puede haber una gran cantidad de variables relacionadas con el seguimiento de varios jugadores en el campo, sus atributos, la pelota y varias posibilidades de acciones potenciales. La complejidad del análisis de datos y la modelación es directamente proporcional al tipo de preguntas predictivas que se plantean durante el análisis y depende en gran medida de la representación de los datos y del modelo. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
 
 - **Complejidad de Análisis Predictivo**
 
-  Gran parte de la toma de decisiones en el críquet se basa en preguntas como "¿con qué frecuencia un bateador juega un cierto tipo de golpe si la entrega de la pelota es de un tipo particular?" o "¿cómo cambia un lanzador su línea y longitud si el bateador responde a su entrega de una cierta manera?".
-  Este tipo de consulta de análisis predictivo requiere una disponibilidad de un conjunto de datos altamente granular y la capacidad de sintetizar datos y crear modelos generativos que sean altamente precisos.
+ Gran parte de la toma de decisiones en el críquet se basa en preguntas como "¿con qué frecuencia un bateador juega un cierto tipo de golpe si la entrega de la pelota es de un tipo particular?" o "¿cómo cambia un lanzador su línea y longitud si el bateador responde a su entrega de una cierta manera?".
+ Este tipo de consulta de análisis predictivo requiere una disponibilidad de un conjunto de datos altamente granular y la capacidad de sintetizar datos y crear modelos generativos que sean altamente precisos.
 
 ## El Papel de NumPy en el Análisis del Críquet
 
 El análisis deportivo es un campo en desarrollo. Muchos investigadores y compañías [utilizan NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) y otros paquetes de PyData como Scikit-learn, SciPy, Matplotlib y Jupyter, además de utilizar las últimas técnicas de aprendizaje automático e inteligencia artificial.  NumPy se ha utilizado para varios tipos de análisis deportivos relacionados con el críquet tales como:
 
 - **Análisis Estadístico:** Las capacidades numéricas de NumPy ayudan a estimar la significancia estadística de los datos observacionales o de eventos de partidos en el contexto de varias tácticas de jugadores y de juego, estimando el resultado del juego mediante la comparación con un modelo generativo o estático.
-  El [análisis causal](https://amplitude.com/blog/2017/01/19/causation-correlation) y los [enfoques de big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) se utilizan para el análisis táctico.
+ El [análisis causal](https://amplitude.com/blog/2017/01/19/causation-correlation) y los [enfoques de big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) se utilizan para el análisis táctico.
 
 - **Visualización de Datos:** La creación de gráficos y la [visualización de datos](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) proporcionan información útil sobre la relación entre varios conjuntos de datos.
 
