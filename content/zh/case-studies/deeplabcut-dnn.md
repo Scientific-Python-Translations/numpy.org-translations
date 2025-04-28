@@ -7,14 +7,14 @@ sidebar: false
 {{< /figure >}}
 
 {{< blockquote
-  cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/"
+  cite="{{< blockquote cite="https://news.harvard.edu/gazette/story/newsplus/harvard-researchers-awarded-czi-open-source-award/" by="Alexander Mathis, _Assistant Professor, École polytechnique fédérale de Lausanne_ ([EPFL](https://www.epfl.ch/en/))""
   by="Alexander Mathis, _Assistant Professor, École polytechnique fédérale de Lausanne_ ([EPFL](https://www.epfl.ch/en/))"
 >}}
 {{< /blockquote >}}
 
 ## 关于 DeepLabCut
 
-[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) is an open source toolbox that empowers researchers at hundreds of institutions worldwide to track behaviour of laboratory animals, with very little training data, at human-level accuracy. 借助DeepLabCut技术，科学家可以更深入更科学地了解不同动物在不同时间段对运动的控制和表现行为。
+[DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) 是一个开放源码工具箱，它使世界各地数以百计的研究人员能够在训练数据非常少的情况下跟踪实验室动物的行为，而且能达到人类水平的准确性。 借助DeepLabCut技术，科学家可以更深入更科学地了解不同动物在不同时间段对运动的控制和表现行为。 借助DeepLabCut技术，科学家可以更深入更科学地了解不同动物在不同时间段对运动的控制和表现行为。
 
 包括神经科学、医学和生物力学在内的若干研究领域都使用了跟踪动物运动的数据。 DeepLabCut通过解析电影上记录的动作，帮助了解人类和其他动物行为背后的内涵。 DeepLabCut将标记和监测的繁重工作自动化，同时进行基于神经网络的深度数据分析，使得涉及观察例如灵长类动物、小鼠、鱼类和苍蝇等动物行为的科学研究更快、更准确。
 
@@ -25,25 +25,24 @@ DeepLabCut's non-invasive behavioral tracking of animals by extracting the poses
 
 DeepLabCut使研究人员能够通过基于 Python 的软件工具包有效地估计该实验对象的姿势，使他们能够对实验对象的行为进行量化。  借助DeepLabCut，研究人员可以从视频中识别出不同的帧，并使用量身定制的GUI数字标记数十个帧中的特定身体部位，然后DeepLabCut中基于深度学习的姿势估计架构将学习如何从剩余视频或类似动物行为的视频中提取出相同的特征。 It works across species of animals, from common laboratory animals such as flies and mice to more unusual animals like [cheetahs][cheetah-movement].
 
-[cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
+[cheetah-movement]: <[cheetah-movement]: https://www. technologynetworks. com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618>
 
 DeepLabCut uses a principle called [transfer learning](https://arxiv.org/pdf/1909.11229), which greatly reduces the amount of training data required and speeds up the convergence of the training period.  根据不同需求，用户可以选择不同的网络结构来获得更高性能的推理模型(例如MobileNetV2)，也可以将其与实时的实验反馈相结合。 DeepLabCut originally used the feature detectors from a top-performing human pose estimation architecture, called [DeeperCut](https://arxiv.org/abs/1605.03170), which inspired the name. 现在这套软件已经作了重大更新，包含支持更多架构、算子规模的扩大和全面的前端用户体验提升。 此外， 为了支持大规模生物实验，DeepLabCut提供了主动学习的能力，因此用户可以随着时间的推移增加训练集以覆盖边缘用例，并使他们的姿势估计算法在特定场景下变的更加强大。
 
-Recently, the [DeepLabCut model zoo](https://deeplabcut.github.io/DeepLabCut/docs/ModelZoo.html) was introduced, which provides pre-trained models for various species and experimental conditions from facial analysis in primates to dog posture. 有了modelzoo之后，模型就可以在云端运行，而且不用给新数据贴上任何标签，也不需要神经网络训练，也不需要任何编程经验。
+最近，引入了 [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) ，它为不同物种和不同实验条件提供预训练的模型，从灵长类动物的面部分析到狗的姿势。 有了modelzoo之后，模型就可以在云端运行，而且不用给新数据贴上任何标签，也不需要神经网络训练，也不需要任何编程经验。 有了modelzoo之后，模型就可以在云端运行，而且不用给新数据贴上任何标签，也不需要神经网络训练，也不需要任何编程经验。
 
 ### 关键目标和成果
 
-- **Automation of animal pose analysis for scientific studies:**
+- **对动物行为进行自动化分析以供科学研究：**
 
-  The primary objective of DeepLabCut technology is to measure and track posture
-  of animals in a diverse settings. This data can be used, for example, in
+  DeepLabCut技术的主要目标是在各种环境下测量和跟踪动物的姿势。 这些数据大有用处，比如可以用于神经科学研究以了解大脑是如何控制运动的，或者阐明动物是如何进行社交互动的。 研究人员观察到DeepLabCut的 [性能提升了10倍](https://www.biorxiv.org/content/10.1101/457242v1)。 可以在单机状态下以每秒1200多帧(FPS) 的速度推断出动物姿态。 This data can be used, for example, in
   neuroscience studies to understand how the brain controls movement, or to
   elucidate how animals socially interact. Researchers have observed a
   [tenfold performance boost](https://www.biorxiv.org/content/10.1101/457242v1)
   with DeepLabCut. Poses can be inferred offline at up to 1200 frames per second
   (FPS).
 
-- **Creation of an easy-to-use Python toolkit for pose estimation:**
+- **创建一个易于使用的 Python 工具包用于姿态估计：**
 
   DeepLabCut wanted to share their animal pose-estimation technology in the form
   of an easy to use tool that can be adopted by researchers easily. So they have
@@ -53,7 +52,7 @@ Recently, the [DeepLabCut model zoo](https://deeplabcut.github.io/DeepLabCut/doc
   from the dataset collection stage to creating shareable and reusable analysis
   pipelines.
 
-  Their [toolkit][DLCToolkit] is now available as open source.
+  他们的 [工具包][DLCToolkit] 现在已经完全开源了。
 
   典型的DeepLabCut 工作流包括：
 
@@ -69,10 +68,9 @@ Recently, the [DeepLabCut model zoo](https://deeplabcut.github.io/DeepLabCut/doc
 
 ### 面临的挑战
 
-- **Speed**
+- **性能**
 
-  Fast processing of animal behavior videos in order to measure their behavior
-  and at the same time make scientific experiments more efficient, accurate.
+  在快速处理动物行为视频以测量其行为的同时提高科学实验的效率和精度。 无论从技术层面还是从庞大的资源需求和训练集来看，不带标记非侵入式的从视频中检测动物的姿势，预测动物在动态变化背景下的行为表现对计算性能都极具挑战。 需要提出一种易于使用的工具，但不依赖诸如计算机科学家的专业知识，也不需要在近乎真实的环境中进行研究，要达成这个目标不是一件容易的事儿。
   Extracting detailed animal poses for laboratory experiments, without
   markers, in dynamically changing backgrounds, can be challenging, both
   technically as well as in terms of resource needs and training data required.
@@ -80,34 +78,23 @@ Recently, the [DeepLabCut model zoo](https://deeplabcut.github.io/DeepLabCut/doc
   as computer vision expertise that enables scientists to do research in more
   real-world contexts, is a non-trivial problem to solve.
 
-- **Combinatorics**
+- **组合学**
 
-  Combinatorics involves assembly and integration of movement of multiple
-  limbs into individual animal behavior. Assembling keypoints and their
+  组合学涉及到将多个肢体的运动姿势组装并整合到单个动物的行为中去。 将关键姿态及其联系与个体动物不同时段的不同动作整合起来是一个复杂的过程，需要进行繁琐的数值分析，尤其是在实验视频中捕捉多个动物行为的情况下。 Assembling keypoints and their
   connections into individual animal movements and linking them across time
   is a complex process that requires heavy-duty numerical analysis, especially
   in case of multi-animal movement tracking in experiment videos.
 
-- **Data Processing**
+- **数据处理**
 
-  Last but not the least, array manipulation - processing large stacks of
-  arrays corresponding to various images, target tensors and keypoints is
-  fairly challenging.
+  最后一点但是并非不重要的一点是对数组的处理-处理与各种图像、目标张量和关键点相对应的大型数组具有相当大的挑战性。
 
 {{< figure >}}
 {{< /figure >}}
 
 ## Numpy在应对姿态估计挑战中的角色
 
-NumPy 解决了DeepLabCut技术对行为分析进行高性能数值计算的核心需求。  Besides NumPy, DeepLabCut employs
-various Python software that utilize NumPy at their core, such as
-[SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org),
-[matplotlib](https://matplotlib.org),
-[Tensorpack](https://github.com/tensorpack/tensorpack),
-[imgaug](https://github.com/aleju/imgaug),
-[scikit-learn](https://scikit-learn.org/stable/),
-[scikit-image](https://scikit-image.org) and
-[Tensorflow](https://www.tensorflow.org).
+NumPy 解决了DeepLabCut技术对行为分析进行高性能数值计算的核心需求。  NumPy 解决了DeepLabCut技术对行为分析进行高性能数值计算的核心需求。  除了NumPy, DeepLabCut 还使用 各种以 NumPy 为核心的 Python 软件， 例如 [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [tensorpack](https://github.com/tensorpack/tensorpack), [imgig](https://github.com/aleju/imgaug), [sikit-learning](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) 和 [Tensorflow](https://www.tensorflow.org)
 
 NumPy 的以下功能在图像处理、组合计算和高性能DeepLabCut 姿态预测算法等方面发挥了关键作用。
 
