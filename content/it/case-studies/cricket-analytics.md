@@ -7,31 +7,21 @@ sidebar: false
 {{< /figure >}}
 
 {{< blockquote
-  cite="https://www.scoopwhoop.com/sports/ms-dhoni/"
-  by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_"
+  cite="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Giocatore Internazionale di Cricket, ex-capitano, Squadra Indiana, gioca per i Chennai Super Kings nel IPL_""
+  by="}} Non giochi per la folla, giochi per il paese."
 >}}
 {{< /blockquote >}}
 
 ## Riguardo al Cricket
 
 Sarebbe un eufemismo dire che gli Indiani amano il cricket. Lo sport è giocato in praticamente ogni angolo e pertugio dell'India, rurale o urbano che sia, ed è ugualmente popolare tra giovani ed anziani, connettendo miliardi di persone in India più di qualsiasi altro sport.
-Il Cricket gode di una grande attenzione mediatica. There is a significant amount of
-[money](https://www.statista.com/topics/4543/indian-premier-league-ipl/) and
-fame at stake. Nel corso degli ultimi anni, la tecnologia è stata decisamente un punto di svolta. Il pubblico ha l'imbarazzo della scelta tra media in streaming, tornei, accesso a prezzi accessibili per guardare il cricket in diretta dal cellulare e molto altro ancora.
+Il Cricket gode di una grande attenzione mediatica. C'è una notevole quantità di [soldi](https://www.statista.com/topics/4543/indian-premier-league-ipl/) e fama in gioco. Nel corso degli ultimi anni, la tecnologia è stata decisamente un punto di svolta. Il pubblico ha l'imbarazzo della scelta tra media in streaming, tornei, accesso a prezzi accessibili per guardare il cricket in diretta dal cellulare e molto altro ancora.
 
-La Premier League Indiana (IPL) è un campionato di cricket professionale in formato Twenty20 fondato nel 2008. It is one of the most attended cricketing events in
-the world, valued at [$6.7 billion](https://en.wikipedia.org/wiki/Indian_Premier_League)
-in 2019.
+La Premier League Indiana (IPL) è un campionato di cricket professionale in formato Twenty20 fondato nel 2008. Si tratta di uno degli eventi di cricket più seguiti al mondo, valutato per [$6.7 miliardi](https://en.wikipedia.org/wiki/Indian_Premier_League) nel 2019.
 
 Il cricket è un gioco di numeri: i punti segnati da un battitore, le eliminazioni effettuate da un lanciatore, le partite vinte da una squadra di cricket, il numero di volte in cui un battitore risponde in un determinato modo a un tipo di lancio, ecc. La possibilità di investigare tra i numeri del cricket sia per migliorare le prestazioni che per studiare le opportunità commerciali, il mercato complessivo o l'economia del gioco attraverso potenti strumenti di analisi, alimentati da software di calcolo numerico come NumPy, è una grossa questione. L'analisi del Cricket fornisce approfondimenti interessanti riguardanti il gioco e predizioni intelligenti dei risultati delle partite.
 
-Today, there are rich and almost infinite troves of cricket game records and
-statistics available, e.g., ESPN
-cricinfo and
-[cricsheet](https://cricsheet.org). These and several such cricket databases
-have been used for cricket
-analysis
-using the latest machine learning and predictive modelling algorithms.
+Oggi sono disponibili serie ricche e quasi infinite di dati e statistiche sulle partite di cricket, come ad esempio [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html)  e [cricsheet](https://cricsheet.org). Oggi sono disponibili serie ricche e quasi infinite di dati e statistiche sulle partite di cricket, come ad esempio [ESPN cricinfo](https://stats.espncricinfo.com/ci/engine/stats/index.html)  e [cricsheet](https://cricsheet.org).
 Le piattaforme di media e intrattenimento, insieme ad enti sportivi professionali associati al gioco, utilizzano la tecnologia e l'analisi per determinare le metriche chiave per migliorare le possibilità di vittoria delle partite:
 
 - media mobile delle prestazioni di battuta,
@@ -44,73 +34,37 @@ Le piattaforme di media e intrattenimento, insieme ad enti sportivi professional
 
 ### Obiettivi Principali Dell'Analisi Dati
 
-- Sports data analytics are used not only in cricket but many other
-  sports for
-  improving the overall team performance and maximizing winning chances.
-- Real-time data analytics can help in gaining insights even during the game
-  for changing tactics by the team and by associated businesses for economic
-  benefits and growth.
-- Besides historical analysis, predictive models are
-  harnessed to determine the possible match outcomes that require significant
-  number crunching and data science know-how, visualization tools and capability
-  to include newer observations in the analysis.
+- L'analisi dei dati sportivi viene utilizzata non solo nel cricket ma anche in molti  [altri sport ](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) per migliorare le prestazioni complessive della squadra e massimizzare le possibilità di vittoria.
+- L'analisi dei dati in tempo reale può aiutare ad ottenere informazioni anche durante la partita stessa per modificare le tattiche della squadra e delle aziende associate per ottenere vantaggi economici e di crescita.
+- Oltre all'analisi storica, i modelli predittivi vengono sfruttati per determinare i possibili risultati delle partite, che richiedono una notevole quantità di numeri e conoscenze di scienza dei dati, strumenti di visualizzazione e la capacità di includere nuove osservazioni nell'analisi.
 
 {{< figure >}}
 {{< /figure >}}
 
 ### Le Sfide
 
-- **Data Cleaning and preprocessing**
+- **Pulizia e pretrattamento dei dati**
 
-  IPL has expanded cricket beyond the classic test match format to a much
-  larger scale. The number of matches played every season across various
-  formats has increased and so has the data, the algorithms, newer sports data
-  analysis technologies and simulation models. Cricket data analysis requires
-  field mapping, player tracking, ball tracking, player shot analysis, and
-  several other aspects involved in how the ball is delivered, its angle, spin,
-  velocity, and trajectory. All these factors together have increased the
-  complexity of data cleaning and preprocessing.
+  La IPL ha ampliato il cricket dal classico formato del match di prova ad una scala molto più ampia. Il numero di partite giocate ogni stagione in vari formati è aumentato e così hanno fatto i dati, gli algoritmi, le più recenti tecnologie di analisi di dati sportivi ed i modelli di simulazione. L'analisi dei dati di Cricket richiede la mappatura del campo, il tracciamento dei giocatori e delle palle, l'analisi delle battute del giocatore e diversi altri aspetti coinvolti nel modo in cui la palla viene lanciata: la sua angolazione, rotazione, velocità e traiettoria. L'insieme di tutti questi fattori ha aumentato la complessità della pulizia e del pretrattamento dei dati.
 
-- **Dynamic Modeling**
+- **Modellazione Dinamica**
 
-  In cricket, just like any other sport,
-  there can be a large number of variables related to tracking various numbers
-  of players on the field, their attributes, the ball, and several possibilities
-  of potential actions. The complexity of data analytics and modeling is
-  directly proportional to the kind of predictive questions that are put forth
-  during analysis and are highly dependent on data representation and the
-  model. Things get even more challenging in terms of computation, data
-  comparisons when dynamic cricket play predictions are sought such as what
-  would have happened if the batsman had hit the ball at a different angle or
-  velocity.
+  Nel cricket, proprio come qualsiasi altro sport, ci può essere un gran numero di variabili relative al tracciamento di varie quantità di giocatori sul campo, i loro attributi, la palla e diverse possibilità di potenziali azioni. La complessità dell'analisi dei dati e della modellazione è direttamente proporzionale al tipo di domande predittive che vengono poste durante l'analisi e sono altamente dipendenti dalla rappresentazione dei dati e dal modello. Le cose diventano ancora più impegnative in termini di computazione e dati comparativi quando si cercano previsioni dinamiche sul gioco del cricket, come ad esempio ciò che sarebbe successo se il battitore avesse colpito la palla ad un angolo o velocità diverse.
 
-- **Predictive Analytics Complexity**
+- **Complessità Dell'Analisi Predittiva**
 
-  Much of the decision making in cricket is based on questions such as "how
-  often does a batsman play a certain kind of shot if the ball delivery is of a
-  particular type", or "how does a bowler change his line and length if the
-  batsman responds to his delivery in a certain way".
-  This kind of predictive analytics query requires highly granular dataset
-  availability and the capability to synthesize data and create generative
-  models that are highly accurate.
+  Gran parte del processo decisionale nel cricket si basa su domande quali "quanto spesso un battitore colpisce la palla in un certo modo quando questa viene lanciata in una certa maniera", o "come cambia il lanciatore la sua linea e la sua lunghezza se il battitore risponde alla consegna in un certo modo".
+  Questo tipo di questioni di analisi predittiva richiede la disponibilità di set di dati altamente granulari e la capacità di sintetizzare i dati e creare modelli generativi altamente accurati.
 
 ## Il Ruolo di NumPy nell'Analisi del Cricket
 
-Le analisi sportive sono un settore fiorente. Many researchers and companies
-[use NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)
-and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter,
-besides using the latest machine learning and AI techniques.  Molti ricercatori ed aziende <a href="https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx">utilizzano NumPy</a>
+Le analisi sportive sono un settore fiorente. Molti ricercatori ed aziende [utilizzano NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) ed altri pacchetti di PyData come Scikit-learn, SciPy, Matplotlib e Jupyter, oltre ad utilizzare le più recenti tecniche di machine learning e di AI.  Molti ricercatori ed aziende <a href="https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx">utilizzano NumPy</a>
 ed altri pacchetti di PyData come Scikit-learn, SciPy, Matplotlib e Jupyter, oltre ad utilizzare le più recenti tecniche di machine learning e di AI .
 
-- **Statistical Analysis:** NumPy's numerical capabilities help estimate the
-  statistical significance of observational data or match events in the context
-  of various player and game tactics, estimating the game outcome by comparison
-  with a generative or static model.
-  [Causal analysis](https://amplitude.com/blog/2017/01/19/causation-correlation)
-  and [big data approaches](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)
-  are used for tactical analysis.
+- **Analisi Statistica:** Le capacità numeriche di NumPy aiutano a stimare la significatività statistica dei dati osservazionali o degli eventi di corrispondenza nel contesto di vari giocatori e tattiche di gioco, stimando il risultato di una partita a confronto con un modello generativo o statico.
+  [L'Analisi Causale](https://amplitude.com/blog/2017/01/19/causation-correlation) e [approcci per i big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) sono utilizzati per l'analisi strategica.
 
-- **Data Visualization:** Data graphing and visualization provide useful insights into relationship between various datasets.
+- **Visualizzazione dei Dati:** La grafica dei dati e [visualizzazione](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) forniscono utili indicazioni sulle relazioni tra i vari insiemi di dati.
 
 ## Sommario
 
