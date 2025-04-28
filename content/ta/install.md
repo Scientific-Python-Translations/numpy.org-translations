@@ -24,12 +24,14 @@ content = '''
 Recommended for new users who want a streamlined workflow.
 
 - **uv:** A modern Python package manager designed for speed and simplicity.
-
-    uv pip install numpy
+  ```bash
+  uv pip install numpy
+  ```
 
 - **pixi:** A cross-platform package manager for Python and other languages.
-
-    pixi add numpy
+  ```bash
+  pixi add numpy
+  ```
 
 '''
 
@@ -46,21 +48,25 @@ The second difference is that pip installs from the Python Packaging Index (PyPI
 The third difference is that conda is an integrated solution for managing packages, dependencies and environments, while with pip you may need another tool (there are many!) for dealing with environments or complex dependencies.
 
 - **Conda:** If you use conda, you can install NumPy from the defaults or conda-forge channels:
-
-    conda create -n my-env
-    conda activate my-env
-    conda install numpy
+  ```bash
+  conda create -n my-env
+  conda activate my-env
+  conda install numpy
+  ```
 - **Pip:**
-
-    pip install numpy
+  ```bash
+  pip install numpy
+  ```
 
 {{< admonition >}}
 {{< /admonition >}}
 
+  ```bash
   python -m venv my-env
   source my-env/bin/activate  # macOS/Linux
   my-env\Scripts\activate     # Windows
   pip install numpy
+  ```
 
 '''
 
@@ -89,10 +95,7 @@ choco install numpy
 
 '''
 
-[[tab]]
-name = 'Building from Source'
-content = '''
-For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise.
 We recommend using binaries instead if those are available for your platform via one of the above methods.
@@ -113,8 +116,7 @@ This should print the installed version of NumPy without errors.
 
 ## Troubleshooting
 
-If your installation fails with the message below, see Troubleshooting
-ImportError.
+If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
