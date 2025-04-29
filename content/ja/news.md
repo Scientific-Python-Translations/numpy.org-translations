@@ -184,7 +184,7 @@ _ 2021年8月31日_ -- この度、Chan Zuckerberg Initiativeより、科学的�
 
 ### 2021年度NumPyアンケート
 
-_July 12, 2021_ -- At NumPy, we believe in the power of our community. 昨年の第1回アンケートには、75カ国から1,236名のNumPyユーザーが参加してくれました。
+_2021年7月12日_ -- NumPy ではコミュニティの力を信じています。 昨年の第1回アンケートには、75カ国から1,236名のNumPyユーザーが参加してくれました。
 この調査結果により、今後12ヶ月間、私たちがどのようなことに集中すべきかを、非常に良く理解することができました。
 
 今年もアンケートの時間が来ました。もう一度アンケートへの回答をお願いいたします。 アンケートへの回答は15分ほどで終了します。 アンケートは英語以外にも、ベンガル語、フランス語、ヒンディー語、日本語、マンダリン、ポルトガル語、ロシア語、スペイン語の8ヶ国語に対応しています。
@@ -210,14 +210,13 @@ _2021年6月22日_ -- NumPyの調査チームは、2020年に ミシガン大学
 
 ### NumPy 1.19.2 リリース
 
-_Jan 30, 2021_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html)
-is now available. 今回のリリースは180 人以上のコントリビューターのおかげで、これまでで最大の NumPyのリリースとなりました。 最も重要な2つの新機能は次のとおりです。
+_2021年1月30日_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) がリリースされました。  今回のリリースは180 人以上のコントリビューターのおかげで、これまでで最大の NumPyのリリースとなりました。 最も重要な2つの新機能は次のとおりです。
 
 - NumPyの大部分のコードに型注釈が追加されました。 そして新しいサブモジュールである`numpy.typing`が追加されました。 このサブモジュールは`ArrayLike` や`DtypeLike`という型注釈のエイリアスが定義されており、これによりユーザーやダウンストリームのライブラリはこの型注釈を使うことができます。
-- X86(SSE、AVX)、ARM64(Neon)、およびPowerPC (VSX) 命令をサポートするマルチプラットフォームSIMDコンパイラの最適化が実施されました。 これにより、多くの関数で大きく パフォーマンスが向上しました (例: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)). This yielded significant
-  performance improvements for many functions (examples:
+- X86(SSE、AVX)、ARM64(Neon)、およびPowerPC (VSX) 命令をサポートするマルチプラットフォームSIMDコンパイラの最適化が実施されました。 これにより、多くの関数で大きく パフォーマンスが向上しました (例: [sin/cos](https://github.com/numpy/numpy/pull/17587), [einsum](https://github.com/numpy/numpy/pull/18194)). これにより、多くの関数で、大きく
+  パフォーマンスが向上しました (例:
   [sin/cos](https://github.com/numpy/numpy/pull/17587),
-  [einsum](https://github.com/numpy/numpy/pull/18194)).
+  [einsum](https://github.com/numpy/numpy/pull/18194))。
 
 ### NumPyプロジェクトの多様性
 
