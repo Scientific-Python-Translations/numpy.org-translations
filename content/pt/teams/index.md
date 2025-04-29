@@ -10,7 +10,7 @@ Somos uma equipe internacional com a missão de apoiar comunidades científicas 
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### Time de documentacão
+### Time de Documentacão
 
 {{< grid file="docs-team.toml" columns="2 3 4 5" />}}
 
