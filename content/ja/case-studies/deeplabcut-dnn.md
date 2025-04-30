@@ -41,10 +41,7 @@ DeepLabCutでは[転移学習](https://arxiv.org/pdf/1909.11229)という技術�
 
 - **姿勢推定のための使いやすいPythonツールキットの作成:**
 
-  DeepLabCutは、動物の姿勢推定技術を研究者が簡単に利用できるツールとして共有したいという考えから開発されています。 そこで開発者らはプロジェクト管理機能を備えた、単独で機能し、使いやすいPythonツールボックスとしてこのツールを作成しました。 These enable not only automation of pose-estimation but also
-  managing the project end-to-end by helping the DeepLabCut Toolkit user right
-  from the dataset collection stage to creating shareable and reusable analysis
-  pipelines.
+  DeepLabCutは、動物の姿勢推定技術を研究者が簡単に利用できるツールとして共有したいという考えから開発されています。 そこで開発者らはプロジェクト管理機能を備えた、単独で機能し、使いやすいPythonツールボックスとしてこのツールを作成しました。 これにより、姿勢推定を自動化するだけでなく、DeepLabCutツールキットのユーザーを向けに、データセット収集段階から共有可能・再利用可能な分析パイプラインを作成する段階まで補助し、プロジェクトをエンドツーエンドで管理することも可能になりました。
 
   この[ツールキット][DLCToolkit] はオープンソースとして利用できます。
 
@@ -65,17 +62,12 @@ DeepLabCutでは[転移学習](https://arxiv.org/pdf/1909.11229)という技術�
 - **速度**
 
   動物行動動画の高速な処理は、動物の行動を測定し、科学実験をより効率的で正確にするために重要です。 動的に変化する背景の中で、マーカーを使用せずに、実験室での実験のために動物の詳細な姿勢を抽出することは、技術的にも、必要なリソース的にも、必要なトレーニングデータの面でも、困難な場合があります。 科学者が、より現実的な状況で研究を行うために、コンピュータビジョンなどの専門知識のスキルを必要とせずに使うことができるツールを開発することは、解決すべき重要な問題です。
-  Extracting detailed animal poses for laboratory experiments, without
-  markers, in dynamically changing backgrounds, can be challenging, both
-  technically as well as in terms of resource needs and training data required.
-  Coming up with a tool that is easy to use without the need for skills such
-  as computer vision expertise that enables scientists to do research in more
-  real-world contexts, is a non-trivial problem to solve.
+  動的に変化する背景の中で、マーカーを使用せずに、実験室での実験のために動物の詳細な姿勢を抽出することは、技術的にも、必要なリソース的にも、必要なトレーニングデータの面でも、困難な場合があります。
+  科学者が、より現実的な状況で研究を行うために、コンピュータビジョンなどの専門知識のスキルを必要とせずに使うことができるツールを開発することは、解決すべき重要な問題です。
 
 - **組み合わせ問題**
 
-  Combinatorics involves assembly and integration of movement of multiple
-  limbs into individual animal behavior. 組合せ問題とは、複数の四肢の動きを個々の動物行動に統合することを指します。 キーポイントと、その個々の動物行動との関連性を組み合わせ、時間的に結びつけることは、複雑なプロセスであり、非常に膨大な数値解析が必要となります。 特に、実験映像の中で複数の動物の動きを追跡する場合は大変です。
+  組合せ問題とは、複数の四肢の動きを個々の動物行動に統合することを指します。 組合せ問題とは、複数の四肢の動きを個々の動物行動に統合することを指します。 キーポイントと、その個々の動物行動との関連性を組み合わせ、時間的に結びつけることは、複雑なプロセスであり、非常に膨大な数値解析が必要となります。 特に、実験映像の中で複数の動物の動きを追跡する場合は大変です。
 
 - **データ処理**
 
