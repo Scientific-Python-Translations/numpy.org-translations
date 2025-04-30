@@ -5,7 +5,7 @@ sidebar: false
 
 私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。 是非[参加してください](/ja/contribute)!
 
-### Maintainers
+### メンテナー
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
