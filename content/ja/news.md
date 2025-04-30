@@ -224,9 +224,7 @@ _2020年9月20日に_ 、私たちは[ NumPyプロジェクトにおけるダイ
 
 ### Natureに初の公式NumPy論文が掲載されました!
 
-_Sep 16, 2020_ -- We are pleased to announce the publication of
-[the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2)
-as a review article in Nature. これはNumPy 1.0のリリースから14年後のことになりました。
+_2020年9月16日_ — 私たちは、[the first official paper on NumPy](https://www.nature.com/articles/s41586-020-2649-2) が Nature 誌にレビュー記事として掲載されたことをお知らせできることを嬉しく思います。 これはNumPy 1.0のリリースから14年後のことになりました。
 この論文では、配列プログラミングのアプリケーションと基本的なコンセプト、NumPyの上に構築された様々な科学的Pythonエコシステム、そしてCuPy、Dask、JAXのような外部の配列およびテンソルライブラリとの相互運用を容易にするために最近追加された配列プロトコルについて説明しています。
 
 ### Python 3.9のリリースに伴い、いつNumPyのバイナリwheelがリリースされるのですか？
@@ -238,15 +236,13 @@ _2020年9月14日_ -- Python 3.9 は数週間後にリリースされる予定�
 
 ### NumPy 1.19.2 リリース
 
-_Sep 10, 2020_ -- NumPy
-1.19.2 is now available.
+_2020年9月10日_ -- [NumPy 1.19.2](https://numpy.org/devdocs/release/1.19.2-notes.html)がリリースされました。
 _2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-notes.html) がリリースされました。 この 1.19 シリーズの最新リリースでは、いくつかのバグが修正され、[ 来るべき Cython 3.xリリース ](http:/docs.cython.orgenlatestsrcchanges.html)への準備が行われ、アップストリームの修正が進行中の間も distutils の動作を維持するためのsetuptoolsのバージョンの固定が実施されています。 aarch64 wheelは最新のmanylinux2014リリースでビルドされており、異なるLinuxディストリビューションで使用される異なるページサイズの問題が修正されています。
 aarch64 wheelは最新のmanylinux2014リリースでビルドされており、異なるLinuxディストリビューションで使用される異なるページサイズの問題が修正されています。
 
 ### 初めてのNumPyの調査が公開されました!!
 
-_Jul 2, 2020_ -- This survey is meant to guide and set priorities for
-decision-making about the development of NumPy as software and as a community.
+_2020年7月2日_ -- このアンケート調査は、NumPyにおける、ソフトウェア開発とコミュニティの両方における意思決定の指針となり、開発の優先順位を決定するのに大きく役に立ちました。
 この調査結果は英語以外のこれらの8つの言語で利用可能です: バングラ, ヒンディー語, 日本語, マンダリン, ポルトガル語, ロシア語, スペイン語とフランス語.
 
 NumPy をより良くするために、こちらの \[アンケート\](https://umdsurvey. umd. edu/jfe/form/SV_8bJrXjbhXf7saAl) に協力してもらえると助かります。
@@ -265,7 +261,7 @@ width=300>
 
 ### NumPy 1.19.0 リリース
 
-_Jun 20, 2020_ -- NumPy 1.19.0 is now available. このバージョンは Python 2系のサポートがない最初のリリースであり、"クリーンアップ用のリリース" です。 サポートされている一番古いPython のバージョンは Python 3.6 になりました。 また、今回の重要な新機能はNumPy 1.17.0で導入された乱数生成用のインフラにCythonからアクセスできるようになったことです。
+_2020年6月20日_ -- NumPy 1.19.0 がリリースされました。 このバージョンは Python 2系のサポートがない最初のリリースであり、"クリーンアップ用のリリース" です。 サポートされている一番古いPython のバージョンは Python 3.6 になりました。 また、今回の重要な新機能はNumPy 1.17.0で導入された乱数生成用のインフラにCythonからアクセスできるようになったことです。
 
 ### ドキュメント受諾期間
 
@@ -273,8 +269,7 @@ _2020年5月11日_ -- NumPyは、 Googleのシーズンオブドキュメント�
 
 ### NumPy 1.18.0 リリース
 
-_Dec 22, 2019_ -- NumPy 1.18.0 is now available. このリリースは、1.17.0での主要な変更の後の、まとめのようなリリースです。 Python 3.5 をサポートする最後のマイナーリリースになります。 Highlights of the release includes the addition of basic
-infrastructure for linking with 64-bit BLAS and LAPACK libraries, and a new C-API for `numpy.random`.
+_2019年12月22日_ -- NumPy 1.18.0 がリリースされました。 このリリースは、1.17.0での主要な変更の後の、まとめのようなリリースです。 Python 3.5 をサポートする最後のマイナーリリースになります。 今回のリリースの特徴として、64ビットのBLASおよびLAPACKライブラリとリンクするためのインフラの追加や、`numpy.random`のための新しいC-APIの追加などが行われました。
 
 詳細については、 [リリースノート](https://github.com/numpy/numpy/releases/tag/v1.18.0) を参照してください。
 
@@ -284,7 +279,7 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 この助成金は、Numpy ドキュメントやウェブサイトの再設計などの改善に向けた取り組みを促進するために使用されます。 大規模かつ急速に拡大するユーザーの体験をより良くし、プロジェクトの長期的な持続可能性を確保するためのコミュニティ開発を行っていきます。 OpenBLASチームは、技術的に非常に重要な問題である、スレッド安全性、AVX-512に対処することに注力します。 また、スレッドローカルストレージ(TLS) の問題や、OpenBLASが依存するReLAPACK(再帰的なLAPACK) のアルゴリズムの改善も実施します。
 
-More details on our proposed initiatives and deliverables can be found in the [full grant proposal](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167). この取り組みは2019年12月1日から始まり、今後12ヶ月間継続実施される予定です。
+私たちの提案する取り組みや成果物の詳細については、[助成金申請書](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167) に記載されています。 この取り組みは2019年12月1日から始まり、今後12ヶ月間継続実施される予定です。
 
 <a name="releases"></a>
 
