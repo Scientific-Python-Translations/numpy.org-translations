@@ -5,9 +5,9 @@ sidebar: false
 
 {{< figure
   src='/images/content_images/cs/blackhole.jpg'
-  title='Black Hole M87'
-  alt='black hole image'
-  attribution='(Image Credits: Event Horizon Telescope Collaboration)'
+  title='கருந்துளை M87'
+  alt='கருந்துளை படம்'
+  attribution='(படப் பிரதிகள்: நிகழ்வு ஹாரிசன் தொலைநோக்கி ஒத்துழைப்பு)'
   attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"
 >}}
 
