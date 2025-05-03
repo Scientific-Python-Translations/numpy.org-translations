@@ -10,7 +10,6 @@ jobs:
       - name: Sync NumPy translations
         uses: Scientific-Python-Translations/translations-sync@main
         with:
-          # Provided by user
           crowdin-project: "NumPy.Org"
           source-repo: "numpy/numpy.org"
           source-path: "content/en/"
@@ -25,7 +24,8 @@ jobs:
           create-toml-file: "true"
           create-upstream-pr: "false"
           auto-merge: "false"
-          # Provided by organization secrets
+          # These are provided by the Scientific Python Project and allow
+          # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           token: ${{ secrets.TOKEN }}
