@@ -1,0 +1,56 @@
+ar:
+  approval: 0
+  language_name: Arabic
+  progress: 13
+ca:
+  approval: 0
+  language_name: Catalan
+  progress: 0
+es:
+  approval: 73
+  language_name: Spanish
+  progress: 99
+fa:
+  approval: 0
+  language_name: Persian
+  progress: 0
+fr:
+  approval: 0
+  language_name: French
+  progress: 1
+hi:
+  approval: 0
+  language_name: Hindi
+  progress: 0
+it:
+  approval: 0
+  language_name: Italian
+  progress: 20
+ja:
+  approval: 0
+  language_name: Japanese
+  progress: 100
+ko:
+  approval: 0
+  language_name: Korean
+  progress: 95
+pl:
+  approval: 0
+  language_name: Polish
+  progress: 0
+pt-BR:
+  approval: 34
+  language_name: Portuguese, Brazilian
+  progress: 99
+ru:
+  approval: 0
+  language_name: Russian
+  progress: 1
+ta:
+  approval: 0
+  language_name: Tamil
+  progress: 3
+zh-CN:
+  approval: 0
+  language_name: Chinese Simplified
+  progress: 72
