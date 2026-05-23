@@ -4,15 +4,18 @@ sidebar: false
 ---
 
 {{< figure
- src='/images/content_images/cs/ipl-stadium.png'
- >}}
+  src="/images/content_images/cs/ipl-stadium.png"
+  title="IPLT20, the biggest Cricket Festival in India"
+  alt="인도 프리미어 리그 크리켓 컵 및 경기장"
+  attribution="(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))"
+  attributionlink="https://unsplash.com/@aksh180" >}}
 {{< /figure >}}
 
 {{< blockquote
- cite="인도 프리미어 리그 크리켓 컵 및 경기장"
- by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_""
+  cite="https://www.scoopwhoop.com/sports/ms-dhoni/""
+  by="M S Dhoni, _International Cricket Player, ex-captain, Indian Team, plays for Chennai Super Kings in IPL_"
 >}}
-{{< /blockquote >}}
+You don't play for the crowd, you play for the country.{{< /blockquote >}}
 
 ## 크리켓이란
 
@@ -33,7 +36,15 @@ sidebar: false
 - 다른 상대에 맞서 선수의 체력과 경기력에 대한 통찰력을 얻기,
 - 팀 구성에 대한 전략적 결정을 내리는 플레이어의 승패 기여도
 
-{{< figure >}}
+{{< figure
+  "attribution"
+  "(Image credit: Debarghya Das)"
+  "attributionlink"
+  "http://debarghyadas.com/files/IPLpaper.pdf"
+  src="/images/content_images/cs/cricket-pitch.png"
+  title="Cricket Pitch, the focal point in the field"
+  alt="A cricket pitch with bowler and batsmen"
+  align="center" >}}
 {{< /figure >}}
 
 ### 데이터 분석의 주요 목표
@@ -42,30 +53,35 @@ sidebar: false
 - 실시간 데이터 분석은 경기 중에도 팀과 관련 사업의 변화하는 전략에 대한 통찰력을 확보하여 경제적 이익과 성장을 도모하는 데 도움이 될 수 있습니다.
 - 과거 분석 외에도 예측 모델을 활용하여 상당한 수의 크런칭과 데이터 과학 노하우, 시각화 도구 및 분석에 더 새로운 관찰을 포함시킬 수 있는 기능이 필요한 가능한 일치 결과를 결정합니다.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/player-pose-estimator.png"
+  alt="pose estimator"
+  title="Cricket Pose Estimator"
+  attribution="(Image credit: connect.vin)"
+  attributionlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
 {{< /figure >}}
 
 ### 도전
 
 - **데이터 정리 및 전처리**
 
- IPL은 크리켓을 고전적인 테스트 매치 형식에서 훨씬 더 큰 규모로 확대시켰습니다. 매 시즌 다양한 형식으로 열리는 경기의 수가 증가하고 있으며, 데이터, 알고리즘, 최신 스포츠 데이터 분석 기술, 시뮬레이션 모델 또한 증가하고 있습니다. 크리켓 데이터 분석에는 필드 매핑, 플레이어 추적, 공 추적, 플레이어의 타격 분석 및 공이 어떻게 움직이는지에 대한 각도, 스핀, 속도, 궤도 등 다른 많은 종류의 데이터를 필요로 합니다. 이 수많은 인자들은 데이터 정리 및 전처리 과정의 복잡성을 증가시켰습니다.
+  IPL은 크리켓을 고전적인 테스트 매치 형식에서 훨씬 더 큰 규모로 확대시켰습니다. 매 시즌 다양한 형식으로 열리는 경기의 수가 증가하고 있으며, 데이터, 알고리즘, 최신 스포츠 데이터 분석 기술, 시뮬레이션 모델 또한 증가하고 있습니다. 크리켓 데이터 분석에는 필드 매핑, 플레이어 추적, 공 추적, 플레이어의 타격 분석 및 공이 어떻게 움직이는지에 대한 각도, 스핀, 속도, 궤도 등 다른 많은 종류의 데이터를 필요로 합니다. 이 수많은 인자들은 데이터 정리 및 전처리 과정의 복잡성을 증가시켰습니다.
 
 - **동적 모델링**
 
- 크리켓에서는 다른 스포츠와 마찬가지로 다양한 선수의 수, 선수의 속성, 공이나 잠재적 행동의 가능성 등 여러 가능성을 추적할 때 많은 변수가 작용합니다. 데이터 분석 및 모델링의 복잡성은 분석 중 제시되는 예측 질문의 종류에 비례하며, 데이터 표현 및 모델에 크게 의존합니다. 타자가 다른 각도나 속도로 공을 쳤을 때 일어날 일과 같은 동적인 크리켓 경기를 예측할 때, 계산이나 데이터 비교 측면에서 상황이 훨씬 더 어려워집니다.
+  크리켓에서는 다른 스포츠와 마찬가지로 다양한 선수의 수, 선수의 속성, 공이나 잠재적 행동의 가능성 등 여러 가능성을 추적할 때 많은 변수가 작용합니다. 데이터 분석 및 모델링의 복잡성은 분석 중 제시되는 예측 질문의 종류에 비례하며, 데이터 표현 및 모델에 크게 의존합니다. 타자가 다른 각도나 속도로 공을 쳤을 때 일어날 일과 같은 동적인 크리켓 경기를 예측할 때, 계산이나 데이터 비교 측면에서 상황이 훨씬 더 어려워집니다.
 
 - **예측 분석의 복잡성**
 
- 크리켓에서 의사결정의 상당 부분은 '볼 전달이 특정 유형일 경우 타자가 얼마나 자주 특정 종류의 샷을 하느냐', '배트맨이 특정 방식으로 전달에 반응하면 볼러가 라인과 길이를 어떻게 바꾸느냐' 등의 질문에 따른 것입니다.
- 이러한 예측 분석 쿼리는 매우 세분화된 데이터셋 가용성과 데이터를 합성하고 정확도가 높은 생성 모델을 만들 수 있는 기능이 필요합니다.
+  크리켓에서 의사결정의 상당 부분은 '볼 전달이 특정 유형일 경우 타자가 얼마나 자주 특정 종류의 샷을 하느냐', '배트맨이 특정 방식으로 전달에 반응하면 볼러가 라인과 길이를 어떻게 바꾸느냐' 등의 질문에 따른 것입니다.
+  이러한 예측 분석 쿼리는 매우 세분화된 데이터셋 가용성과 데이터를 합성하고 정확도가 높은 생성 모델을 만들 수 있는 기능이 필요합니다.
 
 ## 크리켓 분석에서 NumPy의 역할
 
 스포츠 분석은 현재 매우 활발한 분야입니다. 많은 연구자들과 기업체에서는 최신 머신러닝 및 AI 기법을 쓰는 대신 [NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)나 Scikit-learn, SciPy, Matplotlib, Jupyter같은 PyData 패키지를 이용합니다.  NumPy는 크리켓과 관련된 여러 스포츠 통계에 다음과 같이 쓰였습니다.
 
 - **통계적 분석:** NumPy의 수치적 기능은 다양한 플레이어 및 게임 전술에서 관찰 데이터 또는 경기의 통계적 중요성을 추정하는 데 도움을 주거나, 생성적 또는 정적 모델과 비교하여 게임 결과를 추정합니다.
- 전술 분석에는 [인과 분석](https://amplitude.com/blog/2017/01/19/causation-correlation) 및 [빅데이터 접근법](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)이 쓰입니다.
+  전술 분석에는 [인과 분석](https://amplitude.com/blog/2017/01/19/causation-correlation) 및 [빅데이터 접근법](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/)이 쓰입니다.
 
 - **데이터 시각화:** 그래프 그리기 및 [시각화](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b)는 다양한 데이터셋 사이의 관계를 볼 수 있는 유용한 관점을 제공해 줍니다.
 
@@ -74,5 +90,8 @@ sidebar: false
 스포츠 분석은 프로 게임의 판도를 바꿀 것입니다. 특히 최근까지는 주로 "직감"이나 과거부터 내려오던 것을 답습하는 식으로 이뤄진 전략적 의사 결정에 대해서 말입니다. NumPy는 데이터 분석, 기계 학습 및 AI 알고리즘과 관련하여 더욱 높은 수준의 기능을 제공하는 Python 패키지들의 견고한 기반을 제공합니다.
 이들 패키지는 크리켓 경기뿐 아니라 크리켓 관련 추론이나 사업을 추진하면서, 판도를 바꿀만한 결정을 이끌어 내는 영감을 실시간으로 제공하는 데 널리 이용되고 있습니다. 크리켓 경기의 결과로 이어지는 숨겨진 매개변수, 패턴이나 속성을 찾는 것은 관계자가 숫자와 통계에 숨겨진 게임을 분석하는 방법을 파악하는 데 도움이 됩니다.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_ca_benefits.png"
+  alt="Diagram showing benefits of using NumPy for cricket analytics"
+  title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
