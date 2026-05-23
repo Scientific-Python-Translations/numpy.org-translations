@@ -3,13 +3,18 @@ title: "Estudio de Caso: Descubrimiento de Ondas Gravitacionales"
 sidebar: false
 ---
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/gw_sxs_image.png"
+  title="Gravitational Waves"
+  alt="binary coalesce black hole generating gravitational waves"
+  attribution="(Image Credits: The Simulating eXtreme Spacetimes (SXS) Project at LIGO)"
+  attributionlink="https://youtu.be/Zt8Z_uzG71o" >}}
 {{< /figure >}}
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYshttps://www.youtube.com/watch?v=BIvezCVcsYs"
   by="David Shoemaker, _Colaboración científica LIGO_" >}}
-{{< /blockquote >}}
+The scientific Python ecosystem is critical infrastructure for the research done at LIGO.{{< /blockquote >}}
 
 ## Acerca de [Ondas Gravitacionales](https://www.nationalgeographic.com/news/2017/10/what-are-gravitational-waves-ligo-astronomy-science/) y [LIGO](https://www.ligo.caltech.edu)
 
@@ -44,7 +49,12 @@ hechos de espaciotiempo deformado.
   Una vez superados los obstáculos relacionados con comprender suficientemente bien las ecuaciones de Einstein para resolverlas utilizando supercomputadoras, el siguiente gran desafío fue hacer que los datos fueran comprensibles para el cerebro humano. La modelación de simulación, así como la detección de señales, requieren técnicas de visualización efectivas.  La visualización también desempeña un papel en otorgar más credibilidad a la relatividad numérica a los ojos de los aficionados a la ciencia pura, los cuales no le daban suficiente importancia a la relatividad numérica hasta que las imágenes y simulaciones facilitaron la comprensión de los resultados para un público más amplio.
   La velocidad de los cálculos complejos y la renderización, así como la re-renderización de imágenes y simulaciones utilizando los últimos datos experimentales y conocimientos, puede ser una actividad que consume mucho tiempo y que representa un desafío para los investigadores en este campo.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/gw_strain_amplitude.png"
+  alt="gravitational waves strain amplitude"
+  title="Estimated gravitational-wave strain amplitude from GW150914"
+  attribution="(Graph Credits: Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)"
+  attributionlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 {{< /figure >}}
 
 ## El Papel de NumPy en la Detección de Ondas Gravitacionales
@@ -66,12 +76,18 @@ en LIGO. NumPy ayudó a resolver las matemáticas complejas y la manipulación d
 - Cálculo de Correlaciones
 - [Software clave](https://github.com/lscsoft) desarrollado en análisis de datos de Ondas Gravitacionales como [GwPy](https://gwpy.github.io/docs/stable/overview.html) y [PyCBC](https://pycbc.org) utiliza NumPy y AstroPy bajo su cubierta para proporcionar interfaces basadas en objetos para utilidades, herramientas y métodos para el estudio de datos provenientes de detectores de ondas gravitacionales.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/gwpy-numpy-dep-graph.png"
+  alt="gwpy-numpy depgraph"
+  title="Dependency graph showing how GwPy package depends on NumPy" >}}
 {{< /figure >}}
 
 ----
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/PyCBC-numpy-dep-graph.png"
+  alt="PyCBC-numpy depgraph"
+  title="Dependency graph showing how PyCBC package depends on NumPy" >}}
 {{< /figure >}}
 
 ## Resumen
@@ -80,5 +96,8 @@ La detección de ondas gravitacionales ha permitido a los investigadores descubr
 no pueden ser comprendidos por humanos, a menos que sean visualizados utilizando simulaciones
 por computador que se alimenten con datos observados reales y análisis.  NumPy, junto con otros paquetes de Python como matplotlib, pandas y scikit-learn, está [permitiendo a los investigadores](https://www.gw-openscience.org/events/GW150914/) responder preguntas complejas y descubrir nuevos horizontes en nuestra comprensión del universo.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_gw_benefits.png"
+  alt="numpy benefits"
+  title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
