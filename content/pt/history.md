@@ -17,5 +17,5 @@ Se você quiser obter uma cópia das bibliotecas Numeric e Numarray, siga os lin
 
 ### Documentação Histórica
 
-[Baixe o manual do _\`Numeric'_](static/numeric-manual.pdf)
+[Baixe o manual do _\\`Numeric'_](static/numeric-manual.pdf)
 
