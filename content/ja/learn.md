@@ -7,7 +7,7 @@ sidebar: false
 
 ***
 
-以下は、Numpyへの貢献者とコミュニティによって開発された、NumPyの自己学習と他人への教育のための資料です。
+以下は、Numpyへの貢献者とコミュニティによって開発された、自習と教育のための資料です。
 
 ## 初心者向け
 
@@ -16,7 +16,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 <i class="fas fa-chalkboard"></i> **チュートリアル**
 
 - [NumPy Quickstart チュートリアル](https://numpy.org/devdocs/user/quickstart.html)
-- [NumPyチュートリアル](https://numpy.org/numpy-tutorials) Jupyter Notebook 形式で作成され、NumPy ドキュメントチームによって開発・管理されているチュートリアルおよび教育用資料のコレクションです。 もし独自のコンテンツを追加したい場合は、[GitHubのnumpy-tutorialリポジトリ](https://github.com/numpy/numpy-tutorials)を参照してください。
+- [NumPyチュートリアル](https://numpy.org/numpy-tutorials) Jupyter Notebook 形式で作成され、NumPy ドキュメントチームによって開発・管理されているチュートリアルおよび教育用資料のコレクションです。 もし独自のコンテンツを追加したい場合は、[GitHubのnumpy-tutorialリポジトリ](https://github.com/numpy/numpy-tutorials)を参照してください。 To submit your own content, visit the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
 - [NumPy Illustrated: イラストで学ぶNumPy _by Lev Maximov_](https://betterprogramming.pub/3b1d4976de1d?sk=57b908a77aa44075a49293fa1631dd9b)
 - [科学技術向けPythonレクチャー](https://lectures.scientific-python.org/) NumPyだけでなく、科学技術用のPythonソフトウェアエコシステムを広く紹介しています。
 - [NumPy: 初心者のための基礎](https://numpy.org/devdocs/user/absolute_beginners.html)
@@ -26,11 +26,11 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 <i class="fas fa-book"></i> **書籍**
 
-- [NumPガイド _Travelis E. Oliphant著_](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です。 最新のバージョンについては、 [こちら](https://dl.acm.org/doi/10.5555/2886196) を参照してください。
+- [NumPガイド _Travelis E. Oliphant著_](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です。 最新のバージョンについては、 [こちら](https://dl.acm.org/doi/10.5555/2886196) を参照してください。 For the latest copy (2015) see [here](https://dl.acm.org/doi/10.5555/2886196).
 - [Python から NumPy へ _Nicolas P. Rougier_] (https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [エレガントなSciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) _Juan Nunez-Iglesias・Stefan van der Walt・Harriet Dashnow 著_
 
-また、「Python+SciPy」を題材にした[推薦本リスト](https://www.goodreads.com/shelf/show/python-scipy) もチェックしてみてください。 ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。
+また、「Python+SciPy」を題材にした[推薦本リスト](https://www.goodreads.com/shelf/show/python-scipy) もチェックしてみてください。 ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。 ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。
 
 <i class="far fa-file-video"></i> **動画**
 
@@ -47,7 +47,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 - [NumPy 演習100本ノック](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) _Nicolas P. Rougier_
 - [NumPyとSciPy入門](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) _M. Scott Shell_
 - [NumPy救急キット](http://mentat.za.net/numpy/numpy_advanced_slides/) _Stéfan van der Walt_
-- [NumPyチュートリアル](https://numpy.org/numpy-tutorials) Jupyter Notebook 形式で作成され、NumPy ドキュメントチームによって開発・管理されているチュートリアルおよび教育用資料のコレクションです。 もし独自のコンテンツを追加したい場合は、[GitHubのnumpy-tutorialリポジトリ](https://github.com/numpy/numpy-tutorials)を参照してください。
+- [NumPyチュートリアル](https://numpy.org/numpy-tutorials) Jupyter Notebook 形式で作成され、NumPy ドキュメントチームによって開発・管理されているチュートリアルおよび教育用資料のコレクションです。 もし独自のコンテンツを追加したい場合は、[GitHubのnumpy-tutorialリポジトリ](https://github.com/numpy/numpy-tutorials)を参照してください。 To submit your own content, visit the [numpy-tutorials repository on GitHub](https://github.com/numpy/numpy-tutorials).
 
 <i class="fas fa-book"></i> **書籍**
 
@@ -71,6 +71,6 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 ***
 
-## 引用する
+## NumPyを引用する
 
 もし、あなたの研究においてNumPyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの[ページ](/ja/citing-numpy)を参照して下さい。
