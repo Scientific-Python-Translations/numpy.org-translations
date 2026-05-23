@@ -3,8 +3,13 @@ title: NumPyのインストール
 sidebar: false
 ---
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+本ページでは、ターミナルやパッケージマネージャにある程度慣れていることを前提としています。
+NumPyをインストールするための唯一必要なものは、Pythonそのものだけです。 If you don't have
+Python yet and want the simplest way to get started, we recommend you use the
+[Anaconda Distribution](https://www.anaconda.com/download) - it includes
+Python, NumPy, and many other commonly used packages for scientific computing
+and data science.{{< /admonition >}}
 
 NumPy のインストールする推奨の方法は、希望するワークフローによって異なります。 そこで、インストール方法を以下のカテゴリに分類しました。
 
@@ -13,7 +18,7 @@ NumPy のインストールする推奨の方法は、希望するワークフ�
 - **システムパッケージマネージャーを使う方法** _(ほとんどのユーザーには非推奨)_
 - **ソース からのビルド** _(経験豊富なユーザーおよび開発者向け)_
 
-あなたの目的に応じて最適な方法を選択してください。 どの方法を使うべきか分からない場合は、 **環境ベースの方法** を元に、conda または pip を使って開始しましょう。
+あなたの目的に応じて最適な方法を選択してください。 あなたの目的に応じて最適な方法を選択してください。 どの方法を使うべきか分からない場合は、 **環境ベースの方法** を元に、conda または pip を使って開始しましょう。
 
 {{< tabs >}}
 
@@ -35,15 +40,17 @@ content = '''
 
 
 
-個人的な好みや、下記のcondaとpipの違いを理解した上で、pip/PyPIベースの方法を使いたいユーザーには、下記をお勧めします:
+[[tab]]
+name = '仮想環境ベース'
+content = '''
 
-`pip` と `conda` がPythonパッケージをインストールするための2つの主要なツールです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも `numpy`をインストールできます)、一緒に動作することもできます。 ハイパフォーマンスコンピューティング(HPC)では、 <a href="https://github.com/spack/spack">Spack</a> を使うことを検討して下さい。
+The two main tools that install Python packages are `pip` and `conda`. Their functionality partially overlaps (e.g. both can install `numpy`), however, they can also work together. ここでは、pipとcondaの主な違いについて説明します。パッケージを効率的に管理したい場合は、この違いを理解することが重要です。
 
-pipとcondaの最初の違いは、Conda は複数の言語に対応しており Python 自体をインストールできるのに対し、pip は特定の Python 環境にインストールされ、その Python に対してのみパッケージをインストールすることができることです。 これら二つのツールの機能は部分的に重複しますが(例えば、両方とも <code>numpy</code>をインストールできます)、一緒に動作することもできます。
+pipとcondaの1つ目の違いは、conda は複数の言語に対応しており Python 自体をインストールできるのに対し、pip は特定の Python 環境にインストールされ、その Python に対してのみパッケージをインストールすることができることです。 また、condaはPython 以外のライブラリや必要なツール (コンパイラ、CUDA、HDF5など) をインストールできる一方で、pipでは出来ません。
 
 2つ目の違いは、pipはPython Packaging Index(PyPI) からパッケージをインストールするのに対し、condaは独自のチャンネル(一般的には "defaults "や "conda-forge "など) からインストールすることです。 PyPIは最大のパッケージ管理システムですが、人気のある全てのパッケージがcondaでも利用可能です。
 
-3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツールであることです。(他にもたくさん存在しています！) これらのツールは様々な環境や複雑な依存関係を取り扱うことができます
+3つ目の違いは、condaはパッケージ、依存関係、環境を管理するための統合されたソリューションであるのに対し、pipでは環境や複雑な依存関係を扱うために別のツールであることです。(他にもたくさん存在しています！) これらのツールは様々な環境や複雑な依存関係を取り扱うことができます for dealing with environments or complex dependencies.
 
 - **Conda:** conda を使用している場合、デフォルトの設定先、または conda-forge チャンネルから NumPyをインストールできます。
   ```bash
@@ -56,8 +63,8 @@ pipとcondaの最初の違いは、Conda は複数の言語に対応しており
   pip install numpy
   ```
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+**Tip:** Use a virtual environment for better dependency management{{< /admonition >}}
 
   ```bash
   python -m venv my-env
@@ -69,20 +76,14 @@ pipとcondaの最初の違いは、Conda は複数の言語に対応しており
 
 
 [[tab]]
-name = 'システムパッケージマネージャを利用'
+name = 'システムパッケージマネージャ'
 content = '''
 ほとんどのユーザーには推奨されませんが、こちらの方が便利な人向けに利用可能です。
 
 **macOS (Homebrew):**
 
 ```bash
-# base envにインストールするのでなく、environmentを作成するのがベストプラクティスです
-conda create -n my-env
-conda activate my-env
-# conda-forgeからインストールする場合
-conda config --env --add channels conda-forge
-# インストールコマンド
-conda install numpy
+brew install numpy
 ```
 
 **Linux (APT):**
@@ -105,12 +106,12 @@ content = '''
 **NumPy**をカスタマイズやデバッグしたい、経験豊富なユーザーや開発者向け
 
 警告:ソースコードからNumPyをビルドすることは簡単では無い場合があります。
-前述のいずれかの方法であなたの環境NumPyを使用できる場合は、バイナリを使用することをお勧めします.
+前述のいずれかの方法を使用できる場合は、代わりにバイナリを使用することをお勧めします.
 ソースからのビルドの詳細な方法については、[Numpy docsのソースガイドからのビルド](https://numpy.org/devdocs/building/)を参照してください。
 
 {{< /tabs >}}
 
-## 推奨方法
+## インストールの確認
 
 NumPy をインストールした後、以下のコードをPython シェルまたはスクリプトで実行して、インストールが正しく実施されているか確認してください。
 
