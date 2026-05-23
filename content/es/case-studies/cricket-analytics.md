@@ -4,15 +4,18 @@ sidebar: false
 ---
 
 {{< figure
- src='/images/content_images/cs/ipl-stadium.png'
- >}}
+  src="/images/content_images/cs/ipl-stadium.png"
+  title="IPLT20, the biggest Cricket Festival in India"
+  alt="Indian Premier League Cricket cup and stadium"
+  attribution="(Image credits: IPLT20 (cup and logo) & Akash Yadav (stadium))"
+  attributionlink="https://unsplash.com/@aksh180" >}}
 {{< /figure >}}
 
 {{< blockquote
- cite="}} No juegas para el público, juegas para el país."
- by="{{< blockquote cite="https://www.scoopwhoop.com/sports/ms-dhoni/" by="M S Dhoni, _Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL_""
+  cite="https://www.scoopwhoop.com/sports/ms-dhoni/""
+  by="M S Dhoni, _Jugador Internacional de críquet, ex-capitán del equipo de India, juega para Chennai Super Kings en IPL_"
 >}}
-{{< /blockquote >}}
+}} No juegas para el público, juegas para el país.{{< /blockquote >}}
 
 ## Acerca del críquet
 
@@ -32,7 +35,15 @@ Las plataformas de medios y entretenimiento, junto con los organismos deportivos
 - obtener información sobre la condición física y el rendimiento de un jugador contra diferentes oponentes,
 - contribución del jugador a las victorias y derrotas para tomar decisiones estratégicas sobre la composición del equipo
 
-{{< figure >}}
+{{< figure
+  "attribution"
+  "(Image credit: Debarghya Das)"
+  "attributionlink"
+  "http://debarghyadas.com/files/IPLpaper.pdf"
+  src="/images/content_images/cs/cricket-pitch.png"
+  title="Cricket Pitch, the focal point in the field"
+  alt="A cricket pitch with bowler and batsmen"
+  align="center" >}}
 {{< /figure >}}
 
 ### Objetivos Clave de Análisis de Datos
@@ -41,30 +52,35 @@ Las plataformas de medios y entretenimiento, junto con los organismos deportivos
 - El análisis de datos en tiempo real puede ayudar a obtener información incluso durante el juego para cambiar tácticas por parte del equipo y de las empresas asociadas para beneficios económicos y crecimiento.
 - Además del análisis histórico, se aprovechan los modelos predictivos para determinar los posibles resultados de los partidos, lo cual requiere una cantidad significativa de procesamiento de datos y conocimientos de ciencia de datos, herramientas de visualización y la capacidad de incluir nuevas observaciones en el análisis.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/player-pose-estimator.png"
+  alt="pose estimator"
+  title="Cricket Pose Estimator"
+  attribution="(Image credit: connect.vin)"
+  attributionlink="https://connect.vin/2019/05/ai-for-cricket-batsman-pose-analysis/" >}}
 {{< /figure >}}
 
 ### Los Desafíos
 
 - **Limpieza de datos y preprocesamiento**
 
- La IPL ha expandido el críquet más allá del clásico formato de partido de prueba a una escala mucho más grande. El número de partidos jugados cada temporada a través de varios formatos ha incrementado y así también los datos, los algoritmos, las nuevas tecnologías de análisis de datos deportivos y modelos de simulación. El análisis de datos de críquet requiere mapeo del campo, seguimiento de jugadores, seguimiento de la pelota, análisis de tiros de los jugadores y varios otros aspectos relacionados con cómo se lanza la pelota, su ángulo, giro, velocidad y trayectoria. Todos estos factores juntos han incrementado la complejidad de la limpieza de datos y el preprocesamiento.
+  La IPL ha expandido el críquet más allá del clásico formato de partido de prueba a una escala mucho más grande. El número de partidos jugados cada temporada a través de varios formatos ha incrementado y así también los datos, los algoritmos, las nuevas tecnologías de análisis de datos deportivos y modelos de simulación. El análisis de datos de críquet requiere mapeo del campo, seguimiento de jugadores, seguimiento de la pelota, análisis de tiros de los jugadores y varios otros aspectos relacionados con cómo se lanza la pelota, su ángulo, giro, velocidad y trayectoria. Todos estos factores juntos han incrementado la complejidad de la limpieza de datos y el preprocesamiento.
 
 - **Modelación Dinámica**
 
- En el cricket, al igual que en cualquier otro deporte, puede haber una gran cantidad de variables relacionadas con el seguimiento de varios jugadores en el campo, sus atributos, la pelota y varias posibilidades de acciones potenciales. La complejidad del análisis de datos y la modelación es directamente proporcional al tipo de preguntas predictivas que se plantean durante el análisis y depende en gran medida de la representación de los datos y del modelo. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
+  En el cricket, al igual que en cualquier otro deporte, puede haber una gran cantidad de variables relacionadas con el seguimiento de varios jugadores en el campo, sus atributos, la pelota y varias posibilidades de acciones potenciales. La complejidad del análisis de datos y la modelación es directamente proporcional al tipo de preguntas predictivas que se plantean durante el análisis y depende en gran medida de la representación de los datos y del modelo. Las cosas se vuelven aún más desafiantes en términos de cálculo y comparación de datos cuando se buscan predicciones dinámicas del juego de críquet, tal como habría sucedido si el bateador hubiera golpeado la bola a un ángulo o velocidad diferente.
 
 - **Complejidad de Análisis Predictivo**
 
- Gran parte de la toma de decisiones en el críquet se basa en preguntas como "¿con qué frecuencia un bateador juega un cierto tipo de golpe si la entrega de la pelota es de un tipo particular?" o "¿cómo cambia un lanzador su línea y longitud si el bateador responde a su entrega de una cierta manera?".
- Este tipo de consulta de análisis predictivo requiere una disponibilidad de un conjunto de datos altamente granular y la capacidad de sintetizar datos y crear modelos generativos que sean altamente precisos.
+  Gran parte de la toma de decisiones en el críquet se basa en preguntas como "¿con qué frecuencia un bateador juega un cierto tipo de golpe si la entrega de la pelota es de un tipo particular?" o "¿cómo cambia un lanzador su línea y longitud si el bateador responde a su entrega de una cierta manera?".
+  Este tipo de consulta de análisis predictivo requiere una disponibilidad de un conjunto de datos altamente granular y la capacidad de sintetizar datos y crear modelos generativos que sean altamente precisos.
 
 ## El Papel de NumPy en el Análisis del Críquet
 
 El análisis deportivo es un campo en desarrollo. Muchos investigadores y compañías [utilizan NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx) y otros paquetes de PyData como Scikit-learn, SciPy, Matplotlib y Jupyter, además de utilizar las últimas técnicas de aprendizaje automático e inteligencia artificial.  NumPy se ha utilizado para varios tipos de análisis deportivos relacionados con el críquet tales como:
 
 - **Análisis Estadístico:** Las capacidades numéricas de NumPy ayudan a estimar la significancia estadística de los datos observacionales o de eventos de partidos en el contexto de varias tácticas de jugadores y de juego, estimando el resultado del juego mediante la comparación con un modelo generativo o estático.
- El [análisis causal](https://amplitude.com/blog/2017/01/19/causation-correlation) y los [enfoques de big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) se utilizan para el análisis táctico.
+  El [análisis causal](https://amplitude.com/blog/2017/01/19/causation-correlation) y los [enfoques de big data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996805/) se utilizan para el análisis táctico.
 
 - **Visualización de Datos:** La creación de gráficos y la [visualización de datos](https://towardsdatascience.com/advanced-sports-visualization-with-pandas-matplotlib-and-seaborn-9c16df80a81b) proporcionan información útil sobre la relación entre varios conjuntos de datos.
 
@@ -74,5 +90,8 @@ El análisis deportivo ha revolucionado la forma en que se juegan los partidos p
 constituye una base sólida para un gran conjunto de paquetes de Python que brindan funciones de nivel superior relacionadas con análisis de datos, el aprendizaje automático y los algoritmos de IA.
 Estos paquetes están ampliamente desplegados para obtener información en tiempo real que ayudan en la toma de decisiones para resultados revolucionarios, tanto en el campo como para sacar conclusiones y hacer negocios alrededor del juego del críquet. Encontrar los parámetros ocultos, patrones y atributos que conducen al resultado de un partido de críquet ayuda a los interesados a tomar nota de la información del juego que de otra forma estarían ocultos en números y estadísticas.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_ca_benefits.png"
+  alt="Diagram showing benefits of using NumPy for cricket analytics"
+  title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
