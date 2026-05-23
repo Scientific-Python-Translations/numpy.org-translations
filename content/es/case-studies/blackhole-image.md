@@ -4,18 +4,18 @@ sidebar: false
 ---
 
 {{< figure
-  src='/images/content_images/cs/blackhole.jpg'
-  title='Black Hole M87'
-  alt='black hole image'
-  attribution='(Image Credits: Event Horizon Telescope Collaboration)'
-  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"
->}}
+  src="/images/content_images/cs/blackhole.jpg"
+  title="Black Hole M87"
+  alt="black hole image"
+  attribution="(Image Credits: Event Horizon Telescope Collaboration)"
+  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< /figure >}}
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYshttps://www.youtube.com/watch?v=BIvezCVcsYs"
-  by=""
+  by="Katie Bouman, _Assistant Professor, Computing & Mathematical Sciences, Caltech_"
 >}}
-{{< /blockquote >}}
+Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.{{< /blockquote >}}
 
 ## Un telescopio del tamaño de la Tierra
 
@@ -47,7 +47,13 @@ El [ Telescopio Event Horizon (EHT) ](https://eventhorizontelescope.org), es un 
 
   Cuando el objetivo es ver algo nunca antes visto, ¿cómo pueden los científicos estar seguros de que la imagen es correcta?
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/dataprocessbh.png"
+  title="EHT Data Processing Pipeline"
+  alt="data pipeline"
+  align="center"
+  attribution="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)"
+  attributionlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 {{< /figure >}}
 
 ## El Rol de NumPy
@@ -58,13 +64,19 @@ La colaboración del EHT respondió a estos desafíos haciendo que los equipos i
 
 Su trabajo ilustra el rol que desempeña el ecosistema científico de Python en el avance de la ciencia a través del análisis de datos colaborativos.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/bh_numpy_role.png"
+  alt="role of numpy"
+  title="The role of NumPy in Black Hole imaging" >}}
 {{< /figure >}}
 
 Por ejemplo, el paquete de Python [`eht-imaging`][ehtim] proporciona herramientas para simular y realizar reconstrucción de imágenes en datos VLBI.
 NumPy está en el núcleo del procesamiento de datos de matrices utilizados en este paquete, como se muestra a continuación en el gráfico parcial de dependencias de software.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/ehtim_numpy.png"
+  alt="ehtim dependency map highlighting numpy"
+  title="Software dependency chart of ehtim package highlighting NumPy" >}}
 {{< /figure >}}
 
 [ehtim]: https://github.com/achael/eht-imaging
@@ -79,5 +91,8 @@ Los formatos estándar de archivos astronómicos y transformaciones de tiempo/co
 
 El eficiente y adaptable arreglo n-dimensional que es la característica central de NumPy, permitió a los investigadores manipular grandes conjuntos de datos numéricos, proporcionando una base para la primera imagen de un agujero negro. Un momento histórico en la ciencia ofrece una impresionante evidencia visual de la teoría de Einstein. Este logro abarca no solo los avances tecnológicos sino también la colaboración internacional de más de 200 científicos y algunos de los mejores radio observatorios del mundo.  Algoritmos innovadores y técnicas de procesamiento de datos, mejorando los modelos astronómicos existentes, ayudaron a desvelar un misterio del universo.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_bh_benefits.png"
+  alt="numpy benefits"
+  title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
