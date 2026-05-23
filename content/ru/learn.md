@@ -64,7 +64,7 @@ Try these advanced resources for a better understanding of NumPy concepts like a
 ## NumPy Talks
 
 - [The Future of NumPy Indexing](https://www.youtube.com/watch?v=o0EacbIbf58) _by Jaime Fernández_ (2016)
-- Evolution of Array Computing in Python _by Ralf Gommers_ (2019)
+- [Evolution of Array Computing in Python](https://www.youtube.com/watch?v=HVLPJnvInzM&t=10s) _by Ralf Gommers_ (2019)
 - [NumPy: what has changed and what is going to change?](https://www.youtube.com/watch?v=YFLVQFjRmPY) _by Matti Picus_ (2019)
 - [Inside NumPy](https://www.youtube.com/watch?v=dBTJD_FDVjU) _by Ralf Gommers, Sebastian Berg, Matti Picus, Tyler Reddy, Stefan van der Walt, Charles Harris_ (2019)
 - [Brief Review of Array Computing in Python](https://www.youtube.com/watch?v=f176j2g2eNc) _by Travis Oliphant_ (2019)
