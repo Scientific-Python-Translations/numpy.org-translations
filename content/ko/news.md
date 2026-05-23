@@ -1,45 +1,35 @@
 ---
-title: 소식
+title: "소식"
 sidebar: false
-newsHeader: NumPy 2.2.0 released!
+newsHeader: "NumPy 2.2.0 가 배포되었습니다!"
 date: 2023-09-16
 ---
 
-### NumPy 2.2.0 released
+### NumPy 2.2.0 가 배포되었습니다
 
-_8 Dec, 2024_ -- The NumPy 2.2.0 release is a quick release that brings us back into sync with the usual twice yearly release cycle. There have been a number
-of small cleanups, improvements to the StringDType, and better support for free
-threaded Python. Highlights are:
+_8 Dec, 2024_ -- The NumPy 2.2.0 release is a quick release that brings us back into sync with the usual twice yearly release cycle. 몇몇 작은 정리, StringDType에 대한 개선, 자유 스레드 파이썬 지원 향상 등이 있었습니다. 주요한 개선점:
 
 - New functions `matvec` and `vecmat`,
-- Many improved annotations,
-- Improved support for the new StringDType,
-- Improved support for free threaded Python,
-- Fixes for f2py.
+- 다수의 annotation 개선
+- 새로운 StringDType 지원 개선,
+- 자유 스레드 파이썬 지원 개선,
+- f2py 수정.
 
-This release supports Python versions 3.10-3.13.
+이 배포판은 파이썬 3.10~3.13을 지원합니다.
 
-### NumPy 2.1.0 released
+### NumPy 2.1.0 배포
 
-_18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. 일반적인 버그 수정과 파이썬 지원 개정에 덧붙여 2.0 확장 개발 이후 NumPy를 평상적인 배포 싸이클로 복귀하도록 돕고자 하는 것입니다. The highlights for this
-release are:
+_18 Aug, 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. 일반적인 버그 수정과 파이썬 지원 개정에 덧붙여 2.0 확장 개발 이후 NumPy를 평상적인 배포 싸이클로 복귀하도록 돕고자 하는 것입니다. 해당 배포판의 주요 내용:
 
-- Support for Python 3.13.
-- Preliminary support for free threaded Python 3.13.
-- Support for the array-api 2023.12 standard.
+- 파이썬 3.13 지원.
+- 스레드가 자유로운 파이썬 3.13 을 위한 예비 지원.
+- array-api 2023.12 표준 지원.
 
-Python versions 3.10-3.13 are supported by this release.
+이 배포판은 파이썬 3.10~3.13 버전을 지원합니다.
 
 ### NumPy 2.0 출시일: 6월 16일
 
-_16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. It is the
-result of 11 months of development since the last feature release and is the
-work of 212 contributors spread over 1078 pull requests. It contains a large
-number of exciting new features as well as changes to both the Python and C
-APIs.  It includes breaking changes that could not happen in a regular minor
-release - including an ABI break, changes to type promotion rules, and API
-changes which may not have been emitting deprecation warnings in 1.26.x. Key
-documents related to how to adapt to changes in NumPy 2.0 include:
+_16 Jun, 2024_ -- NumPy 2.0.0 is the first major release since 2006. 이것은 이전 배포판 이후 11개월간의 개발의 결과로, 212명에 의한 1078개의 병합 요청을 망라한 것입니다. 다수의 새로운 기능과 파이썬, C 모두의 API 에서의 변화를 담고 있습니다.  일반적인 소규모 배포판에서는 일어날 수 없었던 호환되지 않는 변경도 포함하고 있습니다. 여기에는 ABI break, 변수형 promotion 규칙 변경, 1.26.x 에서 지원 종료 경고를 표시하지 않았을 수도 있는 API 변경 등이 포함됩니다. NumPy 2.0의 변화에 적응하는 방법과 관련된 주요 문서:
 
 - [NumPy 2.0 이주 가이드](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
 - [2.0.0 릴리즈 노트](https://numpy.org/devdocs/release/2.0.0-notes.html)
