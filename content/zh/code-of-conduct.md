@@ -22,16 +22,16 @@ aliases:
 3. 保持合作。 我们的工作成果将被其他人使用，反过来，我们依靠其他人的工作来进行改进。 当我们在项目中添加一些有用的功能时，我们愿意向其他人解释它是如何运作的。 这样他们就能够在这些功能的基础上进一步改善工作效率。 我们作出的任何决定都将影响到用户和开发者，因此在作出决定时必须认真考虑后果。
 4. 勤于向人请教。 没人知道所有事！ 提早提问可以避免很多麻烦的发生，所以我们鼓励提问，尽管我们可能把它们引向更合适的论坛中。 我们将努力做出反应并提供帮助。
 5. 谨慎用词 我们在沟通过程中保持谨慎和尊重，我们对自己的发言负有全部责任。 善待他人。 不要侮辱或贬低其他参与者。 我们不接受骚扰或其他排斥行为，例如：
-    - 针对他人的暴力威胁或语言。
-    - 性别、种族主义或其他歧视性笑话和语言。
-    - 露骨或粗暴的素材;
-    - 发布（或威胁发布）他人个人身份信息（“敲诈”）。
-    - 未经发件人同意分享私人内容，例如私下发送电子邮件、或发送至非公开/未登录论坛，如IRC 频道。
-    - 个人侮辱，尤其是使用种族主义或性别歧视术语的侮辱。
-    - 不受欢迎的性关注。
-    - 过于夸张。 请避免使用骂人的话；人们对咒骂的敏感度差异很大。
-    - 对他人的反复骚扰。 一般来说，如果有人要求你停止，你就要停止了。
-    - 鼓吹或鼓励上述任何行为。
+   - 针对他人的暴力威胁或语言。
+   - 性别、种族主义或其他歧视性笑话和语言。
+   - 露骨或粗暴的素材;
+   - 发布（或威胁发布）他人个人身份信息（“敲诈”）。
+   - 未经发件人同意分享私人内容，例如私下发送电子邮件、或发送至非公开/未登录论坛，如IRC 频道。
+   - 个人侮辱，尤其是使用种族主义或性别歧视术语的侮辱。
+   - 不受欢迎的性关注。
+   - 过于夸张。 请避免使用骂人的话；人们对咒骂的敏感度差异很大。
+   - 对他人的反复骚扰。 一般来说，如果有人要求你停止，你就要停止了。
+   - 鼓吹或鼓励上述任何行为。
 
 ### 多样性声明
 
@@ -57,9 +57,9 @@ NumPy项目欢迎并鼓励每个人参与。 我们致力于成为一个人人�
 - Melissa Weber Mendonça
 - Rohit Goswami
 
-如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 或者，如果你出于任何原因感到不方便向委员会提交报告， 那么您也可以通过 [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible)联系NumFOCUS高级工作人员。
+如果你的举报涉及委员会的任何成员，或他们认为对举报的处理存在利益冲突， 他们将回避审议你的报告。 Alternatively, if for any reason you feel uncomfortable making a report to the Committee, then you can also contact senior NumFOCUS staff at [conduct@numfocus.org](https://numfocus.org/code-of-conduct#persons-responsible).
 
-### 事故报告决议 & 行为守则执行
+### Incident reporting resolution & Code of Conduct enforcement
 
 _This section summarizes the most important points, more details can be found in_ [NumPy Code of Conduct - How to follow up on a report](report-handling-manual).
 
@@ -80,4 +80,4 @@ _This section summarizes the most important points, more details can be found in
 
 我们感谢以下文件背后的团体，我们从这些文件中吸取了内容和灵感：
 
-- [《SciPy行为守则》](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
