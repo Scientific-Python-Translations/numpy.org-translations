@@ -71,6 +71,6 @@ Experimente esses recursos avançados para uma melhor compreensão dos conceitos
 
 ***
 
-## Citando o Numpy
+## Citando a NumPy
 
 Se a NumPy é importante na sua pesquisa, e você gostaria de dar reconhecimento ao projeto na sua publicação acadêmica, por favor veja [estas informações sobre citações](/pt/citing-numpy).
