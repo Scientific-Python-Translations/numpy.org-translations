@@ -81,7 +81,7 @@ params:
             link: https://numpy.org/doc/stable
           - text: 배우기
             link: /ko/learn
-          - text: Numpy 인용
+          - text: NumPy 인용하기
             link: /ko/citing-numpy
           - text: 로드맵
             link: https://numpy.org/neps/roadmap.html
