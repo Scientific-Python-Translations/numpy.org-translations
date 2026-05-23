@@ -7,7 +7,10 @@ sidebar: false
 저희가 NumPy 커뮤니티의 가닥을 잡을 수 있도록 도와주기 위해 참여해주셨으며
 프로젝트의 미래에 대한 생각을 표현해주셨습니다.
 
-{{< figure >}}
+{{< figure
+    src="/surveys/NumPy_usersurvey_2020_report_cover.png"
+    alt="Cover page of the 2020 NumPy user survey report, titled 'NumPy Community Survey 2020 - results'"
+    width="250" >}}
 {{< /figure >}}
 
 **[보고서를 내려받아서](/surveys/NumPy_usersurvey_2020_report.pdf)** 설문조사 결과를 자세히 들여다 보세요.
