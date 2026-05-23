@@ -1,7 +1,7 @@
 ---
-title: News
+title: "News"
 sidebar: false
-newsHeader: NumPy 2.2.0 released!
+newsHeader: "NumPy 2.2.0 released!"
 date: 2024-12-08
 ---
 
@@ -197,8 +197,8 @@ Python 3.11 will be supported when it reaches the rc stage.
 ### NumFOCUS DEI research study: call for participation
 
 _Apr 13, 2022_ -- NumPy is working with [NumFOCUS](http://numfocus.org/) on a
-research project
-funded by the Gordon & Betty Moore Foundation to
+[research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)
+funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to
 understand the barriers to participation that contributors, particularly those
 from historically underrepresented groups, face in the open-source software
 community. The research team would like to talk to new contributors, project
