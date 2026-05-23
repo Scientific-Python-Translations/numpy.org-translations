@@ -11,7 +11,7 @@ params:
     # Hero subtitle (optional)
     subtitle: Pythonによる科学技術計算の基礎パッケージ
     # Button text
-    buttontext: "最新リリース: Numpy 1.26. すべてのリリースを表示する"
+    buttontext: "最新リリース: Numpy 2.2. すべてのリリースを表示する"
     # Where the main hero button links to
     buttonlink: "/ja/news/#releases"
     # Hero image (from static/images/___)
@@ -81,7 +81,7 @@ params:
             link: https://numpy.org/doc/stable
           - text: NumPyの学び方
             link: /ja/learn
-          - text: 引用する
+          - text: NumPyを引用する
             link: /ja/citing-numpy
           - text: ロードマップ
             link: https://numpy.org/neps/roadmap.html
