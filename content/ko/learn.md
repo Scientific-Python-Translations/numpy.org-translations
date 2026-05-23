@@ -71,6 +71,6 @@ Indexing, Splitting, Stacking, 선형대수 등과 같은 NumPy의 개념을 더
 
 ***
 
-## Numpy 인용
+## NumPy 인용하기
 
 만약 당신의 연구에서 NumPy가 중요한 역할을 수행하였고 학술 간행물에서 출판하기 위해서는 [이 인용 정보](/citing-numpy)를 참조하세요.
