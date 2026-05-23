@@ -3,8 +3,13 @@ title: Installing NumPy
 sidebar: false
 ---
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+This page assumes you are comfortable using a terminal and are familiar with package managers.
+پایتون، تنها پیش‌نیاز برای نصب نامپای است. If you don't have
+Python yet and want the simplest way to get started, we recommend you use the
+[Anaconda Distribution](https://www.anaconda.com/download) - it includes
+Python, NumPy, and many other commonly used packages for scientific computing
+and data science.{{< /admonition >}}
 
 The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
 
@@ -58,8 +63,8 @@ The third difference is that conda is an integrated solution for managing packag
   pip install numpy
   ```
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+**Tip:** Use a virtual environment for better dependency management{{< /admonition >}}
 
   ```bash
   python -m venv my-env
