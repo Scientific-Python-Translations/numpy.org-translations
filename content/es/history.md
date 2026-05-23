@@ -17,5 +17,5 @@ Si deseas obtener una copia de las librerías originales Numeric y Numarray, sig
 
 ### Documentación Histórica
 
-[Descarga el Manual de _\`Numeric'_](static/numeric-manual.pdf)
+[Descarga el Manual de _\\`Numeric'_](static/numeric-manual.pdf)
 
