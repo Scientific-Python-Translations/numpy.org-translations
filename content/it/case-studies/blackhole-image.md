@@ -4,50 +4,78 @@ sidebar: false
 ---
 
 {{< figure
-  src='/images/content_images/cs/blackhole.jpg'
-  title='Black Hole M87'
-  alt='black hole image'
-  attribution='(Image Credits: Event Horizon Telescope Collaboration)'
-  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"
->}}
+  src="/images/content_images/cs/blackhole.jpg"
+  title="Black Hole M87"
+  alt="black hole image"
+  attribution="(Image Credits: Event Horizon Telescope Collaboration)"
+  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< /figure >}}
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
-  by="{{< blockquote cite="https://www.youtube.com/watch?v=BIvezCVcsYs" by="Katie Bouman, \* Professore Assistente, Scienze & Matematiche Computazionali, Caltech\*""
+  by="Katie Bouman, _Assistant Professor, Computing & Mathematical Sciences, Caltech_"
 >}}
-{{< /blockquote >}}
+Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.{{< /blockquote >}}
 
 ## Un telescopio dalla dimensione della Terra
 
-Il telescopio [Event Horizon (EHT)](https://eventhorizontelescope.org) è un complesso di otto radiotelescopi terrestri che formano un telescopio computazionale della dimensione della Terra, studiando l'universo con sensibilità e risoluzione senza precedenti.  L'enorme telescopio virtuale, che utilizza una tecnica chiamata interferometria a lunghissima base (VLBI), ha una risoluzione angolare di [20 micro-secondi d'arco][resolution] — abbastanza definito per leggere un giornale a New York da un bar sul marciapiede a Parigi!
+The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an
+array of eight ground-based radio telescopes forming a computational telescope
+the size of the earth, studing the universe with unprecedented
+sensitivity and resolution.  The huge virtual telescope,  which uses a technique
+called very-long-baseline interferometry (VLBI), has an angular resolution of
+[20 micro-arcseconds][resolution] — enough to read a newspaper in New York
+from a sidewalk café in Paris!
 
 [resolution]: https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole
 
 ### Obiettivi Principali e Risultati
 
-- **Una Nuova Visione dell'Universo:** Le basi per l'immagine innovativa dell'EHT sono state gettate 100 anni prima, quando [Sir Arthur Eddington][eddington] ha dato il primo supporto d'osservazione della teoria della relatività generale di Einstein.
+- **A New View of the Universe:**
+  The groundwork for the EHT's groundbreaking image had been laid 100 years
+  earlier when [Sir Arthur Eddington][eddington] yielded the first
+  observational support of Einstein's theory of general relativity.
 
-- **Il Buco Nero:** L'EHT è stato addestrato su un buco nero supermassiccio a circa 55 milioni di anni luce dalla Terra, situato al centro della galassia Messier 87 (M87) nell'ammasso della galassia Vergine. La sua massa è 6.5 miliardi di volte quella del Sole. Era stato studiato per [oltre 100 anni](https://www.jpl.nasa.gov/news/news.php?feature=7385), ma mai prima d'ora si era osservato un buco nero visivamente.
+- **The Black Hole:** EHT was trained on a supermassive black hole
+  approximately 55 million light-years from Earth, lying at the center
+  of the galaxy Messier 87 (M87) in the Virgo galaxy cluster. Its mass is
+  6.5 billion times the Sun's. It had been studied for
+  [over 100 years](https://www.jpl.nasa.gov/news/news.php?feature=7385), but never before
+  had a black hole been visually observed.
 
-- **Paragonando Osservazioni con la Teoria:** Dalla teoria generale della relatività di Einstein, gli scienziati si aspettavano di trovare una regione richiamante un'ombra causata dalla flessione gravitazionale e dalla cattura della luce. Gli scienziati hanno potuto usarla per misurare l'enorme massa del buco nero.
+- **Comparing Observations to Theory:** From Einstein’s general theory of
+  relativity, scientists expected to find a shadow-like region caused by
+  gravitational bending and capture of light. Scientists could
+  use it to measure the black hole's enormous mass.
 
 [eddington]: https://en.wikipedia.org/wiki/Eddington_experiment
 
 ### Le Sfide
 
-- **Scala computazionale**
+- **Computational scale**
 
-  L'EHT pone enormi sfide di elaborazione dei dati, tra cui rapide fluttuazioni di fase atmosferiche, grande larghezza di banda nella registrazione e telescopi che sono ampiamente dissimili e geograficamente dispersi.
+  EHT poses massive data-processing challenges, including rapid atmospheric
+  phase fluctuations, large recording bandwidth, and telescopes that are
+  widely dissimilar and geographically dispersed.
 
-- **Troppe informazioni**
+- **Too much information**
 
-  Ogni giorno l'EHT genera oltre 350 terabyte di osservazioni, memorizzati su dischi rigidi riempiti di elio. Ridurre il volume e la complessità di questa quantità di dati è estremamente difficile.
+  Each day EHT generates over 350 terabytes of observations, stored on
+  helium-filled hard drives. Reducing the volume and complexity of this much
+  data is enormously difficult.
 
-- **Dentro allo sconosciuto**
+- **Into the unknown**
 
-  Quando l'obiettivo è quello di vedere qualcosa mai visto prima, come possono gli scienziati essere certi che l'immagine sia corretta?
+  When the goal is to see something never before seen, how can scientists be
+  confident the image is correct?
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/dataprocessbh.png"
+  title="EHT Data Processing Pipeline"
+  alt="data pipeline"
+  align="center"
+  attribution="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)"
+  attributionlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 {{< /figure >}}
 
 ## Il Ruolo di NumPy
@@ -63,20 +91,32 @@ La collaborazione dell'EHT ha riscontrato queste problematiche durante l'elabora
 
 Il loro lavoro illustra il ruolo che l'ecosistema scientifico di Python gioca nell'avanzamento della scienza attraverso l'analisi collaborativa di dati.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/bh_numpy_role.png"
+  alt="role of numpy"
+  title="The role of NumPy in Black Hole imaging" >}}
 {{< /figure >}}
 
-Ad esempio, il paccheto Python [`eht-imaging`][ehtim]  fornisce strumenti per la simulazione e la ricostruzione dell'immagine dei dati VLBI.
+For example, the [`eht-imaging`][ehtim] Python package provides tools for
+simulating and performing image reconstruction on VLBI data.
 NumPy è al centro dell'elaborazione dei dati matriciali utilizzati in questo pacchetto, come illustrato dal grafico delle dipendenze parziali del software
 qui sotto.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/ehtim_numpy.png"
+  alt="ehtim dependency map highlighting numpy"
+  title="Software dependency chart of ehtim package highlighting NumPy" >}}
 {{< /figure >}}
 
 [ehtim]: https://github.com/achael/eht-imaging
 
-Oltre a NumPy, molti altri pacchetti, come [SciPy](https://www.scipy.org) e [Panda](https://pandas.io), fanno parte della pipeline di elaborazione dati per l’immagine del buco nero.
-I formati di file astronomici standard e le trasformazioni di tempo/coordinate sono stati gestiti da [Astropy][astropy], mentre [Matplotlib][mpl] è stato utilizzato per visualizzare i dati in tutta la pipeline di analisi, compresa la generazione dell'immagine finale del buco nero.
+Besides NumPy, many other packages, such as
+[SciPy](https://scipy.org) and [Pandas](https://pandas.pydata.org), are part of the
+data processing pipeline for imaging the black hole.
+The standard astronomical file formats and time/coordinate transformations
+were handled by [Astropy][astropy], while [Matplotlib][mpl] was used
+in visualizing data throughout the analysis pipeline, including the generation
+of the final image of the black hole.
 
 [astropy]: https://www.astropy.org/
 [mpl]: https://matplotlib.org/
@@ -88,5 +128,8 @@ ha permesso ai ricercatori di manipolare grandi insiemi di dati numerici, fornen
 per la prima immagine mai osservata di un buco nero. Pietra miliare della scienza, si tratta di una splendida testimonianza visiva della teoria di Einstein.   Algoritmi innovativi e tecniche di elaborazione dati, migliorando i modelli astronomici esistenti, hanno contribuito a spiegare un mistero
 dell'universo.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_bh_benefits.png"
+  alt="numpy benefits"
+  title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
