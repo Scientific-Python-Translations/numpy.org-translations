@@ -3,7 +3,8 @@ title: NumPy開発チーム
 sidebar: false
 ---
 
-私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。 是非[参加してください](/ja/contribute)!
+私たちは、高品質のオープンソースソフトウェアを構築することで、世界中の科学・研究コミュニティをサポートすることを使命とする国際的なチームです。
+是非[参加してください](/ja/contribute)!
 
 ### メンテナー
 
@@ -35,4 +36,4 @@ sidebar: false
 
 # 管理委員会
 
-For the list of people on the Steering Council, please see [here](https://numpy.org/devdocs/dev/governance/people.html).
+運営委員会のメンバーリストについては、[こちら](https://numpy.org/about/)をご覧ください。
