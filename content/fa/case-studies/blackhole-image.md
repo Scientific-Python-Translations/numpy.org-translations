@@ -1,23 +1,23 @@
 ---
-title: "Case Study: First Image of a Black Hole"
+title: "مطالعه موردی: نخستین تصویر از یک سیاه‌چاله"
 sidebar: false
 ---
 
 {{< figure
-  src='/images/content_images/cs/blackhole.jpg'
-  title='Black Hole M87'
-  alt='black hole image'
-  attribution='(Image Credits: Event Horizon Telescope Collaboration)'
-  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"
->}}
+  src="/images/content_images/cs/blackhole.jpg"
+  title="Black Hole M87"
+  alt="black hole image"
+  attribution="(Image Credits: Event Horizon Telescope Collaboration)"
+  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< /figure >}}
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
   by="Katie Bouman, _Assistant Professor, Computing & Mathematical Sciences, Caltech_"
 >}}
-{{< /blockquote >}}
+Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.{{< /blockquote >}}
 
-## A telescope the size of the earth
+## یک تلسکوپ به اندازه زمین
 
 The [Event Horizon telescope (EHT)](https://eventhorizontelescope.org) is an
 array of eight ground-based radio telescopes forming a computational telescope
@@ -69,33 +69,37 @@ from a sidewalk café in Paris!
   When the goal is to see something never before seen, how can scientists be
   confident the image is correct?
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/dataprocessbh.png"
+  title="EHT Data Processing Pipeline"
+  alt="data pipeline"
+  align="center"
+  attribution="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)"
+  attributionlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 {{< /figure >}}
 
-## NumPy’s Role
+## نقش NumPy
 
-What if there's a problem with the data? Or perhaps an algorithm relies too
-heavily on a particular assumption. Will the image change drastically if a
-single parameter is changed?
+اگر مشکلی در داده‌ها وجود داشته باشد چه می‌شود؟ یا شاید یک الگوریتم بیش از حد به یک فرضیه خاص متکی باشد. آیا با تغییر یک پارامتر، تصویر به طور چشمگیری تغییر خواهد کرد؟
 
-The EHT collaboration met these challenges by having independent teams
-evaluate the data, using both established and cutting-edge image reconstruction
-techniques. When results proved consistent, they were combined to yield the
-first-of-a-kind image of the black hole.
+همکاری EHT این چالش‌ها را با تشکیل تیم‌های مستقل برای ارزیابی داده‌ها و استفاده از تکنیک‌های بازسازی تصویر هم سنتی و هم نوین، برطرف کرد. هنگامی که نتایج یکسان بودند، آن‌ها را ترکیب کردند تا نخستین تصویر از سیاه‌چاله را به دست آورند.
 
-Their work illustrates the role the scientific Python ecosystem plays in
-advancing science through collaborative data analysis.
+کار آن‌ها نقش اکوسیستم علمی پایتون را در پیشبرد دانش از طریق تحلیل داده‌های مشارکتی نشان می‌دهد.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/bh_numpy_role.png"
+  alt="role of numpy"
+  title="The role of NumPy in Black Hole imaging" >}}
 {{< /figure >}}
 
 For example, the [`eht-imaging`][ehtim] Python package provides tools for
 simulating and performing image reconstruction on VLBI data.
-NumPy is at the core of array data processing used
-in this package, as illustrated by the partial software
-dependency chart below.
+NumPy در هسته پردازش داده‌های آرایه‌ای که در این کتابخانه استفاده می‌شود قرار دارد، همان‌طور که نمودار وابستگی نرم‌افزار جزئی زیر نشان می‌دهد.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/ehtim_numpy.png"
+  alt="ehtim dependency map highlighting numpy"
+  title="Software dependency chart of ehtim package highlighting NumPy" >}}
 {{< /figure >}}
 
 [ehtim]: https://github.com/achael/eht-imaging
@@ -113,15 +117,10 @@ of the final image of the black hole.
 
 ## Summary
 
-The efficient and adaptable n-dimensional array that is NumPy's central feature
-enabled researchers to manipulate large numerical datasets, providing a
-foundation for the first-ever image of a black hole. A landmark moment in
-science, it gives stunning visual evidence of Einstein’s theory. The
-achievement encompasses not only technological breakthroughs but also
-international collaboration among over 200 scientists and some of the world's
-best radio observatories.  Innovative algorithms and data processing
-techniques, improving upon existing astronomical models, helped unfold a
-mystery of the universe.
+آرایه چندبعدی کارآمد و انعطاف‌پذیر که ویژگی اصلی NumPy است، به پژوهشگران این امکان را داد تا مجموعه داده‌های عددی بزرگ را مدیریت کنند و زمینه‌ای برای نخستین تصویر از یک سیاه‌چاله فراهم آورد. یک لحظه تاریخی در علم که شواهد بصری خیره‌کننده‌ای از نظریه اینشتین ارائه می‌دهد. این دستاورد نه تنها شامل پیشرفت‌های فناورانه است، بلکه نتیجه همکاری بین‌المللی بیش از ۲۰۰ دانشمند و برخی از بهترین رصدخانه‌های رادیویی جهان نیز می‌باشد.  الگوریتم‌های نوآورانه و تکنیک‌های پردازش داده که مدل‌های نجومی موجود را بهبود بخشیدند، به کشف یکی از رازهای جهان کمک کردند.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_bh_benefits.png"
+  alt="numpy benefits"
+  title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
