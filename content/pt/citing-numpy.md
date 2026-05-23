@@ -1,5 +1,5 @@
 ---
-title: Citando o Numpy
+title: Citando a NumPy
 sidebar: false
 ---
 
