@@ -22,16 +22,16 @@ Nós nos esforçamos para:
 3. Sermos colaborativos. O nosso trabalho será utilizado por outras pessoas e, por sua vez, dependeremos do trabalho dos outros. Quando fazemos algo em benefício do projeto, estamos dispostos a explicar aos outros como esse algo funciona, para que outros possam desenvolver o trabalho e torná-lo ainda melhor. Qualquer decisão que tomemos afetará nossos usuários e os colegas, e levamos essas consequências a sério quando tomamos decisões.
 4. Sermos inquisitivos. Ninguém sabe tudo! Fazer perguntas antecipadamente evita muitos problemas mais tarde, por isso encorajamos as perguntas, embora possamos encaminhá-las para um fórum adequado. Vamos nos esforçar para sermos sensíveis e úteis.
 5. Termos cuidado com as palavras que escolhemos. Somos cuidadosos e respeitosos na nossa comunicação e assumimos a responsabilidade pelo nosso próprio discurso. Seja gentil com os outros. Não insulte ou deprecie outros participantes. Nós não aceitaremos assédio ou outros comportamentos exclusivos, como:
-    - Ameaças ou linguagem violenta direcionadas contra outra pessoa.
-    - Piadas e linguagem sexista, racista ou discriminatória.
-    - Postagem de material sexualmente explícito ou violento.
-    - Postar (ou ameaçar postar) informações pessoais de outras pessoas (“doxing”).
-    - Compartilhar conteúdo privado, como e-mails enviados de maneira privada ou não-pública, ou fóruns não registrados, como histórico de canais IRC, sem o consentimento do remetente.
-    - Insultos pessoais, especialmente aqueles que utilizam termos racistas ou sexistas.
-    - Atenção sexual não consentida.
-    - Profanidade excessiva. Por favor, evite palavrões; as pessoas diferem muito na sua sensibilidade à linguagem.
-    - Assédio reiterado. Em geral, se alguém pedir que você pare, então pare.
-    - Advogar em favor ou encorajar qualquer um dos comportamentos acima.
+   - Ameaças ou linguagem violenta direcionadas contra outra pessoa.
+   - Piadas e linguagem sexista, racista ou discriminatória.
+   - Postagem de material sexualmente explícito ou violento.
+   - Postar (ou ameaçar postar) informações pessoais de outras pessoas (“doxing”).
+   - Compartilhar conteúdo privado, como e-mails enviados de maneira privada ou não-pública, ou fóruns não registrados, como histórico de canais IRC, sem o consentimento do remetente.
+   - Insultos pessoais, especialmente aqueles que utilizam termos racistas ou sexistas.
+   - Atenção sexual não consentida.
+   - Profanidade excessiva. Por favor, evite palavrões; as pessoas diferem muito na sua sensibilidade à linguagem.
+   - Assédio reiterado. Em geral, se alguém pedir que você pare, então pare.
+   - Advogar em favor ou encorajar qualquer um dos comportamentos acima.
 
 ### Declaração de diversidade
 
