@@ -1,7 +1,7 @@
 ---
-title: Notícias
+title: "Notícias"
 sidebar: false
-newsHeader: Lançado o NumPy versão 2.2.0!
+newsHeader: "Lançado o NumPy versão 2.2.0!"
 date: 2024-12-08
 ---
 
@@ -266,7 +266,7 @@ _20 de junho de 2020_ -- O NumPy 1.19.0 está disponível. Esta é a primeira ve
 
 ### Aceitação no programa Season of Docs
 
-_11 de maio de 2020_ -- O NumPy foi aceito como uma das organizações mentoras do programa Google Season of Docs. Estamos animados com a oportunidade de trabalhar com um <em x-id="3">technical writer</em> para melhorar a documentação do NumPy mais uma vez! Estamos animados com a oportunidade de trabalhar com um _technical writer_ para melhorar a documentação do NumPy mais uma vez!
+_11 de maio de 2020_ -- O NumPy foi aceito como uma das organizações mentoras do programa Google Season of Docs. Estamos animados com a oportunidade de trabalhar com um <em x-id="3">technical writer</em> para melhorar a documentação do NumPy mais uma vez! Estamos animados com a oportunidade de trabalhar com um <em x-id="3">technical writer</em> para melhorar a documentação do NumPy mais uma vez!
 
 ### NumPy versão 1.18.0
 
