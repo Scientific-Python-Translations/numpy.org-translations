@@ -51,7 +51,7 @@ El proyecto NumPy no organiza sus propias conferencias. Las conferencias que tra
 - EuroSciPy
 - SciPy Latinoamérica
 - SciPy India
-- SciPyData Japan
+- SciPyData Japón
 - <a href="https://pydata.org/event-schedule/">Conferencias PyData</a> (de 15 a 20 eventos al año, repartidos entre muchos países)
 
 Muchas de estas conferencias incluyen tutoriales y/o sprints que cubren NumPy, en donde puedes aprender cómo contribuir a Numpy o proyectos de código abierto relacionados.
