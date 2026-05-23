@@ -19,7 +19,7 @@ O Conselho Diretor do NumPy é a entidade que governa o projeto. Seu papel é ga
 - Stéfan van der Walt
 - Melissa Weber Mendonça
 - Marten van Kerkwijk
-- Eric Wieser
+- Nathan Goldbaum
 
 Membros Eméritos:
 
@@ -69,7 +69,7 @@ Veja a página sobre os [Times](/teams) para mais informações.
 Os Parceiros Institucionais são organizações que apoiam o projeto, empregando pessoas que contribuem para a NumPy como parte de seu trabalho. Os parceiros institucionais atuais incluem:
 
 - UC Berkeley (Stéfan van der Walt)
-- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça, Mateusz Sokol, Rohit Goswami)
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
