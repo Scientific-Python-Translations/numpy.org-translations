@@ -3,8 +3,13 @@ title: Instalando o NumPy
 sidebar: false
 ---
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+O NumPy pode ser instalado com <code>conda</code>, com <code>pip</code>, com um gerenciador de pacotes no macOS e Linux, ou <a href="https://numpy.org/devdocs/building">da fonte</a>.
+O único pré-requisito para instalar o NumPy é o próprio Python. If you don't have
+Python yet and want the simplest way to get started, we recommend you use the
+[Anaconda Distribution](https://www.anaconda.com/download) - it includes
+Python, NumPy, and many other commonly used packages for scientific computing
+and data science.{{< /admonition >}}
 
 O método recomendado de instalar o NumPy depende do seu fluxo de trabalho preferido. A seguir, dividimos os métodos de instalação entre as seguintes categorias:
 
@@ -57,8 +62,8 @@ A terceira diferença é que conda é uma solução integrada para gerenciar pac
   pip install numpy
   ```
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+**Tip:** Use a virtual environment for better dependency management{{< /admonition >}}
 
   ```bash
   python -m venv my-env
@@ -78,13 +83,7 @@ Não recomendado para a maioria dos usuários, mas disponível por conveniência
 **macOS (Homebrew):**
 
 ```bash
-# Recomenda-se usar um ambiente novo ao invés de instalar no ambiente-base
-conda create -n my-env
-conda activate my-env
-# Se quiser instalar do conda-forge
-conda config --env --add channels conda-forge
-# O comando para instação
-conda install numpy
+brew install numpy
 ```
 
 **Linux (APT):**
@@ -110,7 +109,7 @@ Para obter detalhes sobre como construir a partir do código-fonte, consulte [o 
 
 {{< /tabs >}}
 
-## Recomendações
+## Verificando a Instalação
 
 Depois de instalar o NumPy, verifique a instalação, executando o seguinte em um shell ou script Python:
 
