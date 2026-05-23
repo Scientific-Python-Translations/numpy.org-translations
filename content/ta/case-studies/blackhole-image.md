@@ -4,18 +4,18 @@ sidebar: false
 ---
 
 {{< figure
-  src='/images/content_images/cs/blackhole.jpg'
-  title='கருந்துளை M87'
-  alt='கருந்துளை படம்'
-  attribution='(படப் பிரதிகள்: நிகழ்வு ஹாரிசன் தொலைநோக்கி ஒத்துழைப்பு)'
-  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg"
->}}
+  src="/images/content_images/cs/blackhole.jpg"
+  title="Black Hole M87"
+  alt="black hole image"
+  attribution="(Image Credits: Event Horizon Telescope Collaboration)"
+  attributionlink="https://www.jpl.nasa.gov/images/universe/20190410/blackhole20190410.jpg" >}}
+{{< /figure >}}
 
 {{< blockquote
   cite="https://www.youtube.com/watch?v=BIvezCVcsYs"
   by="Katie Bouman, _Assistant Professor, Computing & Mathematical Sciences, Caltech_"
 >}}
-{{< /blockquote >}}
+Imaging the M87 Black Hole is like trying to see something that is by definition impossible to see.{{< /blockquote >}}
 
 ## A telescope the size of the earth
 
@@ -69,7 +69,13 @@ from a sidewalk café in Paris!
   When the goal is to see something never before seen, how can scientists be
   confident the image is correct?
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/dataprocessbh.png"
+  title="EHT Data Processing Pipeline"
+  alt="data pipeline"
+  align="center"
+  attribution="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)"
+  attributionlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 {{< /figure >}}
 
 ## NumPy’s Role
@@ -86,7 +92,10 @@ first-of-a-kind image of the black hole.
 Their work illustrates the role the scientific Python ecosystem plays in
 advancing science through collaborative data analysis.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/bh_numpy_role.png"
+  alt="role of numpy"
+  title="The role of NumPy in Black Hole imaging" >}}
 {{< /figure >}}
 
 For example, the [`eht-imaging`][ehtim] Python package provides tools for
@@ -95,7 +104,10 @@ NumPy is at the core of array data processing used
 in this package, as illustrated by the partial software
 dependency chart below.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/ehtim_numpy.png"
+  alt="ehtim dependency map highlighting numpy"
+  title="Software dependency chart of ehtim package highlighting NumPy" >}}
 {{< /figure >}}
 
 [ehtim]: https://github.com/achael/eht-imaging
@@ -123,5 +135,8 @@ best radio observatories.  Innovative algorithms and data processing
 techniques, improving upon existing astronomical models, helped unfold a
 mystery of the universe.
 
-{{< figure >}}
+{{< figure
+  src="/images/content_images/cs/numpy_bh_benefits.png"
+  alt="numpy benefits"
+  title="Key NumPy Capabilities utilized" >}}
 {{< /figure >}}
