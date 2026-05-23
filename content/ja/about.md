@@ -3,9 +3,9 @@ title: 私達について
 sidebar: false
 ---
 
-NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 NumPyは、NumericやNumarrayといった初期のライブラリのコードをもとに、2005年から開発が開始されました。 NumPyは完全にオープンソースなソフトウェアです。 このソフトウェアは[修正BSDライセンス](https://github.com/numpy/numpy/blob/main/LICENSE.txt)のリベラルな条項の下で公開されています。
+NumPy は、Python で数値計算を可能にするためのオープンソースプロジェクトです。 NumPyは、NumericやNumarrayといった初期のライブラリのコードをもとに、2005年から開発が開始されました。 NumPyは完全にオープンソースなソフトウェアです。 It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-NumPy は 、NumPyコミュニティやより広範な科学計算用Python コミュニティとの合意のもと、GitHub 上でオープンに開発されています。 私たちのガバナンスの取り組みについて詳しくは[ガバナンス文章](https://www.numpy.org/devdocs/dev/governance/index.html)をご覧ください。
+NumPy は 、NumPyコミュニティやより広範な科学計算用Python コミュニティとの合意のもと、GitHub 上でオープンに開発されています。 For more information on our governance approach, please see our [Governance Document](https://www.numpy.org/devdocs/dev/governance/index.html).
 
 ## 運営委員会
 
@@ -37,6 +37,7 @@ Numpy運営委員会に連絡するには、numpy-team@googlegroups.comまでメ
 
 ## チーム
 
+The NumPy project leadership is actively working on diversifying contribution pathways to the project.<br>
 NumPyプロジェクトのコアメンバーは、プロジェクトへの貢献の方法の多様化に積極的に取り組んでいます。 <br> NumPyには現在以下のチームがあります
 NumPy には現在、以下のチームがあります:
 
@@ -78,11 +79,11 @@ NumPy には現在、以下のチームがあります:
 
 NumPy があなたの仕事や研究、ビジネスで役に立った場合、できる範囲で良いので、是非、NumPyプロジェクトへの寄付を検討して頂けると助かります。 少額の寄付でも大きな助けになります。 すべての寄付は、NumPyのオープンソースソフトウェア、ドキュメント、コミュニティの開発のために使用されることが約束されています。
 
-NumPy は NumFOCUS にスポンサーされたプロジェクトであり、米国の 501(c)(3) 非営利の慈善団体でもあります。 NumFOCUSは、NumPyプロジェクトに財政、法務、管理面でのサポートを提供し、プロジェクトの安定と持続可能性を保つ手助けをしています。 詳細については、[numfocus.org](https://numfocus.org) をご覧ください。
+NumPy は NumFOCUS にスポンサーされたプロジェクトであり、米国の 501(c)(3) 非営利の慈善団体でもあります。 NumFOCUSは、NumPyプロジェクトに財政、法務、管理面でのサポートを提供し、プロジェクトの安定と持続可能性を保つ手助けをしています。 Visit [numfocus.org](https://numfocus.org) for more information.
 
-NumPyへの寄付は [NumFOCUS](https://numfocus.org) によって管理されています。 米国の寄付提供者の場合、その人の寄付は法律によって定められる範囲で免税されます。 但し、他の寄付と同様に、あなたはあなたの税務状況について、あなたの税務担当と相談する必要があることを忘れないで下さい。
+NumPy は NumFOCUS にスポンサーされたプロジェクトであり、米国の 501(c)(3) 非営利の慈善団体でもあります。 NumFOCUSは、NumPyプロジェクトに財政、法務、管理面でのサポートを提供し、プロジェクトの安定と持続可能性を保つ手助けをしています。 詳細については、[numfocus.org](https://numfocus.org) をご覧ください。 米国の寄付提供者の場合、その人の寄付は法律によって定められる範囲で免税されます。 但し、他の寄付と同様に、あなたはあなたの税務状況について、あなたの税務担当と相談する必要があることを忘れないで下さい。
 
-NumPyの運営委員会は、受け取った資金をどのように使えば良いかを検討し、使用する方法について決定します. NumPyの技術とインフラへの投資の優先順位に関しては、[NumPyロードマップ](https://www.numpy.org/neps/index.html#roadmap) に記載されています。
+NumPyの運営委員会は、受け取った資金をどのように使えば良いかを検討し、使用する方法について決定します。 NumPyの技術とインフラへの投資の優先順位に関しては、[NumPyロードマップ](https://www.numpy.org/neps/index.html#roadmap) に記載されています。
 
 {{<opencollective>}}
 
