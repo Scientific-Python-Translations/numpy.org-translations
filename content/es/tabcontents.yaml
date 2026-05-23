@@ -168,7 +168,7 @@ params:
         - url: https://pystan.readthedocs.io/en/latest/
           label: PyStan
         - url: https://docs.pymc.io/
-          label: PyMC3
+          label: PyMC
         - url: https://arviz-devs.github.io/arviz/
           label: ArviZ
         - url: https://emcee.readthedocs.io/
