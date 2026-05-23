@@ -59,7 +59,7 @@ Nossa documentação precisa de ilustrações; nosso site crescente precisa de i
 
 ### Traduzir conteúdo do site
 
-Planejamos várias traduções do [numpy.org](https://numpy.org) para tornar o NumPy acessível aos usuários em seu idioma nativo. Tradutores voluntários estão no coração deste esforço.  Tradutores voluntários estão no coração deste esforço.  Veja [aqui](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) para informações; comente [nesta issue do GitHub](https://github.com/numpy/numpy.org/issues/55) para se envolver.
+Planejamos várias traduções do [numpy.org](https://numpy.org) para tornar o NumPy acessível aos usuários em seu idioma nativo. Tradutores voluntários estão no coração deste esforço.  Tradutores voluntários estão no coração deste esforço.  Tradutores voluntários estão no coração deste esforço.  Veja [aqui](https://numpy.org/neps/nep-0028-website-redesign.html#translation-multilingual-i18n) para informações; comente [nesta issue do GitHub](https://github.com/numpy/numpy.org/issues/55) para se envolver.
 
 ### Coordenação e promoção na comunidade
 
