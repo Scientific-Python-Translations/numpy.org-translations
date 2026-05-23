@@ -3,8 +3,13 @@ title: NumPy ஐ நிறுவுதல்
 sidebar: false
 ---
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+This page assumes you are comfortable using a terminal and are familiar with package managers.
+NumPy ஐ நிறுவுவதற்கான ஒரே முன்நிபந்தனை பைதான் ஆகும். If you don't have
+Python yet and want the simplest way to get started, we recommend you use the
+[Anaconda Distribution](https://www.anaconda.com/download) - it includes
+Python, NumPy, and many other commonly used packages for scientific computing
+and data science.{{< /admonition >}}
 
 The recommended method of installing NumPy depends on your preferred workflow. Below, we break down the installation methods into the following categories:
 
@@ -58,8 +63,8 @@ The third difference is that conda is an integrated solution for managing packag
   pip install numpy
   ```
 
-{{< admonition >}}
-{{< /admonition >}}
+{{< admonition "tip" >}}
+**Tip:** Use a virtual environment for better dependency management{{< /admonition >}}
 
   ```bash
   python -m venv my-env
@@ -95,7 +100,10 @@ choco install numpy
 
 '''
 
-[[tab]] name = 'Building from Source' content = ''' For advanced users and developers who want to customize or debug **NumPy**.
+[[tab]]
+name = 'Building from Source'
+content = '''
+For advanced users and developers who want to customize or debug **NumPy**.
 
 A word of warning: building Numpy from source can be a nontrivial exercise.
 We recommend using binaries instead if those are available for your platform via one of the above methods.
@@ -116,7 +124,8 @@ This should print the installed version of NumPy without errors.
 
 ## Troubleshooting
 
-If your installation fails with the message below, see [Troubleshooting ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+If your installation fails with the message below, see Troubleshooting
+ImportError.
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
