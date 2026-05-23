@@ -3,13 +3,13 @@ title: NumPy 정보
 sidebar: false
 ---
 
-NumPy는 Python을 통해 수치적 컴퓨팅을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy는 항상 100% 오픈 소스 소프트웨어이며 누구나 무료로 사용할 수 있습니다 It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
+NumPy는 Python을 통해 수치적 컴퓨팅을 할 수 있도록 도와주는 오픈소스 프로젝트입니다. Numerical와 Numarray라는 라이브러리의 초기 작업을 기반으로 2005년에 만들어졌습니다. NumPy는 항상 100% 오픈 소스 소프트웨어이며 누구나 무료로 어떠한 용도로도 사용할 수 있습니다. It is released under the liberal terms of the [modified BSD license](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
-NumPy는 NumPy와 더 넓은 과학 Python 커뮤니티의 합의를 통해 GitHub의 공개적으로 개발되었습니다. 거버넌스 접근 방식에 대한 자세한 내용은 [거버넌스 문서](https://www.numpy.org/devdocs/dev/governance/index.html)를 참조하세요.
+NumPy는 공개적으로 GitHub에서, NumPy와 더 너른 사이언티픽 파이썬 커뮤니티의 합의를 통해, 개발되었습니다. 거버넌스 접근 방식에 대한 자세한 내용은 [거버넌스 문서](https://www.numpy.org/devdocs/dev/governance/index.html)를 참조하세요.
 
 ## 운영 위원회
 
-NumPy 운영 위원회는 프로젝트를 관리하는 기관입니다. 그 역할은 더 넓은 NumPy 커뮤니티와 협력하고 서비스를 제공함으로써 소프트웨어 패키지와 커뮤니티로서 프로젝트의 장기적인 지속 가능성을 보장하는 것입니다. NumPy 운영 위원회는 현재 다음과 같은 회원들로 구성되어 있습니다. (성씨의 알파벳 순서)
+NumPy 운영 위원회는 프로젝트를 관리하는 기관입니다. 그 역할은 더 넓은 NumPy 커뮤니티와 협력하고 서비스를 제공함으로써 소프트웨어 패키지와 커뮤니티로서 프로젝트의 장기적인 지속 가능성을 보장하는 것입니다. NumPy 운영 위원회는 현재 다음과 같은 회원들로 구성되어 있습니다. (성의 알파벳 순서):
 
 - Sebastian Berg
 - Ralf Gommers
@@ -21,7 +21,7 @@ NumPy 운영 위원회는 프로젝트를 관리하는 기관입니다. 그 역�
 - Marten van Kerkwijk
 - Eric Wieser
 
-명예 회원
+명예 회원:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
@@ -66,23 +66,23 @@ See the [Team](/teams) page for more info.
 
 ## 기관 파트너
 
-기관 파트너는 그들의 업무의 일환으로 NumPy에 기여하는 직원을 고용하여 프로젝트를 지원하는 조직입니다. 현재 기관 파트너는 다음과 같습니다.
+기관 파트너는 그들의 업무의 일환으로 NumPy에 기여하는 직원을 고용하여 프로젝트를 지원하는 조직입니다. 현재 기관 파트너는 다음과 같습니다:
 
 - UC 버클리 (Stéfan van der Walt)
-- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça)
+- Quansight (Nathan Goldbaum, Ralf Gommers, Matti Picus, Melissa Weber Mendonça, Mateusz Sokol, Rohit Goswami)
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
 
 ## 후원
 
-만약 NumPy가 당신의 업무, 연구 혹은 회사에서 유용하다고 판단된다면 당신의 자원에 맞는 프로젝트에 기여하는 것을 고려해보세요. 그것이 얼마든 도움이 됩니다! 모든 후원은 NumPy의 소프트웨어 개발, 문서 작성과 커뮤니티 운영의 자금으로 엄격하게 사용될 것입니다.
+만약 NumPy가 당신의 업무, 연구 혹은 회사에서 유용하다고 판단된다면 당신의 자원에 맞는 프로젝트에 기여하는 것을 고려해보세요. 액수에 상관 없이 도움이 됩니다! 모든 후원은 엄격하게 NumPy의 오픈 소스 소프트웨어 개발, 문서 작성과 커뮤니티 운영의 자금으로 사용될 것입니다.
 
 NumPy는 미국의 501(c)(3) 비영리 단체인 NumFOCUS의 후원 프로젝트입니다. NumFOCUS는 NumPy에 재정적, 법적, 행정적 지원을 제공하고 프로젝트의 건강과 지속 가능성을 보장할 수 있도록 도와줍니다. 더 자세한 정보를 알고싶다면 [numfocus.org](https://numfocus.org)를 방문하세요.
 
-NumPy에 대한 후원은 [NumFOCUS](https://numfocus.org)가 관리합니다. 미국에 거주하는 후원자의 경우에는, 당신의 후원은 법이 제공하는 한도 내에서 세금 공제를 받을 수 있습니다. 기부와 마찬가지로 특정 세금 상황에 대해서는 세금 전문가와 상담해야합니다.
+NumPy에 대한 후원은 [NumFOCUS](https://numfocus.org)가 관리합니다. 미국 내 후원자의 기부금은, 법적 한도 내에서 세금 공제를 받을 수 있습니다. 모든 기부와 마찬가지로, 세금 전문가와의 개별 세무 상담을 권합니다.
 
-NumPy 운영 위원회는 후원받은 후원금을 가장 잘 활용하는 방안을 결정합니다. 기술 및 인프라의 우선 순위는 NumPy [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap)에 문서화되어 있습니다.
+NumPy 운영 위원회에서는 모든 후원금의 최선의 사용 방안을 결정할 것입니다. 기술 및 인프라의 우선 순위는 NumPy [NumPy Roadmap](https://www.numpy.org/neps/index.html#roadmap)에 문서화되어 있습니다.
 
 {{<opencollective>}}
 
