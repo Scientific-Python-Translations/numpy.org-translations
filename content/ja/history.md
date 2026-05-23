@@ -18,5 +18,5 @@ NumPyのベースとなったNumericとNumarrayライブラリのコピーを入
 
 ### 過去の資料
 
-[_\`Numeric'_ マニュアル](static/numeric-manual.pdf)のダウンロード
+[_\\`Numeric'_ マニュアル](static/numeric-manual.pdf)のダウンロード
 
