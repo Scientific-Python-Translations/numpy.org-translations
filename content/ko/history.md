@@ -17,5 +17,5 @@ NumPy 및 관련 라이브러리의 개발 단계에 대한 자세한 설명은 
 
 ### 역사적 문서
 
-[_\`Numeric'_ 메뉴얼 다운로드](static/numeric-manual.pdf)
+[_\\`Numeric'_ 메뉴얼 다운로드](static/numeric-manual.pdf)
 
